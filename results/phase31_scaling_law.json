@@ -1,0 +1,24 @@
+{
+  "name": "Phase 31: dU/dT Scaling Law",
+  "summary": {
+    "verdict": "|dU/dT| scales as d^0.04, PRT scales as d^-1.48. 0.5B: |dU/dT|=17.6, 1.5B: |dU/dT|=17.9.",
+    "alpha_dUdT": 0.03634041534786123,
+    "alpha_PRT": -1.478921856507786,
+    "model_data": {
+      "0.5B": {
+        "d": 896,
+        "n_layers": 24,
+        "dUdT_mean": -17.578067831543947,
+        "dUdT_std": 10.122579703033264,
+        "PRT_mean": 29.55205392455337
+      },
+      "1.5B": {
+        "d": 1536,
+        "n_layers": 28,
+        "dUdT_mean": -17.92576988176218,
+        "dUdT_std": 12.414060097343869,
+        "PRT_mean": 13.316708735769197
+      }
+    }
+  }
+}

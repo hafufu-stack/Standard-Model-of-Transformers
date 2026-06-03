@@ -1,0 +1,9 @@
+{
+  "name": "Phase 30: The Event Horizon",
+  "summary": {
+    "verdict": "EVENT HORIZON at L27 (direction) / L27 (acceleration) / L2 (entropy). Before this layer: free particles. After: gravitationally bound state.",
+    "horizon_direction": 27,
+    "horizon_acceleration": 27,
+    "horizon_entropy": 2
+  }
+}

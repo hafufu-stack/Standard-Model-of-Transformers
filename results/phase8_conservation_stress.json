@@ -1,0 +1,158 @@
+{
+  "name": "Phase 8: Conservation Law Stress Test",
+  "summary": {
+    "verdict": "GENUINE NOETHER CONSERVATION: PR*T = 1566.7 +/- 1016.5 is robust under perturbation (avg deviation = 2.5%). This is a true conserved quantity.",
+    "baseline_mean": 1566.704391518299,
+    "baseline_std": 1016.5496284619226,
+    "baseline_cv": 64.88458409673031,
+    "avg_perturbation_deviation": 2.5436270314018232
+  },
+  "noise_results": [
+    {
+      "sigma": 0.0,
+      "mean_prt": 1566.704391518299,
+      "std_prt": 1016.5496284619226,
+      "cv": 64.88458409673031,
+      "deviation_from_baseline": 0.0
+    },
+    {
+      "sigma": 0.01,
+      "mean_prt": 1566.704391518299,
+      "std_prt": 1016.5496284619226,
+      "cv": 64.88458409673031,
+      "deviation_from_baseline": 0.0
+    },
+    {
+      "sigma": 0.05,
+      "mean_prt": 1566.704391518299,
+      "std_prt": 1016.5496284619226,
+      "cv": 64.88458409673031,
+      "deviation_from_baseline": 0.0
+    },
+    {
+      "sigma": 0.1,
+      "mean_prt": 1566.704391518299,
+      "std_prt": 1016.5496284619226,
+      "cv": 64.88458409673031,
+      "deviation_from_baseline": 0.0
+    },
+    {
+      "sigma": 0.2,
+      "mean_prt": 1566.704391518299,
+      "std_prt": 1016.5496284619226,
+      "cv": 64.88458409673031,
+      "deviation_from_baseline": 0.0
+    },
+    {
+      "sigma": 0.5,
+      "mean_prt": 1566.704391518299,
+      "std_prt": 1016.5496284619226,
+      "cv": 64.88458409673031,
+      "deviation_from_baseline": 0.0
+    },
+    {
+      "sigma": 1.0,
+      "mean_prt": 1566.704391518299,
+      "std_prt": 1016.5496284619226,
+      "cv": 64.88458409673031,
+      "deviation_from_baseline": 0.0
+    }
+  ],
+  "temp_results": [
+    {
+      "temp_scale": 0.1,
+      "mean_prt": 18409.530588006655,
+      "std_prt": 24079.934013897437,
+      "cv": 130.80145579368968
+    },
+    {
+      "temp_scale": 0.5,
+      "mean_prt": 11167.395789862392,
+      "std_prt": 13544.15097795906,
+      "cv": 121.28298515446308
+    },
+    {
+      "temp_scale": 1.0,
+      "mean_prt": 1566.704391518299,
+      "std_prt": 1016.5496284619226,
+      "cv": 64.88458409673031
+    },
+    {
+      "temp_scale": 2.0,
+      "mean_prt": NaN,
+      "std_prt": NaN,
+      "cv": NaN
+    },
+    {
+      "temp_scale": 5.0,
+      "mean_prt": NaN,
+      "std_prt": NaN,
+      "cv": NaN
+    },
+    {
+      "temp_scale": 10.0,
+      "mean_prt": NaN,
+      "std_prt": NaN,
+      "cv": NaN
+    }
+  ],
+  "prune_results": [
+    {
+      "n_pruned": 0,
+      "mean_prt": 1566.704391518299,
+      "cv": 64.88458409673031
+    },
+    {
+      "n_pruned": 1,
+      "mean_prt": 1658.7382192877853,
+      "cv": 63.72762997323591
+    },
+    {
+      "n_pruned": 2,
+      "mean_prt": 1666.1170211537515,
+      "cv": 63.38127797730861
+    },
+    {
+      "n_pruned": 4,
+      "mean_prt": 1671.2561701113311,
+      "cv": 63.96837425412769
+    },
+    {
+      "n_pruned": 8,
+      "mean_prt": 1436.536941807338,
+      "cv": 70.97892205325051
+    },
+    {
+      "n_pruned": 14,
+      "mean_prt": 1355.2522147501284,
+      "cv": 85.26662481859813
+    }
+  ],
+  "quant_results": [
+    {
+      "bits": 32,
+      "mean_prt": 1566.704391518299,
+      "cv": 64.88458409673031
+    },
+    {
+      "bits": 16,
+      "mean_prt": 1566.704391518299,
+      "cv": 64.88458409673031
+    },
+    {
+      "bits": 8,
+      "mean_prt": 1566.704391518299,
+      "cv": 64.88458409673031
+    },
+    {
+      "bits": 4,
+      "mean_prt": 1566.704391518299,
+      "cv": 64.88458409673031
+    },
+    {
+      "bits": 2,
+      "mean_prt": 1566.704391518299,
+      "cv": 64.88458409673031
+    }
+  ]
+}

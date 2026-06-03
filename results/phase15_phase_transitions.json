@@ -1,0 +1,46 @@
+{
+  "name": "Phase 15: Phase Transition Detection",
+  "summary": {
+    "verdict": "PHASE TRANSITIONS DETECTED: PR*T varies 9884 across categories (1176-11060). Different input types occupy different thermodynamic phases.",
+    "prt_range": 9883.766800867392,
+    "mean_prt_all": 3473.701026916795
+  },
+  "categories": {
+    "arithmetic": {
+      "mean_prt": 1260.6301867479542,
+      "cv": 29.973558567562293,
+      "jump_layer": 4,
+      "jump_ratio": 0.9500089313485897
+    },
+    "natural_language": {
+      "mean_prt": 2962.3880116291934,
+      "cv": 40.99967711228361,
+      "jump_layer": 14,
+      "jump_ratio": 0.5702882150631057
+    },
+    "scientific": {
+      "mean_prt": 1590.7600542045145,
+      "cv": 35.29253544664999,
+      "jump_layer": 1,
+      "jump_ratio": 0.9446646276275736
+    },
+    "code_like": {
+      "mean_prt": 1176.4198856867156,
+      "cv": 34.22291185410421,
+      "jump_layer": 4,
+      "jump_ratio": 1.0086823970601342
+    },
+    "nonsense": {
+      "mean_prt": 2791.821336678286,
+      "cv": 65.14658666011704,
+      "jump_layer": 5,
+      "jump_ratio": 1.1782299337784132
+    },
+    "repetitive": {
+      "mean_prt": 11060.186686554107,
+      "cv": 33.20827561693086,
+      "jump_layer": 1,
+      "jump_ratio": 0.8608661393964387
+    }
+  }
+}

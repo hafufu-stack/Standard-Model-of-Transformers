@@ -1,0 +1,10 @@
+{
+  "name": "Phase 32: Firewall Calibration",
+  "summary": {
+    "verdict": "AUC=0.883. Optimal threshold=11 achieves TPR=100%, FPR=25%.",
+    "auc": 0.8828124999779297,
+    "optimal_threshold": 10.8698108226629,
+    "tpr": 0.9999999999875,
+    "fpr": 0.249999999996875
+  }
+}

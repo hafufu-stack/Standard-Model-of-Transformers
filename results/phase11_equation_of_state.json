@@ -1,0 +1,19 @@
+{
+  "name": "Phase 11: Equation of State",
+  "summary": {
+    "verdict": "THERMODYNAMIC EOS CONFIRMED: U increases (1->194) while T decreases (12->3). dU/dT=-11.86. Free energy NOT minimized.",
+    "dU_dT": -11.855321312246247,
+    "U_range": [
+      0.8997816383838654,
+      193.96039276123048
+    ],
+    "T_range": [
+      11.93032398223877,
+      3.2469969749450684
+    ],
+    "F_range": [
+      -0.9970373617762429,
+      0.3825798310731745
+    ]
+  }
+}

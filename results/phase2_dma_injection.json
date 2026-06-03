@@ -1,0 +1,303 @@
+{
+  "name": "Phase 2: KV Cache DMA Injection",
+  "summary": {
+    "verdict": "DMA INJECTION: Most impactful register = L0. Avg P(source_answer) after injection = 0.0002. NOT PROGRAMMABLE: LLM cannot be steered by register-layer DMA.",
+    "avg_steering_prob": 0.0002257823604547108
+  },
+  "injection_results": [
+    {
+      "source": "2 + 3 =",
+      "target": "7 - 4 =",
+      "layer": "L0 (OPCODE)",
+      "layer_idx": 0,
+      "kl_divergence": 2.1186906451475807e-08,
+      "source_answer_prob": 0.0001527857966721058,
+      "injected_top5": [
+        " ",
+        " -",
+        " \\",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " -",
+        " \\",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "2 + 3 =",
+      "target": "7 - 4 =",
+      "layer": "L2 (B-reg)",
+      "layer_idx": 2,
+      "kl_divergence": 2.1186906451475807e-08,
+      "source_answer_prob": 0.0001527857966721058,
+      "injected_top5": [
+        " ",
+        " -",
+        " \\",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " -",
+        " \\",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "2 + 3 =",
+      "target": "7 - 4 =",
+      "layer": "L11 (A-reg)",
+      "layer_idx": 11,
+      "kl_divergence": 2.1186906451475807e-08,
+      "source_answer_prob": 0.0001527857966721058,
+      "injected_top5": [
+        " ",
+        " -",
+        " \\",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " -",
+        " \\",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "2 + 3 =",
+      "target": "7 - 4 =",
+      "layer": "L17 (Carry)",
+      "layer_idx": 17,
+      "kl_divergence": 2.1186906451475807e-08,
+      "source_answer_prob": 0.0001527857966721058,
+      "injected_top5": [
+        " ",
+        " -",
+        " \\",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " -",
+        " \\",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "6 * 2 =",
+      "target": "9 + 1 =",
+      "layer": "L0 (OPCODE)",
+      "layer_idx": 0,
+      "kl_divergence": 1.015075667964993e-08,
+      "source_answer_prob": 0.0004264269955456257,
+      "injected_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "6 * 2 =",
+      "target": "9 + 1 =",
+      "layer": "L2 (B-reg)",
+      "layer_idx": 2,
+      "kl_divergence": 1.015075667964993e-08,
+      "source_answer_prob": 0.0004264269955456257,
+      "injected_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "6 * 2 =",
+      "target": "9 + 1 =",
+      "layer": "L11 (A-reg)",
+      "layer_idx": 11,
+      "kl_divergence": 1.015075667964993e-08,
+      "source_answer_prob": 0.0004264269955456257,
+      "injected_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "6 * 2 =",
+      "target": "9 + 1 =",
+      "layer": "L17 (Carry)",
+      "layer_idx": 17,
+      "kl_divergence": 1.015075667964993e-08,
+      "source_answer_prob": 0.0004264269955456257,
+      "injected_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "5 + 5 =",
+      "target": "8 - 3 =",
+      "layer": "L0 (OPCODE)",
+      "layer_idx": 0,
+      "kl_divergence": -2.9802322387695312e-08,
+      "source_answer_prob": 9.813428914640099e-05,
+      "injected_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "5 + 5 =",
+      "target": "8 - 3 =",
+      "layer": "L2 (B-reg)",
+      "layer_idx": 2,
+      "kl_divergence": -2.9802322387695312e-08,
+      "source_answer_prob": 9.813428914640099e-05,
+      "injected_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "5 + 5 =",
+      "target": "8 - 3 =",
+      "layer": "L11 (A-reg)",
+      "layer_idx": 11,
+      "kl_divergence": -2.9802322387695312e-08,
+      "source_answer_prob": 9.813428914640099e-05,
+      "injected_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ]
+    },
+    {
+      "source": "5 + 5 =",
+      "target": "8 - 3 =",
+      "layer": "L17 (Carry)",
+      "layer_idx": 17,
+      "kl_divergence": -2.9802322387695312e-08,
+      "source_answer_prob": 9.813428914640099e-05,
+      "injected_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ],
+      "baseline_top5": [
+        " ",
+        " \\",
+        " -",
+        " ?\n",
+        " ?"
+      ]
+    }
+  ],
+  "layer_impacts": [
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374,
+    0.09330981969833374
+  ]
+}

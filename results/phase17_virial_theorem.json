@@ -1,0 +1,9 @@
+{
+  "name": "Phase 17: Virial Theorem",
+  "summary": {
+    "verdict": "NON-VIRIAL: 2K/|U| = 14.160 (deviate 1316%). Mean 2K=3746, Mean |U|=9898.",
+    "mean_virial_ratio": 14.159886880223334,
+    "mean_2K": 3746.3633247916255,
+    "mean_abs_U": 9898.03953127335
+  }
+}

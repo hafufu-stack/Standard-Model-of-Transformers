@@ -1,0 +1,14 @@
+{
+  "name": "Phase 13: Attention-Graph ALife",
+  "summary": {
+    "verdict": "PARTIAL ALIFE: 0/4 survived. Best head: L0H2 (7 unique patterns).",
+    "survived": 0,
+    "total": 4,
+    "best_head": {
+      "layer": 0,
+      "head": 2,
+      "unique": 7,
+      "final_alive": 0
+    }
+  }
+}

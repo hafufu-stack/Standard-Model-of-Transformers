@@ -1,0 +1,11 @@
+{
+  "name": "Phase 26: Stealth Prompting",
+  "summary": {
+    "verdict": "Stealth elephant_p=0.0144, Loud=0.0003. Anti-lensing enables stealth bypass!",
+    "token_norms": {
+      "loud": 1.0409421225388844,
+      "stealth": 0.9992841854691505,
+      "special": 1.015906830628713
+    }
+  }
+}

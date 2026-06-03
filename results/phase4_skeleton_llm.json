@@ -1,0 +1,188 @@
+{
+  "name": "Phase 4: Skeleton LLM",
+  "summary": {
+    "verdict": "DISTRIBUTED COMPUTATION: Registers achieve only 0% (14% params). Reasoning requires distributed processing.",
+    "register_accuracy": 0.0,
+    "full_accuracy": 0.375,
+    "register_pct": 14.285714285714286
+  },
+  "configs": {
+    "full_model": {
+      "accuracy": 0.375,
+      "avg_prob": 0.06103992914904666,
+      "pct_params": 100.0
+    },
+    "registers_only": {
+      "accuracy": 0.0,
+      "avg_prob": 3.2842456492860597e-06,
+      "pct_params": 14.285714285714286
+    },
+    "first_last": {
+      "accuracy": 0.0,
+      "avg_prob": 0.00022967972417831106,
+      "pct_params": 7.142857142857143
+    },
+    "every_4th": {
+      "accuracy": 0.0,
+      "avg_prob": 2.8051281240087933e-05,
+      "pct_params": 25.0
+    },
+    "top_half": {
+      "accuracy": 0.0,
+      "avg_prob": 2.0932496382091906e-05,
+      "pct_params": 50.0
+    },
+    "bottom_half": {
+      "accuracy": 0.0,
+      "avg_prob": 1.145358602183677e-06,
+      "pct_params": 50.0
+    },
+    "registers_plus_output": {
+      "accuracy": 0.125,
+      "avg_prob": 0.0025417319473073977,
+      "pct_params": 35.714285714285715
+    }
+  },
+  "ablation": [
+    {
+      "removed_layer": 0,
+      "accuracy": 0.0,
+      "avg_prob": 0.00023069462128666451
+    },
+    {
+      "removed_layer": 1,
+      "accuracy": 0.25,
+      "avg_prob": 0.015512531286503872
+    },
+    {
+      "removed_layer": 2,
+      "accuracy": 0.375,
+      "avg_prob": 0.05454445192026469
+    },
+    {
+      "removed_layer": 3,
+      "accuracy": 0.375,
+      "avg_prob": 0.08679772222603788
+    },
+    {
+      "removed_layer": 4,
+      "accuracy": 0.375,
+      "avg_prob": 0.07490105230499466
+    },
+    {
+      "removed_layer": 5,
+      "accuracy": 0.375,
+      "avg_prob": 0.04668854357441887
+    },
+    {
+      "removed_layer": 6,
+      "accuracy": 0.25,
+      "avg_prob": 0.05172240192268873
+    },
+    {
+      "removed_layer": 7,
+      "accuracy": 0.375,
+      "avg_prob": 0.04290196643341915
+    },
+    {
+      "removed_layer": 8,
+      "accuracy": 0.375,
+      "avg_prob": 0.05488162805795582
+    },
+    {
+      "removed_layer": 9,
+      "accuracy": 0.375,
+      "avg_prob": 0.08158388154970453
+    },
+    {
+      "removed_layer": 10,
+      "accuracy": 0.375,
+      "avg_prob": 0.06617531827578205
+    },
+    {
+      "removed_layer": 11,
+      "accuracy": 0.375,
+      "avg_prob": 0.0739030065415136
+    },
+    {
+      "removed_layer": 12,
+      "accuracy": 0.375,
+      "avg_prob": 0.06501721222957713
+    },
+    {
+      "removed_layer": 13,
+      "accuracy": 0.375,
+      "avg_prob": 0.03473282302684311
+    },
+    {
+      "removed_layer": 14,
+      "accuracy": 0.375,
+      "avg_prob": 0.06897354601096595
+    },
+    {
+      "removed_layer": 15,
+      "accuracy": 0.375,
+      "avg_prob": 0.0666678426659928
+    },
+    {
+      "removed_layer": 16,
+      "accuracy": 0.375,
+      "avg_prob": 0.04493047086907609
+    },
+    {
+      "removed_layer": 17,
+      "accuracy": 0.375,
+      "avg_prob": 0.03796549784965464
+    },
+    {
+      "removed_layer": 18,
+      "accuracy": 0.375,
+      "avg_prob": 0.051619268822832964
+    },
+    {
+      "removed_layer": 19,
+      "accuracy": 0.375,
+      "avg_prob": 0.08378261126790676
+    },
+    {
+      "removed_layer": 20,
+      "accuracy": 0.25,
+      "avg_prob": 0.022338099920943932
+    },
+    {
+      "removed_layer": 21,
+      "accuracy": 0.375,
+      "avg_prob": 0.049908215458344785
+    },
+    {
+      "removed_layer": 22,
+      "accuracy": 0.25,
+      "avg_prob": 0.018837000811799953
+    },
+    {
+      "removed_layer": 23,
+      "accuracy": 0.375,
+      "avg_prob": 0.04175639877757931
+    },
+    {
+      "removed_layer": 24,
+      "accuracy": 0.375,
+      "avg_prob": 0.043412568714302324
+    },
+    {
+      "removed_layer": 25,
+      "accuracy": 0.375,
+      "avg_prob": 0.020999344184929214
+    },
+    {
+      "removed_layer": 26,
+      "accuracy": 0.25,
+      "avg_prob": 0.016470654812110297
+    },
+    {
+      "removed_layer": 27,
+      "accuracy": 0.375,
+      "avg_prob": 0.12505597787594525
+    }
+  ]
+}

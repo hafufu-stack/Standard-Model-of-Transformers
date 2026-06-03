@@ -1,0 +1,13 @@
+{
+  "name": "Phase 33: Dark Energy Phase Diagram",
+  "summary": {
+    "verdict": "CRITICAL POINT at beta=0.57. Per-task: {'Paris': '0.55', '100': '0.35', 'Jupiter': '0.60', 'five': '0.80'}. FFN must contribute >57% of its normal output for coherent answers.",
+    "mean_critical_beta": 0.575,
+    "critical_betas": {
+      "The capital of France is": 0.55,
+      "Water boils at": 0.35,
+      "The largest planet is": 0.6,
+      "Two plus three equals": 0.8
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Phase 7: Cooling Law Derivation",
+  "summary": {
+    "verdict": "ALPHA != -2/3: alpha=2.2212, deviation from -2/3 = 2.8879. Cooling law has non-trivial origin (possibly attention geometry).",
+    "alpha_norm": 2.2211965729933296,
+    "alpha_var": 5.4068850181606045,
+    "alpha_entropy": -0.129789379016368,
+    "deviation_from_2_3": 2.887863239659996,
+    "attn_temp_correlation": 0.1616114827855041,
+    "ffn_temp_correlation": 0.3692423866914892
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Phase 6b: Architecture Comparison (FIXED)",
+  "summary": {
+    "verdict": "ATTENTION IS ESSENTIAL: alpha changes 2.356 -> 0.421 (diff=1.935). Attention drives the cooling law.",
+    "alpha_full": 2.355631819815998,
+    "alpha_no_attn": 0.42106432180342596,
+    "alpha_no_ffn": 0.9511903611225305,
+    "alpha_diff": 1.934567498012572,
+    "prt_full_cv": 30.392445170722223,
+    "prt_no_attn_cv": 44.28462382011183
+  }
+}

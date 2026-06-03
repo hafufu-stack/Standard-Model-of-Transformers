@@ -1,0 +1,14 @@
+{
+  "name": "Phase 27: Big Crunch Forcing",
+  "summary": {
+    "verdict": "EARLY-EXIT VIABLE at L27/28 (4% savings). Answers emerge at layers [24, 24, 27, 25].",
+    "optimal_exit": 27,
+    "savings_pct": 3.57142857142857,
+    "emergence": {
+      "Tokyo": 24,
+      "four": 24,
+      "H2O": 27,
+      "Pacific": 25
+    }
+  }
+}

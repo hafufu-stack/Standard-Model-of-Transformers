@@ -1,0 +1,9 @@
+{
+  "name": "Phase 9: Contextual CHSH Recovery",
+  "summary": {
+    "verdict": "PARTIAL SEMANTIC EFFECT: Entangled S=1.845 > Random S=1.421. Semantic context amplifies correlations but not to super-quantum levels.",
+    "avg_entangled": 1.8446063126126926,
+    "avg_random": 1.4212439134716988,
+    "avg_joint": 1.467343485293289
+  }
+}

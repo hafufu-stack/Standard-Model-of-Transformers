@@ -1,0 +1,11 @@
+{
+  "name": "Phase 16: Attention Entropy Cascade",
+  "summary": {
+    "verdict": "NON-KOLMOGOROV CASCADE: alpha=-0.429 (diff from -5/3 = 1.237). Cascade exponent beta=-1058.482. Attention has its own unique cascade dynamics.",
+    "cascade_beta": -1058.4816000610747,
+    "kolmogorov_alpha": -0.42932449205597956,
+    "specialization_layers": [
+      0
+    ]
+  }
+}

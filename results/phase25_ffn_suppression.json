@@ -1,0 +1,34 @@
+{
+  "name": "Phase 25: FFN Dark Energy Suppression",
+  "summary": {
+    "verdict": "COMPLEX INTERACTION: Confidence changes +21% with FFN suppression. Dark energy is necessary for coherent output.",
+    "t_change_pct": -91.09296723679398,
+    "p_change_pct": 21.060162198921198,
+    "per_beta": {
+      "1.0": {
+        "T": 2.442807823419571,
+        "top_p": 0.4500140342861414
+      },
+      "0.75": {
+        "T": 1.9851844608783722,
+        "top_p": 0.3900522030889988
+      },
+      "0.5": {
+        "T": 1.8110823333263397,
+        "top_p": 0.46653712168335915
+      },
+      "0.25": {
+        "T": 1.6238320767879486,
+        "top_p": 0.3529409393668175
+      },
+      "0.1": {
+        "T": 1.6715115755796432,
+        "top_p": 0.19783996045589447
+      },
+      "0.0": {
+        "T": 0.21758169308304787,
+        "top_p": 0.5447877198457718
+      }
+    }
+  }
+}

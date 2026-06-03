@@ -1,0 +1,9 @@
+{
+  "name": "Phase 29: Thermodynamic Firewall",
+  "summary": {
+    "verdict": "FIREWALL VIABLE: Ambiguous PRT variance is 2.8x larger. PR*T monitoring can detect hallucination!",
+    "factual_std": 10.679661728466655,
+    "ambig_std": 29.945705111326085,
+    "ratio": 2.8039937848616834
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Phase 19: Thermodynamic Phase Forcing",
+  "summary": {
+    "verdict": "PARTIAL FORCING: Poetry PR*T 23 -> 23 (target 1200). System resists phase change.",
+    "efficiency": 0.0,
+    "forced_tokens": [
+      " bright in on and through",
+      ",. and.\n reflecting",
+      ",..\n and.\n\n",
+      ".,.\n.\n\n and"
+    ]
+  }
+}

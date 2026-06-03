@@ -1,0 +1,252 @@
+{
+  "name": "Phase 10: Multi-Layer Holographic DMA",
+  "summary": {
+    "verdict": "RESIDUAL MOMENTUM DOMINATES: Max 25% hijack. Semantic inertia resists reprogramming.",
+    "max_hijack_rate": 0.25
+  },
+  "register_results": [
+    {
+      "desc": "Force ADD result onto SUB",
+      "gain": 1.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "3"
+    },
+    {
+      "desc": "Force ADD result onto SUB",
+      "gain": 2.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "3"
+    },
+    {
+      "desc": "Force ADD result onto SUB",
+      "gain": 5.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "3"
+    },
+    {
+      "desc": "Force ADD result onto SUB",
+      "gain": 10.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "3"
+    },
+    {
+      "desc": "Force ADD result onto SUB",
+      "gain": 20.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "3"
+    },
+    {
+      "desc": "Force ADD result onto SUB",
+      "gain": 50.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "3"
+    },
+    {
+      "desc": "Force MUL result onto ADD",
+      "gain": 1.0,
+      "source_prob": 0.0004264269955456257,
+      "target_prob": 0.00011749298573704436,
+      "hijacked": true,
+      "source_ans": "12",
+      "target_ans": "10"
+    },
+    {
+      "desc": "Force MUL result onto ADD",
+      "gain": 2.0,
+      "source_prob": 0.0004264269955456257,
+      "target_prob": 0.00011749298573704436,
+      "hijacked": true,
+      "source_ans": "12",
+      "target_ans": "10"
+    },
+    {
+      "desc": "Force MUL result onto ADD",
+      "gain": 5.0,
+      "source_prob": 0.0004264269955456257,
+      "target_prob": 0.00011749298573704436,
+      "hijacked": true,
+      "source_ans": "12",
+      "target_ans": "10"
+    },
+    {
+      "desc": "Force MUL result onto ADD",
+      "gain": 10.0,
+      "source_prob": 0.0004264269955456257,
+      "target_prob": 0.00011749298573704436,
+      "hijacked": true,
+      "source_ans": "12",
+      "target_ans": "10"
+    },
+    {
+      "desc": "Force MUL result onto ADD",
+      "gain": 20.0,
+      "source_prob": 0.0004264269955456257,
+      "target_prob": 0.00011749298573704436,
+      "hijacked": true,
+      "source_ans": "12",
+      "target_ans": "10"
+    },
+    {
+      "desc": "Force MUL result onto ADD",
+      "gain": 50.0,
+      "source_prob": 0.0004264269955456257,
+      "target_prob": 0.00011749298573704436,
+      "hijacked": true,
+      "source_ans": "12",
+      "target_ans": "10"
+    },
+    {
+      "desc": "Force ADD result onto MUL",
+      "gain": 1.0,
+      "source_prob": 5.8977806475013494e-05,
+      "target_prob": 0.0003263918624725193,
+      "hijacked": false,
+      "source_ans": "10",
+      "target_ans": "9"
+    },
+    {
+      "desc": "Force ADD result onto MUL",
+      "gain": 2.0,
+      "source_prob": 5.8977806475013494e-05,
+      "target_prob": 0.0003263918624725193,
+      "hijacked": false,
+      "source_ans": "10",
+      "target_ans": "9"
+    },
+    {
+      "desc": "Force ADD result onto MUL",
+      "gain": 5.0,
+      "source_prob": 5.8977806475013494e-05,
+      "target_prob": 0.0003263918624725193,
+      "hijacked": false,
+      "source_ans": "10",
+      "target_ans": "9"
+    },
+    {
+      "desc": "Force ADD result onto MUL",
+      "gain": 10.0,
+      "source_prob": 5.8977806475013494e-05,
+      "target_prob": 0.0003263918624725193,
+      "hijacked": false,
+      "source_ans": "10",
+      "target_ans": "9"
+    },
+    {
+      "desc": "Force ADD result onto MUL",
+      "gain": 20.0,
+      "source_prob": 5.8977806475013494e-05,
+      "target_prob": 0.0003263918624725193,
+      "hijacked": false,
+      "source_ans": "10",
+      "target_ans": "9"
+    },
+    {
+      "desc": "Force ADD result onto MUL",
+      "gain": 50.0,
+      "source_prob": 5.8977806475013494e-05,
+      "target_prob": 0.0003263918624725193,
+      "hijacked": false,
+      "source_ans": "10",
+      "target_ans": "9"
+    },
+    {
+      "desc": "Force SUB result onto ADD",
+      "gain": 1.0,
+      "source_prob": 0.0002047859743470326,
+      "target_prob": 0.0017690808745101094,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "11"
+    },
+    {
+      "desc": "Force SUB result onto ADD",
+      "gain": 2.0,
+      "source_prob": 0.0002047859743470326,
+      "target_prob": 0.0017690808745101094,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "11"
+    },
+    {
+      "desc": "Force SUB result onto ADD",
+      "gain": 5.0,
+      "source_prob": 0.0002047859743470326,
+      "target_prob": 0.0017690808745101094,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "11"
+    },
+    {
+      "desc": "Force SUB result onto ADD",
+      "gain": 10.0,
+      "source_prob": 0.0002047859743470326,
+      "target_prob": 0.0017690808745101094,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "11"
+    },
+    {
+      "desc": "Force SUB result onto ADD",
+      "gain": 20.0,
+      "source_prob": 0.0002047859743470326,
+      "target_prob": 0.0017690808745101094,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "11"
+    },
+    {
+      "desc": "Force SUB result onto ADD",
+      "gain": 50.0,
+      "source_prob": 0.0002047859743470326,
+      "target_prob": 0.0017690808745101094,
+      "hijacked": false,
+      "source_ans": "5",
+      "target_ans": "11"
+    }
+  ],
+  "full_results": [
+    {
+      "gain": 0.1,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798
+    },
+    {
+      "gain": 0.5,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798
+    },
+    {
+      "gain": 1.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798
+    },
+    {
+      "gain": 2.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798
+    },
+    {
+      "gain": 5.0,
+      "source_prob": 0.0001527857966721058,
+      "target_prob": 0.000567668117582798
+    }
+  ]
+}

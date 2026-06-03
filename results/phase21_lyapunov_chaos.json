@@ -1,0 +1,14 @@
+{
+  "name": "Phase 21: Lyapunov Chaos",
+  "summary": {
+    "verdict": "STABLE DYNAMICS: lambda=-0.0513. Perturbations decay - the attractor is stable.",
+    "mean_lambda": -0.051329671397711066,
+    "lambdas": {
+      "0.0001": -0.03487850774144086,
+      "0.0005": -0.04879386516913548,
+      "0.001": -0.06201034714874346,
+      "0.005": -0.06308592162464274,
+      "0.01": -0.04787971530459274
+    }
+  }
+}
