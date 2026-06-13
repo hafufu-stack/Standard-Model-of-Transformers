@@ -1,6 +1,6 @@
 # The Standard Model of Transformers
 
-**A Thermodynamic and Dynamical-Systems Framework for Understanding Large Language Models**
+**Five Universal Laws of Thermodynamic Computation in Large Language Models**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20533786.svg)](https://doi.org/10.5281/zenodo.20533786)
 
@@ -12,42 +12,48 @@
 
 This repository contains the code and experimental results for *The Standard Model of Transformers*, a systematic experimental program that applies thermodynamics, dynamical systems theory, and cosmological analogies to characterize the internal dynamics of Transformer-based large language models (LLMs).
 
-Through **33 experiments** on Qwen2.5 models (0.5B and 1.5B parameters), we establish a unified physical framework:
+Through **84 experiments** across **three architectures** (Qwen2.5-1.5B, Qwen2.5-0.5B, TinyLlama-1.1B), I discover **five universal laws** governing Transformer computation:
 
-### Key Discoveries
+### Five Universal Laws
 
-| # | Finding | Key Result |
-|---|---------|------------|
-| 1 | **Attention = Gravity** | Negative specific heat $dU/dT \approx -18$, universal across model scales |
-| 2 | **FFN = Dark Energy** | 67–73% of representational force, matching cosmological dark energy (68%) |
-| 3 | **Stable Attractor** | Lyapunov exponent $\lambda = -0.05$ — perturbations decay exponentially |
-| 4 | **Anti-Lensing** | Information repels from high-norm tokens ($\cos = -0.15$) |
-| 5 | **Thermodynamic Firewall** | Hallucination detection AUC = 0.88 via $PR \times T$ variance |
-| 6 | **Critical Phase Transition** | Dark energy suppression threshold $\beta_c = 0.57$ |
+| # | Universal Law | Key Result | CV |
+|---|--------------|------------|-----|
+| 1 | **Boltzmann Distribution** | $p(E) \propto \exp(-E/kT)$, $R^2 = 0.978$ | 0.001 |
+| 2 | **Negative Specific Heat** | $C_v < 0$, $p < 0.001$ for all models | — |
+| 3 | **Inverse Radiation** | $L \propto T^n$, $n = -1.44 \pm 0.42$ (vs Stefan-Boltzmann $n = 4$) | 0.29 |
+| 4 | **Carnot Efficiency Constant** | $\eta = 0.813 \pm 0.036$, the tightest universal constant | 0.044 |
+| 5 | **Information Concentration** | Free energy *increases* — LLMs are "information refrigerators" | — |
 
-### The Seven Laws
+### Additional Discoveries
 
-1. **Attention = Gravity.** Contracts representations, reduces entropy, drives cooling.
-2. **FFN = Dark Energy.** Expands representation space; below $\beta_c = 0.57$, output collapses.
-3. **Residual Stream = Spacetime.** High inertia, stable attractor, anti-lensing fabric.
-4. **$|dU/dT| \approx 18$ is Universal.** Independent of model dimension ($d^{0.04}$ scaling).
-5. **Dark Energy Fraction is Universal.** 67–73%, independent of model size.
-6. **Phase is Input-Selected.** Thermodynamic state varies 10× across semantic categories.
-7. **Tokens Evolve from Free to Bound.** Virial ratio transitions with event horizon at final layers.
+- **Dark Energy**: FFN layers contribute 67–73% of representational force, with a critical phase transition at $\beta_c \approx 0.57$
+- **Black Hole Collapse**: Iterative token feeding causes $T \to 0$ singularity — a computational analogue of gravitational collapse
+- **Partial Ergodicity**: The ergodic hypothesis holds for structural variables (participation ratio) but fails for semantic variables (temperature)
+
+## Figures
+
+The paper includes **12 publication-quality figures**. These can be regenerated from the data:
+
+```bash
+python generate_paper_figures.py
+```
 
 ## Repository Structure
 
 ```
 Standard-Model-of-Transformers/
 ├── papers/
-│   └── paper_v1.tex          # LaTeX source
+│   ├── paper_v1.tex          # V1 LaTeX source (33 experiments)
+│   └── paper_v2.tex          # V2 LaTeX source (84 experiments, 5 universal laws)
 ├── experiments/
-│   ├── utils.py              # Shared utilities
-│   ├── phase1_*.py           # Phase 1–33 experiment scripts
-│   ├── ...
-│   └── runner*.py            # Sequential experiment runners
+│   ├── utils.py              # Shared utilities (model loading, thermodynamic probes)
+│   ├── phase1_*.py           # Phase 1–84 experiment scripts
+│   └── ...
 ├── results/                  # JSON result files
-└── figures/                  # Generated figures (PNG)
+├── figures/
+│   ├── paper/                # Publication-quality figures (12 PNGs)
+│   └── *.png                 # Raw experiment figures
+└── generate_paper_figures.py # Script to regenerate all paper figures
 ```
 
 ## Requirements
@@ -55,6 +61,7 @@ Standard-Model-of-Transformers/
 - Python 3.10+
 - PyTorch 2.0+
 - HuggingFace Transformers 5.0+
+- SciPy, NumPy, Matplotlib
 - NVIDIA GPU (tested on RTX 5080 Laptop)
 
 ## Quick Start
@@ -66,15 +73,15 @@ pip install torch transformers numpy scipy matplotlib
 # Run a single experiment
 python experiments/phase1_no_signaling_chsh.py
 
-# Run all experiments sequentially
-python experiments/runner.py
+# Regenerate all paper figures
+python generate_paper_figures.py
 ```
 
 ## Citation
 
 ```bibtex
 @article{funasaki2026standard,
-  title={The Standard Model of Transformers: A Thermodynamic and Dynamical-Systems Framework for Understanding Large Language Models},
+  title={The Standard Model of Transformers: Five Universal Laws of Thermodynamic Computation in Large Language Models},
   author={Funasaki, Hiroto},
   year={2026},
   doi={10.5281/zenodo.20533786},
