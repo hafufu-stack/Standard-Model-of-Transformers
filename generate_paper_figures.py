@@ -238,36 +238,72 @@ def fig02_dark_energy(model, tok, device):
 
 
 def fig03_phase_diagram(model, tok, device):
-    """Fig 3: Dark energy suppression phase diagram"""
+    """Fig 3: Dark energy suppression phase diagram - compute live"""
     print("Fig 03: Phase Diagram")
-    try:
-        data = load_json('phase33_phase_diagram')
-    except Exception:
-        print("  Skipping (no results)")
-        return
+    # Generate live since JSON doesn't store per-beta results
+    prompts_qa = [
+        ("The capital of France is", "Paris"),
+        ("Water boils at", "100"),
+        ("The speed of light is approximately", "300"),
+        ("DNA stands for", "deoxyribonucleic"),
+    ]
+    betas = np.arange(0.0, 1.05, 0.1)
+    correct_probs = []
+    output_entropies = []
 
-    fig, ax = plt.subplots(1, 1, figsize=(8, 5))
+    for beta in betas:
+        beta_probs = []
+        beta_ents = []
+        hooks = []
+        # Install hooks to scale FFN output
+        def make_scale_hook(scale):
+            def hook(module, args, output):
+                return output * scale
+            return hook
+        for layer in model.model.layers:
+            hooks.append(layer.mlp.register_forward_hook(make_scale_hook(beta)))
 
-    if 'beta_results' in data:
-        betas = []
-        correct_probs = []
-        entropies = []
-        for br in data['beta_results']:
-            betas.append(br.get('beta', 0))
-            correct_probs.append(br.get('correct_prob', 0))
-            entropies.append(br.get('output_entropy', 0))
+        for prompt, answer in prompts_qa:
+            inp = tok(prompt, return_tensors='pt').to(device)
+            with torch.no_grad():
+                out = model(**inp)
+            logits = out.logits[0, -1, :].float()
+            probs = torch.softmax(logits, dim=-1)
+            # Check if answer token is top
+            ans_ids = tok(answer, add_special_tokens=False)['input_ids']
+            if ans_ids:
+                beta_probs.append(probs[ans_ids[0]].item())
+            ent = -(probs * torch.log(probs + 1e-10)).sum().item()
+            beta_ents.append(ent if not np.isnan(ent) else 0)
 
-        ax.plot(betas, correct_probs, 'o-', color=C_RED, linewidth=2, markersize=6, label='Correct prob')
-        ax.axvline(x=0.57, color=C_GRAY, linestyle='--', linewidth=1.5, label='$\\beta_c = 0.57$')
-        ax.fill_betweenx([0, 1], 0, 0.57, alpha=0.1, color=C_RED, label='Collapse zone')
-        ax.set_xlabel('FFN scaling factor $\\beta$')
-        ax.set_ylabel('Correct answer probability')
-        ax.set_title('Dark Energy Phase Transition')
-        ax.legend()
-    else:
-        ax.text(0.5, 0.5, 'Phase 33 results not in expected format',
-                transform=ax.transAxes, ha='center')
+        for h in hooks:
+            h.remove()
+        correct_probs.append(np.mean(beta_probs))
+        output_entropies.append(np.mean(beta_ents))
 
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+
+    # (a) Correct probability vs beta
+    axes[0].plot(betas, correct_probs, 'o-', color=C_RED, linewidth=2, markersize=6)
+    # Find critical beta (where prob drops below 50% of max)
+    max_prob = max(correct_probs)
+    crit_idx = next((i for i, p in enumerate(correct_probs) if p < max_prob * 0.5), len(betas)-1)
+    crit_beta = betas[crit_idx]
+    axes[0].axvline(x=crit_beta, color=C_GRAY, linestyle='--', linewidth=1.5,
+                    label=f'$\\beta_c \\approx {crit_beta:.2f}$')
+    axes[0].fill_betweenx([0, max_prob*1.1], 0, crit_beta, alpha=0.1, color=C_RED)
+    axes[0].set_xlabel('FFN scaling factor $\\beta$')
+    axes[0].set_ylabel('Correct answer probability')
+    axes[0].set_title('(a) Output collapse')
+    axes[0].legend()
+
+    # (b) Output entropy vs beta
+    axes[1].plot(betas, output_entropies, 's-', color=C_BLUE, linewidth=2, markersize=6)
+    axes[1].set_xlabel('FFN scaling factor $\\beta$')
+    axes[1].set_ylabel('Output entropy $H$')
+    axes[1].set_title('(b) Entropy explosion')
+
+    fig.suptitle('Dark Energy Phase Diagram: FFN Suppression', fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
     savefig(fig, 'fig03_phase_diagram')
 
@@ -335,21 +371,23 @@ def fig05_boltzmann_universal():
         return
 
     fig, ax = plt.subplots(1, 1, figsize=(8, 5))
-    if 'models' in data:
-        models = data['models']
-        names = [m.get('model', f'Model {i}') for i, m in enumerate(models)]
-        r2s = [m.get('r_squared', 0) for m in models]
-        colors = [C_RED, C_BLUE, C_GREEN][:len(models)]
+    # Actual structure: data['results'] = list of {model_name, mean_r2, ...}
+    results = data.get('results', [])
+    if results:
+        names = [r.get('model_name', f'Model {i}') for i, r in enumerate(results)]
+        r2s = [r.get('mean_r2', 0) for r in results]
+        colors = [C_RED, C_BLUE, C_GREEN][:len(results)]
         bars = ax.bar(range(len(names)), r2s, color=colors, alpha=0.8, edgecolor='black')
         ax.set_xticks(range(len(names)))
-        ax.set_xticklabels([n.split('/')[-1] if '/' in n else n for n in names], fontsize=9)
+        ax.set_xticklabels(names, fontsize=9)
         ax.set_ylabel('$R^2$ (Boltzmann fit)')
         ax.set_title('Boltzmann Distribution: Cross-Architecture Universality')
-        ax.set_ylim(0.9, 1.0)
-        ax.axhline(y=0.979, color=C_GRAY, linestyle='--', label='Mean $R^2 = 0.979$')
+        mean_r2 = np.mean(r2s)
+        ax.set_ylim(min(r2s) - 0.02, 1.0)
+        ax.axhline(y=mean_r2, color=C_GRAY, linestyle='--', label=f'Mean $R^2 = {mean_r2:.3f}$')
         for bar, r2 in zip(bars, r2s):
             ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.002,
-                    f'{r2:.3f}', ha='center', fontsize=11, fontweight='bold')
+                    f'{r2:.4f}', ha='center', fontsize=11, fontweight='bold')
         ax.legend()
     plt.tight_layout()
     savefig(fig, 'fig05_boltzmann_universal')
@@ -365,10 +403,11 @@ def fig06_cv_universal():
         return
 
     fig, ax = plt.subplots(1, 1, figsize=(8, 5))
-    if 'models' in data:
-        models = data['models']
-        names = [m.get('model', f'Model {i}').split('/')[-1] for i, m in enumerate(models)]
-        cvs = [m.get('mean_cv', m.get('cv', 0)) for m in models]
+    # Actual structure: data['results'] = list of {model_name, Cv, r, p, ...}
+    results = data.get('results', [])
+    if results:
+        names = [r.get('model_name', f'Model {i}') for i, r in enumerate(results)]
+        cvs = [r.get('Cv', 0) for r in results]
         colors = [C_RED if cv < 0 else C_GREEN for cv in cvs]
         bars = ax.bar(range(len(names)), cvs, color=colors, alpha=0.8, edgecolor='black')
         ax.set_xticks(range(len(names)))
@@ -377,9 +416,9 @@ def fig06_cv_universal():
         ax.axhline(y=0, color='black', linewidth=1)
         ax.set_title('Negative Specific Heat: Universal ($C_v < 0$, $p < 0.001$)')
         for bar, cv in zip(bars, cvs):
-            ax.text(bar.get_x() + bar.get_width()/2,
-                    bar.get_height() - abs(bar.get_height()) * 0.15,
-                    f'{cv:.1f}', ha='center', fontsize=11, fontweight='bold', color='white')
+            y_pos = bar.get_height() / 2  # middle of bar
+            ax.text(bar.get_x() + bar.get_width()/2, y_pos,
+                    f'{cv:.1f}', ha='center', fontsize=12, fontweight='bold', color='white')
     plt.tight_layout()
     savefig(fig, 'fig06_cv_universal')
 
@@ -394,18 +433,29 @@ def fig07_black_hole():
         return
 
     fig, ax = plt.subplots(1, 1, figsize=(8, 5))
-    if 'prompts' in data:
-        for i, p in enumerate(data['prompts']):
-            T_trace = p.get('T_trace', p.get('temperature_trace', []))
-            collapsed = p.get('collapsed', False)
-            color = C_RED if collapsed else C_BLUE
-            style = '-' if collapsed else '--'
-            label_text = p.get('prompt', f'Prompt {i}')[:30]
-            ax.plot(T_trace, style, color=color, alpha=0.7, linewidth=1.5,
-                    label=f'{"COLLAPSE" if collapsed else "stable"}: {label_text}...')
+    # Actual structure: data['results'] = list of {label, prompt, t_trace, T_collapsed, ...}
+    results = data.get('results', [])
+    if results:
+        collapse_colors = [C_RED, '#e74c3c', '#c0392b', '#a93226']
+        stable_colors = [C_BLUE, '#3498db', '#2980b9', '#1f618d']
+        c_idx, s_idx = 0, 0
+        for i, r in enumerate(results):
+            t_trace = r.get('t_trace', [])
+            collapsed = r.get('T_collapsed', False)
+            label_text = r.get('prompt', r.get('label', f'Prompt {i}'))[:35]
+            if collapsed:
+                color = collapse_colors[c_idx % len(collapse_colors)]
+                c_idx += 1
+                ax.plot(t_trace, '-', color=color, alpha=0.8, linewidth=2,
+                        label=f'COLLAPSE: {label_text}...')
+            else:
+                color = stable_colors[s_idx % len(stable_colors)]
+                s_idx += 1
+                ax.plot(t_trace, '--', color=color, alpha=0.6, linewidth=1.5,
+                        label=f'Stable: {label_text}...')
         ax.set_xlabel('Iteration')
-        ax.set_ylabel('Temperature $T$')
-        ax.set_title('Black Hole Collapse: Iterative $T \\to 0$')
+        ax.set_ylabel('Temperature $T$ (entropy)')
+        ax.set_title(f'Black Hole Collapse: {c_idx}/{len(results)} Prompts $T \\to 0$')
         ax.legend(fontsize=7, loc='upper right')
     plt.tight_layout()
     savefig(fig, 'fig07_black_hole')
@@ -421,22 +471,28 @@ def fig08_inverse_radiation():
         return
 
     fig, ax = plt.subplots(1, 1, figsize=(8, 5))
-    if 'models' in data:
-        colors = [C_RED, C_BLUE, C_GREEN]
-        for i, m in enumerate(data['models']):
-            name = m.get('model', f'Model {i}').split('/')[-1]
-            n_val = m.get('exponent', m.get('n', 0))
-            r2 = m.get('r_squared', m.get('r2', 0))
-            c = colors[i % len(colors)]
-            ax.bar(i, n_val, color=c, alpha=0.8, edgecolor='black')
-            ax.text(i, n_val - 0.1, f'n={n_val:.2f}\n$R^2$={r2:.2f}',
-                    ha='center', fontsize=9, fontweight='bold', color='white')
-        ax.set_xticks(range(len(data['models'])))
-        ax.set_xticklabels([m.get('model', '').split('/')[-1] for m in data['models']], fontsize=9)
+    # Actual structure: data['per_model'] = {name: {slope, r_squared}}
+    per_model = data.get('per_model', {})
+    if per_model:
+        names = list(per_model.keys())
+        slopes = [per_model[n]['slope'] for n in names]
+        r2s = [per_model[n]['r_squared'] for n in names]
+        colors = [C_RED, C_BLUE, C_GREEN][:len(names)]
+        bars = ax.bar(range(len(names)), slopes, color=colors, alpha=0.8, edgecolor='black')
+        ax.set_xticks(range(len(names)))
+        ax.set_xticklabels(names, fontsize=9)
         ax.axhline(y=0, color='black', linewidth=1)
-        ax.axhline(y=4, color=C_GRAY, linestyle=':', label='Stefan-Boltzmann ($n=4$)')
-        ax.set_ylabel('Radiation exponent $n$')
-        ax.set_title('Inverse Radiation Law: $L \\propto T^n$, $n = -1.44 \\pm 0.42$')
+        mean_slope = np.mean(slopes)
+        std_slope = np.std(slopes)
+        ax.axhline(y=mean_slope, color=C_DARK, linestyle='--', linewidth=1.5,
+                   label=f'Mean $n = {mean_slope:.2f} \\pm {std_slope:.2f}$')
+        for bar, s, r2 in zip(bars, slopes, r2s):
+            y_pos = bar.get_height() / 2
+            ax.text(bar.get_x() + bar.get_width()/2, y_pos,
+                    f'n={s:.2f}\n$R^2$={r2:.2f}', ha='center', fontsize=10,
+                    fontweight='bold', color='white')
+        ax.set_ylabel('Radiation exponent $n$ ($L \\propto T^n$)')
+        ax.set_title(f'Inverse Radiation Law: $n = {mean_slope:.2f}$ (vs Stefan-Boltzmann $n=4$)')
         ax.legend()
     plt.tight_layout()
     savefig(fig, 'fig08_inverse_radiation')
@@ -507,27 +563,30 @@ def fig10_carnot_universal():
         return
 
     fig, ax = plt.subplots(1, 1, figsize=(8, 5))
-    if 'models' in data:
-        models = data['models']
-        names = [m.get('model', f'Model {i}').split('/')[-1] for i, m in enumerate(models)]
-        etas = [m.get('eta', m.get('carnot_eta', 0)) for m in models]
-        colors = [C_RED, C_BLUE, C_GREEN][:len(models)]
-        bars = ax.bar(range(len(names)), etas, color=colors, alpha=0.8, edgecolor='black')
+    # Actual structure: data['per_model'] = {name: {etas: [...], mean, std}}
+    per_model = data.get('per_model', {})
+    if per_model:
+        names = list(per_model.keys())
+        etas = [per_model[n]['mean'] for n in names]
+        stds = [per_model[n]['std'] for n in names]
+        colors = [C_RED, C_BLUE, C_GREEN][:len(names)]
+        bars = ax.bar(range(len(names)), etas, yerr=stds, color=colors, alpha=0.8,
+                      edgecolor='black', capsize=5, error_kw={'linewidth': 2})
         ax.set_xticks(range(len(names)))
         ax.set_xticklabels(names, fontsize=9)
-        ax.set_ylabel('Carnot Efficiency $\\eta$')
+        ax.set_ylabel('Carnot Efficiency $\\eta = 1 - T_{cold}/T_{hot}$')
         mean_eta = np.mean(etas)
         std_eta = np.std(etas)
         cv = std_eta / (mean_eta + 1e-10)
         ax.axhline(y=mean_eta, color=C_DARK, linestyle='--', linewidth=1.5,
-                   label=f'$\\eta = {mean_eta:.3f} \\pm {std_eta:.3f}$ (CV = {cv:.3f})')
+                   label=f'Cross-model mean $\\eta = {mean_eta:.3f}$ (CV = {cv:.3f})')
         ax.fill_between([-0.5, len(names)-0.5], mean_eta - std_eta, mean_eta + std_eta,
                         alpha=0.15, color=C_DARK)
-        for bar, eta in zip(bars, etas):
-            ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.005,
+        for bar, eta, std in zip(bars, etas, stds):
+            ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + std + 0.02,
                     f'{eta:.3f}', ha='center', fontsize=11, fontweight='bold')
-        ax.set_ylim(0.7, 0.9)
-        ax.set_title(f'Carnot Efficiency: The Tightest Universal Constant (CV = {cv:.3f})')
+        ax.set_ylim(0.5, 1.05)
+        ax.set_title(f'Carnot Efficiency: Universal Constant (CV = {cv:.3f})')
         ax.legend()
     plt.tight_layout()
     savefig(fig, 'fig10_carnot_universal')
