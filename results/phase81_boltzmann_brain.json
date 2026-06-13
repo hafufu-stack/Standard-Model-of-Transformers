@@ -1,0 +1,8 @@
+{
+  "experiment": "Boltzmann Brain",
+  "summary": {
+    "total_brains": 40,
+    "mean_monotonicity": 51.48809523809524,
+    "final_confidence": 0.4333042651414871
+  }
+}

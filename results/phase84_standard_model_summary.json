@@ -1,0 +1,16 @@
+{
+  "experiment": "Standard Model Summary",
+  "total_phases": 84,
+  "universal_laws": [
+    "Boltzmann Distribution (R2=0.979)",
+    "Negative Specific Heat (C_v<0)",
+    "Inverse Radiation (L~T^-1.44)",
+    "Carnot Efficiency (eta=0.813)",
+    "Information Concentration (F increases)"
+  ],
+  "models_tested": [
+    "Qwen2.5-1.5B",
+    "Qwen2.5-0.5B",
+    "TinyLlama-1.1B"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "experiment": "Thermal Conductivity",
+  "summary": {
+    "fourier_r": -0.12190519619021892,
+    "mean_kappa": -4176.2401398394,
+    "cv_kappa": 17.573404361999987,
+    "fourier_holds": false
+  }
+}
