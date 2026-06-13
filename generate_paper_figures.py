@@ -323,14 +323,19 @@ def fig04_boltzmann(model, tok, device):
 
     fig, axes = plt.subplots(1, 3, figsize=(15, 4.5))
 
-    # (a) Energy histogram
-    axes[0].hist(energies, bins=50, density=True, alpha=0.7, color=C_BLUE, edgecolor='white')
+    # (a) Energy histogram - use log-y and reasonable x-range to show exponential shape
+    # Clip to 99th percentile to avoid extreme outliers dominating the x-axis
+    clip_val = np.percentile(energies, 99)
+    e_clipped = energies[energies <= clip_val]
+    axes[0].hist(e_clipped, bins=40, density=True, alpha=0.7, color=C_BLUE, edgecolor='white')
+    axes[0].set_yscale('log')
     axes[0].set_xlabel('Activation Energy $E_i = h_i^2$')
-    axes[0].set_ylabel('Probability density')
+    axes[0].set_ylabel('Probability density (log scale)')
     axes[0].set_title('(a) Energy distribution (Layer 14)')
+    axes[0].set_ylim(bottom=1e-5)
 
-    # (b) Log-scale fit
-    counts, bin_edges = np.histogram(energies, bins=50, density=True)
+    # (b) Log-scale fit - use clipped range for proper exponential fit
+    counts, bin_edges = np.histogram(e_clipped, bins=40, density=True)
     bin_centers = (bin_edges[:-1] + bin_edges[1:]) / 2
     mask = counts > 0
     log_counts = np.log(counts[mask])
@@ -338,19 +343,22 @@ def fig04_boltzmann(model, tok, device):
 
     from scipy import stats as sp_stats
     slope, intercept, r_value, p_value, std_err = sp_stats.linregress(bc_masked, log_counts)
-    axes[1].scatter(bc_masked, log_counts, s=20, color=C_BLUE, alpha=0.6)
+    axes[1].scatter(bc_masked, log_counts, s=25, color=C_BLUE, alpha=0.7, edgecolors='black', linewidths=0.3)
+    fit_x = np.linspace(bc_masked.min(), bc_masked.max(), 100)
+    fit_line_plot = slope * fit_x + intercept
     fit_line = slope * bc_masked + intercept
-    axes[1].plot(bc_masked, fit_line, '-', color=C_RED, linewidth=2,
-                 label=f'$\\ln p = {slope:.2f} E + {intercept:.2f}$\n$R^2 = {r_value**2:.3f}$')
+    kT = -1.0 / slope if slope != 0 else 0
+    axes[1].plot(fit_x, fit_line_plot, '-', color=C_RED, linewidth=2,
+                 label=f'$\\ln p = {slope:.3f} E + {intercept:.2f}$\n$R^2 = {r_value**2:.3f}$, $kT = {kT:.2f}$')
     axes[1].set_xlabel('Energy $E$')
     axes[1].set_ylabel('$\\ln p(E)$')
     axes[1].set_title('(b) Boltzmann fit: $p(E) \\propto e^{-E/kT}$')
-    axes[1].legend()
+    axes[1].legend(fontsize=8)
 
     # (c) Residuals
     residuals = log_counts - fit_line
-    axes[2].scatter(bc_masked, residuals, s=20, color=C_PURPLE, alpha=0.6)
-    axes[2].axhline(y=0, color='black', linewidth=0.5)
+    axes[2].scatter(bc_masked, residuals, s=25, color=C_PURPLE, alpha=0.7, edgecolors='black', linewidths=0.3)
+    axes[2].axhline(y=0, color='black', linewidth=1)
     axes[2].set_xlabel('Energy $E$')
     axes[2].set_ylabel('Residual')
     axes[2].set_title(f'(c) Fit residuals (R$^2$ = {r_value**2:.3f})')
@@ -432,31 +440,35 @@ def fig07_black_hole():
         print("  Skipping (no results)")
         return
 
-    fig, ax = plt.subplots(1, 1, figsize=(8, 5))
+    fig, ax = plt.subplots(1, 1, figsize=(10, 5.5))
     # Actual structure: data['results'] = list of {label, prompt, t_trace, T_collapsed, ...}
     results = data.get('results', [])
     if results:
-        collapse_colors = [C_RED, '#e74c3c', '#c0392b', '#a93226']
-        stable_colors = [C_BLUE, '#3498db', '#2980b9', '#1f618d']
-        c_idx, s_idx = 0, 0
+        # 6 clearly distinct colors + line styles
+        styles = [
+            {'color': '#c0392b', 'linestyle': '-',  'linewidth': 2.5},  # dark red, solid
+            {'color': '#2980b9', 'linestyle': '--', 'linewidth': 2.0},  # blue, dashed
+            {'color': '#27ae60', 'linestyle': '-.',  'linewidth': 2.0},  # green, dash-dot
+            {'color': '#2c3e50', 'linestyle': ':',  'linewidth': 2.5},  # black, dotted
+            {'color': '#8e44ad', 'linestyle': '-',  'linewidth': 2.0},  # purple, solid
+            {'color': '#e67e22', 'linestyle': '--', 'linewidth': 2.0},  # orange, dashed
+        ]
+        n_collapsed = 0
         for i, r in enumerate(results):
             t_trace = r.get('t_trace', [])
             collapsed = r.get('T_collapsed', False)
-            label_text = r.get('prompt', r.get('label', f'Prompt {i}'))[:35]
             if collapsed:
-                color = collapse_colors[c_idx % len(collapse_colors)]
-                c_idx += 1
-                ax.plot(t_trace, '-', color=color, alpha=0.8, linewidth=2,
-                        label=f'COLLAPSE: {label_text}...')
-            else:
-                color = stable_colors[s_idx % len(stable_colors)]
-                s_idx += 1
-                ax.plot(t_trace, '--', color=color, alpha=0.6, linewidth=1.5,
-                        label=f'Stable: {label_text}...')
+                n_collapsed += 1
+            label_text = r.get('prompt', r.get('label', f'Prompt {i}'))[:30]
+            s = styles[i % len(styles)]
+            status = 'COLLAPSE' if collapsed else 'Stable'
+            ax.plot(t_trace, linestyle=s['linestyle'], color=s['color'],
+                    alpha=0.85, linewidth=s['linewidth'],
+                    label=f'{status}: {label_text}...')
         ax.set_xlabel('Iteration')
         ax.set_ylabel('Temperature $T$ (entropy)')
-        ax.set_title(f'Black Hole Collapse: {c_idx}/{len(results)} Prompts $T \\to 0$')
-        ax.legend(fontsize=7, loc='upper right')
+        ax.set_title(f'Black Hole Collapse: {n_collapsed}/{len(results)} Prompts $T \\to 0$')
+        ax.legend(fontsize=7, loc='upper right', framealpha=0.9)
     plt.tight_layout()
     savefig(fig, 'fig07_black_hole')
 
