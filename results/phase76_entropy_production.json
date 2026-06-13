@@ -1,0 +1,9 @@
+{
+  "experiment": "Entropy Production Rate",
+  "summary": {
+    "pct_2nd_law": 41.07142857142858,
+    "S_internal_change": -3.410725990931193,
+    "S_external_change": 2.5640591575185803,
+    "2nd_law_holds": false
+  }
+}

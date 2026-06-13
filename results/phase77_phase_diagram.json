@@ -1,0 +1,9 @@
+{
+  "experiment": "Phase Diagram",
+  "summary": {
+    "T_drop": -2.4804842377475174,
+    "U_rise": 192.59295246005058,
+    "trajectory": "other",
+    "dominant_phase": "Cold-Energetic"
+  }
+}

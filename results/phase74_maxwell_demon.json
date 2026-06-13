@@ -1,0 +1,10 @@
+{
+  "experiment": "Maxwell's Demon",
+  "summary": {
+    "corr_conf_work": 0.0066973430986408955,
+    "corr_conf_eff": 0.9441067638269682,
+    "mean_demon_eff": -0.00400267080219116,
+    "landauer_bound": 2.4297871036946677,
+    "is_coupled": true
+  }
+}
