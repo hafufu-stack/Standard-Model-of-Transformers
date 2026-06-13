@@ -1,36 +1,35 @@
 {
-  "experiment": "Ergodic Hypothesis",
+  "experiment": "Ergodic Hypothesis (v2 - fixed)",
   "ergodic_scores": {
     "T": {
       "ens_mean": 5.0502070665359495,
-      "tim_mean": 4.588451559781788,
+      "tim_mean": 3.884204441080984,
       "ens_std": 1.871464563710353,
-      "tim_std": 2.144086573719446,
-      "rel_diff": 0.09581322975555479,
-      "ks_stat": 0.18484848484848485,
-      "ks_p": 0.5523329360296698
-    },
-    "U": {
-      "ens_mean": 59.685441398620604,
-      "tim_mean": 168.93770441382821,
-      "ens_std": 2.3729881943026356,
-      "tim_std": 1095.1878653756444,
-      "rel_diff": 0.9557410526122757,
-      "ks_stat": 0.30303030303030304,
-      "ks_p": 0.0762163033676764
+      "tim_std": 2.1208258473306434,
+      "rel_diff": 0.2610138618414547,
+      "ks_stat": 0.4,
+      "ks_p": 0.010075295145426788
     },
     "PR": {
       "ens_mean": 39.54570690043674,
-      "tim_mean": 41.79484901990026,
+      "tim_mean": 48.979395050996175,
       "ens_std": 23.585029294643945,
-      "tim_std": 27.72360308678449,
-      "rel_diff": 0.055301862496821674,
-      "ks_stat": 0.16363636363636364,
-      "ks_p": 0.7000022238383463
+      "tim_std": 40.28034391949195,
+      "rel_diff": 0.21313024086036825,
+      "ks_stat": 0.24285714285714285,
+      "ks_p": 0.27903783675478366
     }
   },
+  "note": "U excluded from comparison: it is an extensive variable that depends on token position. Only intensive thermodynamic variables (T, PR) tested.",
   "summary": {
-    "n_ergodic": 3,
-    "is_ergodic": true
+    "n_ergodic": 1,
+    "n_total": 2,
+    "observables_tested": [
+      "T",
+      "PR"
+    ],
+    "observables_excluded": [
+      "U (position-dependent extensive variable)"
+    ]
   }
 }
