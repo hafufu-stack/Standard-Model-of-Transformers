@@ -1,0 +1,25 @@
+{
+  "experiment": "Universality Class Identification",
+  "exponents": {
+    "beta": 0.16111679127876444,
+    "gamma": 0.46488603420611513,
+    "gamma_r2": 0.4656442376941895,
+    "nu": 0.32451961816582975,
+    "delta": 3.8853977926684813,
+    "alpha_rushbrooke": 1.212880383236356,
+    "eta_fisher": 0.5674640051335682
+  },
+  "distances": {
+    "2D Ising": 0.6498776683524231,
+    "3D Ising": 0.3926926679729892,
+    "Mean-field": 0.3637762521778169,
+    "2D XY": 0.25760097413372357,
+    "3D Heisenberg": 0.47796897189336135,
+    "Percolation 2D": 0.9716701797608542
+  },
+  "summary": {
+    "closest_class": "2D XY",
+    "distance": 0.25760097413372357,
+    "is_2nd_order": true
+  }
+}

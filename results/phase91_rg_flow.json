@@ -1,0 +1,66 @@
+{
+  "experiment": "Renormalization Group Flow",
+  "results": [
+    {
+      "d_eff": 32,
+      "mean_boltzmann_r2": 0.8990646101443212,
+      "mean_cv": -8.848405481268182,
+      "cv_all_negative": false,
+      "mean_kT": 34.913907021534186
+    },
+    {
+      "d_eff": 64,
+      "mean_boltzmann_r2": 0.9471334089299914,
+      "mean_cv": -8.923740804487602,
+      "cv_all_negative": false,
+      "mean_kT": 25.720315521323066
+    },
+    {
+      "d_eff": 128,
+      "mean_boltzmann_r2": 0.9660376104701429,
+      "mean_cv": -9.072777629358958,
+      "cv_all_negative": false,
+      "mean_kT": 20.357677648258825
+    },
+    {
+      "d_eff": 256,
+      "mean_boltzmann_r2": 0.9789632097415777,
+      "mean_cv": -9.321425780583725,
+      "cv_all_negative": false,
+      "mean_kT": 17.50192496682481
+    },
+    {
+      "d_eff": 512,
+      "mean_boltzmann_r2": 0.9871466851672608,
+      "mean_cv": -9.609947559728672,
+      "cv_all_negative": false,
+      "mean_kT": 14.967728779613726
+    },
+    {
+      "d_eff": 768,
+      "mean_boltzmann_r2": 0.987707633991368,
+      "mean_cv": -9.749813092794524,
+      "cv_all_negative": false,
+      "mean_kT": 13.025845318199599
+    },
+    {
+      "d_eff": 1024,
+      "mean_boltzmann_r2": 0.9878607419924114,
+      "mean_cv": -9.810941625380634,
+      "cv_all_negative": false,
+      "mean_kT": 11.12905789586907
+    },
+    {
+      "d_eff": 1536,
+      "mean_boltzmann_r2": 0.9864481360817018,
+      "mean_cv": -9.835333847904613,
+      "cv_all_negative": false,
+      "mean_kT": 8.46408640604121
+    }
+  ],
+  "summary": {
+    "n_scale_invariant": 8,
+    "critical_d": 32,
+    "full_dim_r2": 0.9864481360817018
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "FDR at Each Layer",
+  "summary": {
+    "pre_fdr": 0.0,
+    "post_fdr": 0.0,
+    "max_fdr_layer": 4
+  }
+}

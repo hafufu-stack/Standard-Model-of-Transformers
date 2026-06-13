@@ -1,0 +1,21 @@
+{
+  "experiment": "Thermodynamic Hallucination Detector",
+  "aurocs": {
+    "kT": 0.8472222222222223,
+    "S": 0.8541666666666667,
+    "Confidence": 0.7291666666666667,
+    "eta": 0.9166666666666667,
+    "Combined": 0.8333333333333334
+  },
+  "summary": {
+    "best_feature": "eta",
+    "best_auroc": 0.9166666666666667,
+    "aurocs": {
+      "kT": 0.8472222222222223,
+      "S": 0.8541666666666667,
+      "Confidence": 0.7291666666666667,
+      "eta": 0.9166666666666667,
+      "Combined": 0.8333333333333334
+    }
+  }
+}

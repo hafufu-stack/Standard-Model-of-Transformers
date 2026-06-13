@@ -1,0 +1,8 @@
+{
+  "experiment": "Hidden State Norm Dynamics",
+  "summary": {
+    "pre_norm": 51.78919960881272,
+    "post_norm": 168.84924704940232,
+    "peak_var_layer": 28
+  }
+}

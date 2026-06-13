@@ -1,0 +1,291 @@
+{
+  "experiment": "Goldstone Bosons",
+  "results": {
+    "10": {
+      "loss_changes": [
+        {
+          "pc": 0,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.18142437934875488
+        },
+        {
+          "pc": 1,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.16309718787670135
+        },
+        {
+          "pc": 2,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1500081866979599
+        },
+        {
+          "pc": 3,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.14299650490283966
+        },
+        {
+          "pc": 4,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.12791664898395538
+        },
+        {
+          "pc": 5,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.12076406180858612
+        },
+        {
+          "pc": 6,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.11379294842481613
+        }
+      ],
+      "goldstone_count": 0
+    },
+    "15": {
+      "loss_changes": [
+        {
+          "pc": 0,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.19256195425987244
+        },
+        {
+          "pc": 1,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.16771502792835236
+        },
+        {
+          "pc": 2,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.159230038523674
+        },
+        {
+          "pc": 3,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.13619205355644226
+        },
+        {
+          "pc": 4,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1270371526479721
+        },
+        {
+          "pc": 5,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.11188957095146179
+        },
+        {
+          "pc": 6,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.10537414997816086
+        }
+      ],
+      "goldstone_count": 0
+    },
+    "20": {
+      "loss_changes": [
+        {
+          "pc": 0,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1952177882194519
+        },
+        {
+          "pc": 1,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.17286540567874908
+        },
+        {
+          "pc": 2,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1584775149822235
+        },
+        {
+          "pc": 3,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.13441571593284607
+        },
+        {
+          "pc": 4,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.12450691312551498
+        },
+        {
+          "pc": 5,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.11206962913274765
+        },
+        {
+          "pc": 6,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.10244705528020859
+        }
+      ],
+      "goldstone_count": 0
+    },
+    "22": {
+      "loss_changes": [
+        {
+          "pc": 0,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.21058659255504608
+        },
+        {
+          "pc": 1,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.18476583063602448
+        },
+        {
+          "pc": 2,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1487477868795395
+        },
+        {
+          "pc": 3,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.13132303953170776
+        },
+        {
+          "pc": 4,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.11748038232326508
+        },
+        {
+          "pc": 5,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.10615798085927963
+        },
+        {
+          "pc": 6,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.10093838721513748
+        }
+      ],
+      "goldstone_count": 0
+    },
+    "24": {
+      "loss_changes": [
+        {
+          "pc": 0,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.23952238261699677
+        },
+        {
+          "pc": 1,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.17570188641548157
+        },
+        {
+          "pc": 2,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1447308212518692
+        },
+        {
+          "pc": 3,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.12205220013856888
+        },
+        {
+          "pc": 4,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.11757330596446991
+        },
+        {
+          "pc": 5,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.10666871070861816
+        },
+        {
+          "pc": 6,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.09375078231096268
+        }
+      ],
+      "goldstone_count": 0
+    },
+    "27": {
+      "loss_changes": [
+        {
+          "pc": 0,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.2775386571884155
+        },
+        {
+          "pc": 1,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1642802506685257
+        },
+        {
+          "pc": 2,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1366836130619049
+        },
+        {
+          "pc": 3,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.12124572694301605
+        },
+        {
+          "pc": 4,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.1100691482424736
+        },
+        {
+          "pc": 5,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.10274825245141983
+        },
+        {
+          "pc": 6,
+          "mean_delta_loss": 0.0,
+          "top1_preserved": 1.0,
+          "explained_var": 0.0874343141913414
+        }
+      ],
+      "goldstone_count": 0
+    }
+  },
+  "summary": {
+    "pre_gold": 0.0,
+    "post_gold": 0.0
+  }
+}

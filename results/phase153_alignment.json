@@ -1,0 +1,13 @@
+{
+  "experiment": "Carnot Limit of Alignment",
+  "results": {
+    "base": {
+      "name": "Base",
+      "L0": 22.13505515255545,
+      "R2": 0.9777782972567118,
+      "final_eta": 0.8469313845279931,
+      "final_S": 2.7159294933080673,
+      "n_layers": 29
+    }
+  }
+}

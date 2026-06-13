@@ -1,0 +1,22 @@
+{
+  "experiment": "Thermodynamic Test-Time Compute",
+  "accuracy": {
+    "baseline": 0.0,
+    "critical_0.1": 0.0,
+    "critical_0.5": 0.0,
+    "critical_1.0": 0.0,
+    "explore_0.5": 0.0
+  },
+  "confidence": {
+    "baseline": 0.8436184048652648,
+    "critical_0.1": 0.8436184048652648,
+    "critical_0.5": 0.8436184048652648,
+    "critical_1.0": 0.8436184048652648,
+    "explore_0.5": 0.8436184048652648
+  },
+  "summary": {
+    "best_config": "baseline",
+    "best_accuracy": 0.0,
+    "baseline_accuracy": 0.0
+  }
+}

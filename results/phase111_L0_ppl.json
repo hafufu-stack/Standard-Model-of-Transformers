@@ -1,0 +1,113 @@
+{
+  "experiment": "L0 vs Perplexity Correlation",
+  "results": [
+    {
+      "prompt": "The sun rises in the east and sets in the",
+      "ppl": 4.629751205444336,
+      "L0": 11.912496959289337,
+      "r2": 0.9245534986450438
+    },
+    {
+      "prompt": "Once upon a time there was a beautiful princess wh",
+      "ppl": 3.512735605239868,
+      "L0": 21.480702200669715,
+      "r2": 0.980184624166318
+    },
+    {
+      "prompt": "I went to the store to buy some milk and",
+      "ppl": 7.754890441894531,
+      "L0": 19.28109183913293,
+      "r2": 0.49751992935753164
+    },
+    {
+      "prompt": "The cat sat on the mat and looked at the",
+      "ppl": 12.226688385009766,
+      "L0": 21.59715968199448,
+      "r2": 0.7127111324273279
+    },
+    {
+      "prompt": "The theory of evolution explains how species chang",
+      "ppl": 14.968672752380371,
+      "L0": 19.958163761271706,
+      "r2": 0.9856772120265398
+    },
+    {
+      "prompt": "Machine learning models require large amounts of t",
+      "ppl": 5.022380828857422,
+      "L0": 23.027541621421282,
+      "r2": 0.4565642429151888
+    },
+    {
+      "prompt": "The Pythagorean theorem states that in a right tri",
+      "ppl": 4.346213340759277,
+      "L0": 19.084455103684295,
+      "r2": 0.962282595179603
+    },
+    {
+      "prompt": "Climate change is caused primarily by the emission",
+      "ppl": 5.89649772644043,
+      "L0": -42.92694120941856,
+      "r2": 0.8859333346242055
+    },
+    {
+      "prompt": "The Riemann hypothesis concerns the distribution o",
+      "ppl": 5.952967166900635,
+      "L0": 7.666374028487403,
+      "r2": 0.9112199524577571
+    },
+    {
+      "prompt": "In quantum field theory the path integral formulat",
+      "ppl": 21.36878776550293,
+      "L0": 9.358203681574874,
+      "r2": 0.9426361636566226
+    },
+    {
+      "prompt": "The P versus NP problem asks whether every problem",
+      "ppl": 7.5691447257995605,
+      "L0": -286.0242152831133,
+      "r2": 0.8181932836690033
+    },
+    {
+      "prompt": "Godel's incompleteness theorems demonstrate fundam",
+      "ppl": 6.6678619384765625,
+      "L0": 21.750694647654942,
+      "r2": 0.5913351117330583
+    },
+    {
+      "prompt": "The relationship between consciousness and quantum",
+      "ppl": 72.50086212158203,
+      "L0": 22.535295230045683,
+      "r2": 0.9489463191490393
+    },
+    {
+      "prompt": "If we could reverse entropy at the molecular level",
+      "ppl": 67.48021697998047,
+      "L0": 20.652552818045983,
+      "r2": 0.896766536464337
+    },
+    {
+      "prompt": "The emergence of complex behavior from simple rule",
+      "ppl": 38.193119049072266,
+      "L0": 19.182310581292143,
+      "r2": 0.9498603155508142
+    },
+    {
+      "prompt": "In the context of artificial general intelligence ",
+      "ppl": 65.01786804199219,
+      "L0": 22.1601319525673,
+      "r2": 0.9610687085323331
+    }
+  ],
+  "summary": {
+    "pearson_r": 0.40251869633391263,
+    "pearson_p": 0.21969623997993523,
+    "spearman_rho": 0.44545454545454555,
+    "spearman_p": 0.16973260492681172,
+    "slope": 2.0054979500328005,
+    "n_good": 11,
+    "L0_range": [
+      7.666374028487403,
+      22.535295230045683
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "Mutual Information Flow",
+  "summary": {
+    "max_kl_layer": 0,
+    "pre_kl": 1.067577982911219,
+    "post_kl": 0.828849003764238
+  }
+}

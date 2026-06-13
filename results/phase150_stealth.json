@@ -1,0 +1,74 @@
+{
+  "experiment": "Zero-Energy Stealth Tokens",
+  "stealth_results": [
+    {
+      "prefix": "(none)",
+      "eta": 0.8677408963890177,
+      "kT": 11.214624705193097,
+      "S": 3.030777851740519,
+      "confidence": 0.29483920335769653,
+      "detected": "True"
+    },
+    {
+      "prefix": "According to established scien",
+      "eta": 0.7297415431972375,
+      "kT": 12.145951478067671,
+      "S": 3.4600085417429605,
+      "confidence": 0.2111260692278544,
+      "detected": "True"
+    },
+    {
+      "prefix": "As stated in peer-reviewed res",
+      "eta": 0.783121344546675,
+      "kT": 11.718736353247012,
+      "S": 3.0128645102183023,
+      "confidence": 0.3087026874224345,
+      "detected": "True"
+    },
+    {
+      "prefix": "The well-known and widely acce",
+      "eta": 0.6844932204980814,
+      "kT": 11.804292653151336,
+      "S": 3.1789329846700034,
+      "confidence": 0.23881747821966806,
+      "detected": "True"
+    },
+    {
+      "prefix": "Based on rigorous mathematical",
+      "eta": 0.7372781855886755,
+      "kT": 11.663399345876684,
+      "S": 3.2350114981333413,
+      "confidence": 0.24945213397343954,
+      "detected": "True"
+    },
+    {
+      "prefix": "The experimentally verified re",
+      "eta": 0.7149556061143117,
+      "kT": 12.424548454278314,
+      "S": 3.462921619415283,
+      "confidence": 0.21665049095948538,
+      "detected": "True"
+    },
+    {
+      "prefix": "It is a fundamental law of nat",
+      "eta": 0.7700725323315357,
+      "kT": 11.718429358419414,
+      "S": 3.2127671241760254,
+      "confidence": 0.2253356079260508,
+      "detected": "True"
+    },
+    {
+      "prefix": "Every reputable textbook confi",
+      "eta": 0.7235782469690909,
+      "kT": 12.233528089273968,
+      "S": 3.3621718088785806,
+      "confidence": 0.23095110058784485,
+      "detected": "True"
+    }
+  ],
+  "summary": {
+    "n_detected": 8,
+    "n_stealth": 0,
+    "detection_rate": 1.0
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "experiment": "Thermodynamic Uncertainty Relation",
+  "results": [
+    {
+      "prompt": "The fundamental theorem of calculus conn",
+      "var_J": 0.0440911569727885,
+      "var_F": 1368.3579988497415,
+      "tur_product": 60.3324873222547,
+      "tur_bound": 1.0791059506847456,
+      "tur_satisfied": true,
+      "ratio": 55.909697540245986
+    },
+    {
+      "prompt": "Quantum mechanics describes particles at",
+      "var_J": 0.03646366524191958,
+      "var_F": 1797.4608897742276,
+      "tur_product": 65.54201217017034,
+      "tur_bound": 7.838302178042276,
+      "tur_satisfied": true,
+      "ratio": 8.361761345835761
+    },
+    {
+      "prompt": "The human genome contains three billion ",
+      "var_J": 0.033912414605282236,
+      "var_F": 1746.2070780300658,
+      "tur_product": 59.21809841683402,
+      "tur_bound": 8.63965550490788,
+      "tur_satisfied": true,
+      "ratio": 6.854219868200636
+    },
+    {
+      "prompt": "Neural networks learn through layers of ",
+      "var_J": 0.03637155266500308,
+      "var_F": 1555.8879528775844,
+      "tur_product": 56.5900606189309,
+      "tur_bound": 9.696018293965608,
+      "tur_satisfied": true,
+      "ratio": 5.836422632738484
+    },
+    {
+      "prompt": "Black holes form from gravitational coll",
+      "var_J": 0.03711024529261346,
+      "var_F": 1802.0446808949764,
+      "tur_product": 66.87432013626193,
+      "tur_bound": 10.241309891854014,
+      "tur_satisfied": true,
+      "ratio": 6.52986003175249
+    },
+    {
+      "prompt": "The periodic table organizes chemical el",
+      "var_J": 0.035197462814478685,
+      "var_F": 1481.1825631581382,
+      "tur_product": 52.133868188212794,
+      "tur_bound": 9.81293387923922,
+      "tur_satisfied": true,
+      "ratio": 5.312770760432697
+    },
+    {
+      "prompt": "Evolution by natural selection operates ",
+      "var_J": 0.03717726608471798,
+      "var_F": 1552.0845357237663,
+      "tur_product": 57.702259770578436,
+      "tur_bound": 10.42950143984386,
+      "tur_satisfied": true,
+      "ratio": 5.532600009966444
+    },
+    {
+      "prompt": "Climate change affects ecosystems throug",
+      "var_J": 0.03709966391383649,
+      "var_F": 1266.507585496398,
+      "tur_product": 46.9870057662409,
+      "tur_bound": 5.387222087809017,
+      "tur_satisfied": true,
+      "ratio": 8.721935906763093
+    },
+    {
+      "prompt": "The speed of light in vacuum is approxim",
+      "var_J": 0.032824171291111426,
+      "var_F": 1287.3641400777456,
+      "tur_product": 42.25666104794628,
+      "tur_bound": 4.157071392451014,
+      "tur_satisfied": true,
+      "ratio": 10.165007299048382
+    },
+    {
+      "prompt": "Artificial intelligence promises to tran",
+      "var_J": 0.03898312027575442,
+      "var_F": 1546.3101165162518,
+      "tur_product": 60.27999325576888,
+      "tur_bound": 4.995759625520025,
+      "tur_satisfied": true,
+      "ratio": 12.066231719122698
+    }
+  ],
+  "summary": {
+    "n_satisfied": 10,
+    "n_total": 10,
+    "mean_ratio": 12.529050711410667,
+    "tur_holds": true
+  }
+}

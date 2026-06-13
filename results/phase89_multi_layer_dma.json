@@ -1,0 +1,62 @@
+{
+  "experiment": "Multi-Layer DMA v2",
+  "n_inject_sweep": [
+    {
+      "config": "1-layer",
+      "n_inject": 1,
+      "hijack_rate": 0.0,
+      "avg_target_prob": 8.251952706928023e-06
+    },
+    {
+      "config": "3-layer",
+      "n_inject": 3,
+      "hijack_rate": 0.0,
+      "avg_target_prob": 4.369309277763023e-05
+    },
+    {
+      "config": "5-layer",
+      "n_inject": 5,
+      "hijack_rate": 0.0,
+      "avg_target_prob": 0.00016676662630743522
+    },
+    {
+      "config": "8-layer",
+      "n_inject": 8,
+      "hijack_rate": 0.0,
+      "avg_target_prob": 0.005489763614605181
+    },
+    {
+      "config": "half",
+      "n_inject": 14,
+      "hijack_rate": 0.75,
+      "avg_target_prob": 0.6227932423353195
+    }
+  ],
+  "alpha_sweep": [
+    {
+      "alpha": 1.0,
+      "hijack_rate": 0.0,
+      "avg_target_prob": 5.604167643724622e-06
+    },
+    {
+      "alpha": 5.0,
+      "hijack_rate": 0.0,
+      "avg_target_prob": 2.8034135624466217e-05
+    },
+    {
+      "alpha": 10.0,
+      "hijack_rate": 0.0,
+      "avg_target_prob": 0.00016676662630743522
+    },
+    {
+      "alpha": 20.0,
+      "hijack_rate": 0.5,
+      "avg_target_prob": 0.24649937637150288
+    }
+  ],
+  "summary": {
+    "single_rate": 0.0,
+    "best_multi_rate": 0.75,
+    "improvement": 7500000000.0
+  }
+}

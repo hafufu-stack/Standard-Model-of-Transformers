@@ -1,0 +1,60 @@
+{
+  "experiment": "Thermodynamic Token Routing",
+  "baseline_accuracy": 0.0,
+  "sweep": [
+    {
+      "threshold": 1.0,
+      "accuracy": 0.0,
+      "avg_skip_fraction": 0.7642857142857142,
+      "accuracy_retention": 0.0
+    },
+    {
+      "threshold": 2.0,
+      "accuracy": 0.0,
+      "avg_skip_fraction": 0.7000000000000001,
+      "accuracy_retention": 0.0
+    },
+    {
+      "threshold": 5.0,
+      "accuracy": 0.0,
+      "avg_skip_fraction": 0.5428571428571429,
+      "accuracy_retention": 0.0
+    },
+    {
+      "threshold": 10.0,
+      "accuracy": 0.0,
+      "avg_skip_fraction": 0.4321428571428571,
+      "accuracy_retention": 0.0
+    },
+    {
+      "threshold": 20.0,
+      "accuracy": 0.0,
+      "avg_skip_fraction": 0.32142857142857145,
+      "accuracy_retention": 0.0
+    },
+    {
+      "threshold": 50.0,
+      "accuracy": 0.0,
+      "avg_skip_fraction": 0.20357142857142857,
+      "accuracy_retention": 0.0
+    },
+    {
+      "threshold": 100.0,
+      "accuracy": 0.0,
+      "avg_skip_fraction": 0.13928571428571426,
+      "accuracy_retention": 0.0
+    },
+    {
+      "threshold": 200.0,
+      "accuracy": 0.0,
+      "avg_skip_fraction": 0.06785714285714285,
+      "accuracy_retention": 0.0
+    }
+  ],
+  "optimal": {
+    "threshold": 1.0,
+    "accuracy": 0.0,
+    "avg_skip_fraction": 0.7642857142857142,
+    "accuracy_retention": 0.0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "experiment": "Thermodynamic Jailbreak",
+  "summary": {
+    "most_vulnerable": "L0-5",
+    "max_meltdown": 0.999999999974339
+  }
+}

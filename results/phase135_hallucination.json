@@ -1,0 +1,13 @@
+{
+  "experiment": "Hallucination Thermodynamics",
+  "summary": {
+    "factual_conf": 0.540826549132665,
+    "uncertain_conf": 0.30301737288633984,
+    "factual_S_final": 2.01966385046641,
+    "uncertain_S_final": 2.53233935435613,
+    "factual_kT_final": 9.876637295992714,
+    "uncertain_kT_final": 11.786284593793455,
+    "factual_eta_final": 0.9607895561400089,
+    "uncertain_eta_final": 0.8211833762013719
+  }
+}

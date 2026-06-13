@@ -1,0 +1,33 @@
+{
+  "experiment": "Goldstone Bosons v2",
+  "results": {
+    "8": {
+      "n_goldstone": 0,
+      "n_massive": 0
+    },
+    "14": {
+      "n_goldstone": 0,
+      "n_massive": 0
+    },
+    "20": {
+      "n_goldstone": 0,
+      "n_massive": 0
+    },
+    "22": {
+      "n_goldstone": 0,
+      "n_massive": 0
+    },
+    "25": {
+      "n_goldstone": 0,
+      "n_massive": 0
+    },
+    "27": {
+      "n_goldstone": 0,
+      "n_massive": 0
+    }
+  },
+  "summary": {
+    "pre_gold": 0.0,
+    "post_gold": 0.0
+  }
+}

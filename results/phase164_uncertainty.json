@@ -1,0 +1,9 @@
+{
+  "experiment": "Uncertainty Decomposition",
+  "summary": {
+    "certain_total": 2.6583468914031982,
+    "certain_epistemic_frac": 0.0,
+    "uncertain_total": 3.608934223651886,
+    "uncertain_epistemic_frac": 1.9247730922875336e-08
+  }
+}

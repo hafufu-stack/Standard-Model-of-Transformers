@@ -1,0 +1,9 @@
+{
+  "experiment": "Topological Order Detection",
+  "summary": {
+    "berry_winding": 1.8539629625323335,
+    "zero_crossings": 6,
+    "pre_berry": 0.43149258440486815,
+    "post_berry": 0.3773676447676164
+  }
+}

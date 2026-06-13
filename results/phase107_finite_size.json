@@ -1,0 +1,29 @@
+{
+  "experiment": "Finite-Size Scaling",
+  "models": {
+    "Qwen2.5-1.5B": {
+      "n_layers": 28,
+      "peak_L": 21,
+      "peak_var": 0.054677321787958956,
+      "peak_frac": 0.75
+    },
+    "Qwen2.5-0.5B": {
+      "n_layers": 24,
+      "peak_L": 9,
+      "peak_var": 0.06979793409932453,
+      "peak_frac": 0.375
+    },
+    "TinyLlama-1.1B": {
+      "n_layers": 22,
+      "peak_L": 20,
+      "peak_var": 0.04322523628252642,
+      "peak_frac": 0.9090909090909091
+    }
+  },
+  "summary": {
+    "scaling_exp": 0.4881053295944231,
+    "scaling_r2": 0.07070048016876451,
+    "mean_peak_frac": 0.6780303030303031,
+    "cv_peak_frac": 0.330223836959825
+  }
+}

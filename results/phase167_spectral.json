@@ -1,0 +1,10 @@
+{
+  "experiment": "Spectral Gap Analysis",
+  "summary": {
+    "min_gap_layer": 2,
+    "pre_gap": 0.11751241981983185,
+    "post_gap": 0.25856050848960876,
+    "pre_rank": 14.276540756225586,
+    "post_rank": 13.70096206665039
+  }
+}

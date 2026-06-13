@@ -1,0 +1,396 @@
+{
+  "experiment": "DMA Attack Surface Map",
+  "single_layer": [
+    {
+      "layer": 0,
+      "hijack_rate": 0.0,
+      "mean_prob": 3.5801215929609498e-06
+    },
+    {
+      "layer": 1,
+      "hijack_rate": 0.0,
+      "mean_prob": 3.474703844652538e-06
+    },
+    {
+      "layer": 2,
+      "hijack_rate": 0.0,
+      "mean_prob": 2.4421895457038545e-06
+    },
+    {
+      "layer": 3,
+      "hijack_rate": 0.0,
+      "mean_prob": 2.869543980210665e-06
+    },
+    {
+      "layer": 4,
+      "hijack_rate": 0.0,
+      "mean_prob": 3.640849880248709e-06
+    },
+    {
+      "layer": 5,
+      "hijack_rate": 0.0,
+      "mean_prob": 3.8567840441317e-06
+    },
+    {
+      "layer": 6,
+      "hijack_rate": 0.0,
+      "mean_prob": 3.493213704075515e-06
+    },
+    {
+      "layer": 7,
+      "hijack_rate": 0.0,
+      "mean_prob": 3.5655924603972267e-06
+    },
+    {
+      "layer": 8,
+      "hijack_rate": 0.0,
+      "mean_prob": 3.154524133464065e-06
+    },
+    {
+      "layer": 9,
+      "hijack_rate": 0.0,
+      "mean_prob": 4.1461589361802e-06
+    },
+    {
+      "layer": 10,
+      "hijack_rate": 0.0,
+      "mean_prob": 4.419422729995404e-06
+    },
+    {
+      "layer": 11,
+      "hijack_rate": 0.0,
+      "mean_prob": 4.902248448068747e-06
+    },
+    {
+      "layer": 12,
+      "hijack_rate": 0.0,
+      "mean_prob": 4.245408281366991e-06
+    },
+    {
+      "layer": 13,
+      "hijack_rate": 0.0,
+      "mean_prob": 4.8185660594946e-06
+    },
+    {
+      "layer": 14,
+      "hijack_rate": 0.0,
+      "mean_prob": 6.628925717677703e-06
+    },
+    {
+      "layer": 15,
+      "hijack_rate": 0.0,
+      "mean_prob": 6.016621556526047e-06
+    },
+    {
+      "layer": 16,
+      "hijack_rate": 0.0,
+      "mean_prob": 7.571619530466478e-06
+    },
+    {
+      "layer": 17,
+      "hijack_rate": 0.0,
+      "mean_prob": 6.2856554752244165e-06
+    },
+    {
+      "layer": 18,
+      "hijack_rate": 0.0,
+      "mean_prob": 6.951245498321157e-06
+    },
+    {
+      "layer": 19,
+      "hijack_rate": 0.0,
+      "mean_prob": 1.565957847837751e-05
+    },
+    {
+      "layer": 20,
+      "hijack_rate": 0.0,
+      "mean_prob": 2.144911161749974e-05
+    },
+    {
+      "layer": 21,
+      "hijack_rate": 0.0,
+      "mean_prob": 3.904918378694333e-05
+    },
+    {
+      "layer": 22,
+      "hijack_rate": 0.0,
+      "mean_prob": 5.215326267915543e-05
+    },
+    {
+      "layer": 23,
+      "hijack_rate": 0.0,
+      "mean_prob": 7.109030151397633e-05
+    },
+    {
+      "layer": 24,
+      "hijack_rate": 0.0,
+      "mean_prob": 7.755067544934491e-05
+    },
+    {
+      "layer": 25,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.00015150964313193072
+    },
+    {
+      "layer": 26,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.0003177821403994585
+    },
+    {
+      "layer": 27,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.00012696794187405658
+    }
+  ],
+  "window_5layer": [
+    {
+      "start": 0,
+      "end": 4,
+      "hijack_rate": 0.0,
+      "mean_prob": 1.0250412337597936e-05
+    },
+    {
+      "start": 1,
+      "end": 5,
+      "hijack_rate": 0.0,
+      "mean_prob": 8.397648070257446e-06
+    },
+    {
+      "start": 2,
+      "end": 6,
+      "hijack_rate": 0.0,
+      "mean_prob": 8.121754163425976e-06
+    },
+    {
+      "start": 3,
+      "end": 7,
+      "hijack_rate": 0.0,
+      "mean_prob": 1.1242722667503813e-05
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "hijack_rate": 0.0,
+      "mean_prob": 1.5208644850162045e-05
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "hijack_rate": 0.0,
+      "mean_prob": 2.3877190017174144e-05
+    },
+    {
+      "start": 6,
+      "end": 10,
+      "hijack_rate": 0.0,
+      "mean_prob": 2.491836678331083e-05
+    },
+    {
+      "start": 7,
+      "end": 11,
+      "hijack_rate": 0.0,
+      "mean_prob": 2.2235270662918083e-05
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "hijack_rate": 0.0,
+      "mean_prob": 2.365772745349659e-05
+    },
+    {
+      "start": 9,
+      "end": 13,
+      "hijack_rate": 0.0,
+      "mean_prob": 4.405734802048755e-05
+    },
+    {
+      "start": 10,
+      "end": 14,
+      "hijack_rate": 0.0,
+      "mean_prob": 6.708712265535155e-05
+    },
+    {
+      "start": 11,
+      "end": 15,
+      "hijack_rate": 0.0,
+      "mean_prob": 8.182191459127353e-05
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.00013779763014554192
+    },
+    {
+      "start": 13,
+      "end": 17,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.00028254920533754557
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.0006220469773552395
+    },
+    {
+      "start": 15,
+      "end": 19,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.001648162984110968
+    },
+    {
+      "start": 16,
+      "end": 20,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.0042233981785102515
+    },
+    {
+      "start": 17,
+      "end": 21,
+      "hijack_rate": 0.0,
+      "mean_prob": 0.01991498880306608
+    },
+    {
+      "start": 18,
+      "end": 22,
+      "hijack_rate": 0.25,
+      "mean_prob": 0.11305297167564277
+    },
+    {
+      "start": 19,
+      "end": 23,
+      "hijack_rate": 0.5,
+      "mean_prob": 0.23756180854979903
+    },
+    {
+      "start": 20,
+      "end": 24,
+      "hijack_rate": 0.5,
+      "mean_prob": 0.2909725747304037
+    },
+    {
+      "start": 21,
+      "end": 25,
+      "hijack_rate": 0.5,
+      "mean_prob": 0.33557717519579455
+    },
+    {
+      "start": 22,
+      "end": 26,
+      "hijack_rate": 0.5,
+      "mean_prob": 0.4027156616211869
+    },
+    {
+      "start": 23,
+      "end": 27,
+      "hijack_rate": 0.5,
+      "mean_prob": 0.5244380701333284
+    }
+  ],
+  "strategic": [
+    {
+      "name": "early",
+      "layers": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "hijack_rate": 0.0,
+      "mean_prob": 1.0250412337597936e-05
+    },
+    {
+      "name": "early-mid",
+      "layers": [
+        3,
+        6,
+        9,
+        12,
+        15
+      ],
+      "hijack_rate": 0.0,
+      "mean_prob": 3.232605786251952e-05
+    },
+    {
+      "name": "mid",
+      "layers": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "hijack_rate": 0.0,
+      "mean_prob": 6.708712265535155e-05
+    },
+    {
+      "name": "mid-late",
+      "layers": [
+        13,
+        16,
+        19,
+        22,
+        25
+      ],
+      "hijack_rate": 0.0,
+      "mean_prob": 0.031934883741087106
+    },
+    {
+      "name": "late",
+      "layers": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "hijack_rate": 0.5,
+      "mean_prob": 0.5244380701333284
+    },
+    {
+      "name": "spread",
+      "layers": [
+        0,
+        7,
+        14,
+        21,
+        27
+      ],
+      "hijack_rate": 0.0,
+      "mean_prob": 0.009659527167968918
+    },
+    {
+      "name": "every3rd",
+      "layers": [
+        3,
+        6,
+        9,
+        12,
+        15
+      ],
+      "hijack_rate": 0.0,
+      "mean_prob": 3.232605786251952e-05
+    },
+    {
+      "name": "last5",
+      "layers": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "hijack_rate": 0.5,
+      "mean_prob": 0.5244380701333284
+    }
+  ],
+  "summary": {
+    "most_vulnerable_layer": 26,
+    "best_window": "L23-27",
+    "best_window_rate": 0.5,
+    "best_strategy": "late",
+    "best_strategy_rate": 0.5
+  }
+}

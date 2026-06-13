@@ -1,0 +1,9 @@
+{
+  "experiment": "Attention Entropy Phase Transition",
+  "summary": {
+    "pre_entropy": 0.13252209605615697,
+    "post_entropy": 0.08973522337934506,
+    "change_pct": -32.286595154965056,
+    "min_entropy_layer": 25
+  }
+}

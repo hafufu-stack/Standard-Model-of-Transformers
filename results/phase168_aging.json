@@ -1,0 +1,9 @@
+{
+  "experiment": "Thermodynamic Aging",
+  "summary": {
+    "early_S": 3.676179051399231,
+    "late_S": 1.6386121362447739,
+    "slope_S": -0.0483342413789798,
+    "slope_eta": 0.0016475491877025405
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "Four Laws of Transformer Thermodynamics",
+  "summary": {
+    "zeroth_law": true,
+    "first_law_r": -0.12596331362162713,
+    "second_law_violations": 14,
+    "second_law_violation_layers": [
+      2,
+      5,
+      7,
+      11,
+      12,
+      13,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25
+    ],
+    "third_law_S_min": 1.2992105533679326,
+    "third_law_holds": true
+  }
+}
