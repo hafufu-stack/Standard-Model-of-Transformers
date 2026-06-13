@@ -1,0 +1,12 @@
+{
+  "name": "Phase 38: Thermodynamic Beam Reranking",
+  "summary": {
+    "verdict": "Greedy: 88%, Thermo rerank: 75% (-12%), Likelihood rerank: 62%. Thermodynamic stability does not correlate with factual accuracy.",
+    "accuracy": {
+      "greedy": 0.875,
+      "thermo_rerank": 0.75,
+      "likelihood_rerank": 0.625
+    },
+    "improvement_over_greedy": -12.5
+  }
+}

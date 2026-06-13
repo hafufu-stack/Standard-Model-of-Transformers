@@ -1,0 +1,55 @@
+{
+  "experiment": "Deep Space Anti-Lensing",
+  "results": [
+    {
+      "position": "beginning",
+      "pos_idx": 2,
+      "total_tokens": 3918,
+      "needle_found_in_context": false,
+      "baseline": null,
+      "stealth": null,
+      "loud": null
+    },
+    {
+      "position": "early_quarter",
+      "pos_idx": 26,
+      "total_tokens": 3918,
+      "needle_found_in_context": false,
+      "baseline": null,
+      "stealth": null,
+      "loud": null
+    },
+    {
+      "position": "middle",
+      "pos_idx": 52,
+      "total_tokens": 3918,
+      "needle_found_in_context": false,
+      "baseline": null,
+      "stealth": null,
+      "loud": null
+    },
+    {
+      "position": "late_quarter",
+      "pos_idx": 78,
+      "total_tokens": 3918,
+      "needle_found_in_context": false,
+      "baseline": null,
+      "stealth": null,
+      "loud": null
+    },
+    {
+      "position": "end",
+      "pos_idx": 103,
+      "total_tokens": 3918,
+      "needle_found_in_context": false,
+      "baseline": null,
+      "stealth": null,
+      "loud": null
+    }
+  ],
+  "summary": {
+    "baseline_top1_rate": 0.0,
+    "stealth_top1_rate": 0.0,
+    "loud_top1_rate": 0.0
+  }
+}

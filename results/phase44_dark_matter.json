@@ -1,0 +1,381 @@
+{
+  "experiment": "Dark Matter Activation",
+  "dormancy_profile": {
+    "0": {
+      "total": 1536,
+      "dormant": 34,
+      "pct": 2.213541666666667,
+      "mean_abs": 0.25154346227645874
+    },
+    "1": {
+      "total": 1536,
+      "dormant": 62,
+      "pct": 4.036458333333334,
+      "mean_abs": 0.18805615603923798
+    },
+    "2": {
+      "total": 1536,
+      "dormant": 48,
+      "pct": 3.125,
+      "mean_abs": 0.23652838170528412
+    },
+    "3": {
+      "total": 1536,
+      "dormant": 36,
+      "pct": 2.34375,
+      "mean_abs": 0.2742655575275421
+    },
+    "4": {
+      "total": 1536,
+      "dormant": 27,
+      "pct": 1.7578125,
+      "mean_abs": 0.4927654266357422
+    },
+    "5": {
+      "total": 1536,
+      "dormant": 38,
+      "pct": 2.473958333333333,
+      "mean_abs": 0.3313824236392975
+    },
+    "6": {
+      "total": 1536,
+      "dormant": 17,
+      "pct": 1.1067708333333335,
+      "mean_abs": 0.4111332595348358
+    },
+    "7": {
+      "total": 1536,
+      "dormant": 25,
+      "pct": 1.6276041666666667,
+      "mean_abs": 0.3748294413089752
+    },
+    "8": {
+      "total": 1536,
+      "dormant": 20,
+      "pct": 1.3020833333333335,
+      "mean_abs": 0.38127401471138
+    },
+    "9": {
+      "total": 1536,
+      "dormant": 22,
+      "pct": 1.4322916666666665,
+      "mean_abs": 0.39045488834381104
+    },
+    "10": {
+      "total": 1536,
+      "dormant": 18,
+      "pct": 1.171875,
+      "mean_abs": 0.4118971824645996
+    },
+    "11": {
+      "total": 1536,
+      "dormant": 29,
+      "pct": 1.8880208333333333,
+      "mean_abs": 0.34051012992858887
+    },
+    "12": {
+      "total": 1536,
+      "dormant": 35,
+      "pct": 2.278645833333333,
+      "mean_abs": 0.31562376022338867
+    },
+    "13": {
+      "total": 1536,
+      "dormant": 32,
+      "pct": 2.083333333333333,
+      "mean_abs": 0.2991238832473755
+    },
+    "14": {
+      "total": 1536,
+      "dormant": 47,
+      "pct": 3.059895833333333,
+      "mean_abs": 0.32019099593162537
+    },
+    "15": {
+      "total": 1536,
+      "dormant": 39,
+      "pct": 2.5390625,
+      "mean_abs": 0.3228166401386261
+    },
+    "16": {
+      "total": 1536,
+      "dormant": 18,
+      "pct": 1.171875,
+      "mean_abs": 0.3656521141529083
+    },
+    "17": {
+      "total": 1536,
+      "dormant": 24,
+      "pct": 1.5625,
+      "mean_abs": 0.40395164489746094
+    },
+    "18": {
+      "total": 1536,
+      "dormant": 16,
+      "pct": 1.0416666666666665,
+      "mean_abs": 0.43843981623649597
+    },
+    "19": {
+      "total": 1536,
+      "dormant": 16,
+      "pct": 1.0416666666666665,
+      "mean_abs": 0.5249512195587158
+    },
+    "20": {
+      "total": 1536,
+      "dormant": 15,
+      "pct": 0.9765625,
+      "mean_abs": 0.5859870314598083
+    },
+    "21": {
+      "total": 1536,
+      "dormant": 15,
+      "pct": 0.9765625,
+      "mean_abs": 0.8332205414772034
+    },
+    "22": {
+      "total": 1536,
+      "dormant": 10,
+      "pct": 0.6510416666666667,
+      "mean_abs": 0.9972519278526306
+    },
+    "23": {
+      "total": 1536,
+      "dormant": 20,
+      "pct": 1.3020833333333335,
+      "mean_abs": 0.8710801005363464
+    },
+    "24": {
+      "total": 1536,
+      "dormant": 13,
+      "pct": 0.8463541666666666,
+      "mean_abs": 1.0115598440170288
+    },
+    "25": {
+      "total": 1536,
+      "dormant": 10,
+      "pct": 0.6510416666666667,
+      "mean_abs": 1.0034908056259155
+    },
+    "26": {
+      "total": 1536,
+      "dormant": 4,
+      "pct": 0.26041666666666663,
+      "mean_abs": 1.3402099609375
+    },
+    "27": {
+      "total": 1536,
+      "dormant": 8,
+      "pct": 0.5208333333333333,
+      "mean_abs": 2.184690237045288
+    }
+  },
+  "results": [
+    {
+      "category": "syllogism",
+      "prompt": "If all roses are flowers, and all flowers need water, then a",
+      "expected": "water",
+      "boost": 0.0,
+      "generated": " need water.  Given the above question, answer the following question:   If all roses are flowers",
+      "correct": true
+    },
+    {
+      "category": "syllogism",
+      "prompt": "If all roses are flowers, and all flowers need water, then a",
+      "expected": "water",
+      "boost": 0.5,
+      "generated": " need water.  Given the above question, answer the following question:   If all roses are flowers",
+      "correct": true
+    },
+    {
+      "category": "syllogism",
+      "prompt": "If all roses are flowers, and all flowers need water, then a",
+      "expected": "water",
+      "boost": 1.0,
+      "generated": " need water.  Given the above question, answer the following question.  If \"A man is",
+      "correct": true
+    },
+    {
+      "category": "syllogism",
+      "prompt": "If all roses are flowers, and all flowers need water, then a",
+      "expected": "water",
+      "boost": 2.0,
+      "generated": " need water.  Given the above question, answer the following question:   If all roses are flowers",
+      "correct": true
+    },
+    {
+      "category": "syllogism",
+      "prompt": "If all roses are flowers, and all flowers need water, then a",
+      "expected": "water",
+      "boost": 5.0,
+      "generated": " need water.  If the above is true, which of the following must be true?\nA:",
+      "correct": true
+    },
+    {
+      "category": "pattern",
+      "prompt": "The sequence 2, 4, 8, 16, 32 follows a pattern. The next num",
+      "expected": "64",
+      "boost": 0.0,
+      "generated": " 64. What is the pattern?\nThe pattern in the sequence is that each number is double",
+      "correct": true
+    },
+    {
+      "category": "pattern",
+      "prompt": "The sequence 2, 4, 8, 16, 32 follows a pattern. The next num",
+      "expected": "64",
+      "boost": 0.5,
+      "generated": " 64. What is the pattern?\nThe pattern in the sequence is that each number is double",
+      "correct": true
+    },
+    {
+      "category": "pattern",
+      "prompt": "The sequence 2, 4, 8, 16, 32 follows a pattern. The next num",
+      "expected": "64",
+      "boost": 1.0,
+      "generated": " 64. What is the pattern?\nThe pattern in the sequence is that each number is double",
+      "correct": true
+    },
+    {
+      "category": "pattern",
+      "prompt": "The sequence 2, 4, 8, 16, 32 follows a pattern. The next num",
+      "expected": "64",
+      "boost": 2.0,
+      "generated": " 64. What is the pattern?\nThe pattern in the sequence is that each number is obtained",
+      "correct": true
+    },
+    {
+      "category": "pattern",
+      "prompt": "The sequence 2, 4, 8, 16, 32 follows a pattern. The next num",
+      "expected": "64",
+      "boost": 5.0,
+      "generated": " 64. What is the pattern, and what is the 6th number in the sequence",
+      "correct": true
+    },
+    {
+      "category": "logic",
+      "prompt": "If it takes 5 machines 5 minutes to make 5 widgets, how many",
+      "expected": "5",
+      "boost": 0.0,
+      "generated": " 5. What is the reasoning behind this?\nTo determine how many minutes it would take 1",
+      "correct": true
+    },
+    {
+      "category": "logic",
+      "prompt": "If it takes 5 machines 5 minutes to make 5 widgets, how many",
+      "expected": "5",
+      "boost": 0.5,
+      "generated": " 5. What is the logic behind this?\nThe logic behind this is that the number of widgets",
+      "correct": true
+    },
+    {
+      "category": "logic",
+      "prompt": "If it takes 5 machines 5 minutes to make 5 widgets, how many",
+      "expected": "5",
+      "boost": 1.0,
+      "generated": " 5. What is the relationship between the number of machines, the time taken, and the number",
+      "correct": true
+    },
+    {
+      "category": "logic",
+      "prompt": "If it takes 5 machines 5 minutes to make 5 widgets, how many",
+      "expected": "5",
+      "boost": 2.0,
+      "generated": " 5 minutes. What is the logic behind this?\nThe logic behind this is that the number of",
+      "correct": true
+    },
+    {
+      "category": "logic",
+      "prompt": "If it takes 5 machines 5 minutes to make 5 widgets, how many",
+      "expected": "5",
+      "boost": 5.0,
+      "generated": " 100. What is the logic behind this?\nTo solve this problem, we need to",
+      "correct": false
+    },
+    {
+      "category": "trick",
+      "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 mo",
+      "expected": "0.05",
+      "boost": 0.0,
+      "generated": " how much?\nLet's denote the cost of the ball as \\( B \\) dollars. According to",
+      "correct": false
+    },
+    {
+      "category": "trick",
+      "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 mo",
+      "expected": "0.05",
+      "boost": 0.5,
+      "generated": " how much?\nLet's denote the cost of the ball as \\( B \\) dollars. According to",
+      "correct": false
+    },
+    {
+      "category": "trick",
+      "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 mo",
+      "expected": "0.05",
+      "boost": 1.0,
+      "generated": " how much?\nLet's denote the cost of the ball as \\( B \\) dollars. According to",
+      "correct": false
+    },
+    {
+      "category": "trick",
+      "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 mo",
+      "expected": "0.05",
+      "boost": 2.0,
+      "generated": " how much?\nLet's denote the cost of the ball as \\( B \\) dollars. According to",
+      "correct": false
+    },
+    {
+      "category": "trick",
+      "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 mo",
+      "expected": "0.05",
+      "boost": 5.0,
+      "generated": " how much?\nTo determine the cost of the ball, we can set up a system of equations based",
+      "correct": false
+    },
+    {
+      "category": "anagram",
+      "prompt": "If you rearrange the letters 'CIFAIPC', you get the name of ",
+      "expected": "ocean",
+      "boost": 0.0,
+      "generated": " famous person. Who is it?\nThe rearranged letters 'CIFAIPC' form the name of",
+      "correct": false
+    },
+    {
+      "category": "anagram",
+      "prompt": "If you rearrange the letters 'CIFAIPC', you get the name of ",
+      "expected": "ocean",
+      "boost": 0.5,
+      "generated": " famous person. Who is it?\nThe rearranged letters 'CIFAIPC' form the name of",
+      "correct": false
+    },
+    {
+      "category": "anagram",
+      "prompt": "If you rearrange the letters 'CIFAIPC', you get the name of ",
+      "expected": "ocean",
+      "boost": 1.0,
+      "generated": " famous scientist. Who is he?\nThe rearranged letters 'CIFAIPC' form the name of",
+      "correct": false
+    },
+    {
+      "category": "anagram",
+      "prompt": "If you rearrange the letters 'CIFAIPC', you get the name of ",
+      "expected": "ocean",
+      "boost": 2.0,
+      "generated": " famous American inventor. What is his name?\nThe name you get by rearranging the letters 'C",
+      "correct": false
+    },
+    {
+      "category": "anagram",
+      "prompt": "If you rearrange the letters 'CIFAIPC', you get the name of ",
+      "expected": "ocean",
+      "boost": 5.0,
+      "generated": " famous person. What is the name of this person?\nThe name rearranged from 'CIFAIPC",
+      "correct": false
+    }
+  ],
+  "summary": {
+    "baseline_accuracy": 60.0,
+    "best_boost": 0.0,
+    "best_accuracy": 60.0,
+    "improvement": 0.0
+  }
+}

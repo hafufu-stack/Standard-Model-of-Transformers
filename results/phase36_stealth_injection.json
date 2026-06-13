@@ -1,0 +1,235 @@
+{
+  "name": "Phase 36: Stealth Injection via Anti-Lensing",
+  "summary": {
+    "verdict": "Stealth (low-norm) advantage: 0.80x vs baseline. Loud (high-norm) advantage: nanx. Anti-lensing not confirmed: light tokens are captured more effectively by attention gravity.",
+    "mean_stealth_advantage": 0.8009756097560976,
+    "mean_loud_advantage": NaN
+  },
+  "all_results": [
+    {
+      "strategy": "baseline",
+      "position": "beginning",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.0002199411392211914,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "the",
+        "("
+      ]
+    },
+    {
+      "strategy": "baseline",
+      "position": "early_middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.00019431114196777344,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "____"
+      ]
+    },
+    {
+      "strategy": "baseline",
+      "position": "middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.0001544952392578125,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "("
+      ]
+    },
+    {
+      "strategy": "baseline",
+      "position": "late_middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.0001571178436279297,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "the"
+      ]
+    },
+    {
+      "strategy": "baseline",
+      "position": "end",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.00017511844635009766,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "an",
+        "a",
+        "__",
+        "the"
+      ]
+    },
+    {
+      "strategy": "stealth",
+      "position": "beginning",
+      "found_top1": false,
+      "found_top10": false,
+      "passkey_prob": 1.0728836059570312e-06,
+      "top1": "the",
+      "top10": [
+        "the",
+        "a",
+        "not",
+        "actually",
+        "also"
+      ]
+    },
+    {
+      "strategy": "stealth",
+      "position": "early_middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.00019431114196777344,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "____"
+      ]
+    },
+    {
+      "strategy": "stealth",
+      "position": "middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.0001544952392578125,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "("
+      ]
+    },
+    {
+      "strategy": "stealth",
+      "position": "late_middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.0001571178436279297,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "the"
+      ]
+    },
+    {
+      "strategy": "stealth",
+      "position": "end",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.00017511844635009766,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "an",
+        "a",
+        "__",
+        "the"
+      ]
+    },
+    {
+      "strategy": "loud",
+      "position": "beginning",
+      "found_top1": false,
+      "found_top10": false,
+      "passkey_prob": NaN,
+      "top1": "(",
+      "top10": [
+        "(",
+        "'",
+        "%",
+        "&",
+        "\""
+      ]
+    },
+    {
+      "strategy": "loud",
+      "position": "early_middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.00019431114196777344,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "____"
+      ]
+    },
+    {
+      "strategy": "loud",
+      "position": "middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.0001544952392578125,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "("
+      ]
+    },
+    {
+      "strategy": "loud",
+      "position": "late_middle",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.0001571178436279297,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "a",
+        "an",
+        "__",
+        "the"
+      ]
+    },
+    {
+      "strategy": "loud",
+      "position": "end",
+      "found_top1": true,
+      "found_top10": true,
+      "passkey_prob": 0.00017511844635009766,
+      "top1": "elephant",
+      "top10": [
+        "elephant",
+        "an",
+        "a",
+        "__",
+        "the"
+      ]
+    }
+  ]
+}

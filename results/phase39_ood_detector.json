@@ -1,0 +1,36 @@
+{
+  "name": "Phase 39: Conservation Law as OOD Detector",
+  "summary": {
+    "verdict": "Conservation violation separates ID from OOD by 1.62x. ID mean CV=0.587, OOD mean CV=0.950. ROC AUC=0.832. VIABLE as OOD detector.",
+    "auc": 0.8320312499843995,
+    "id_mean_cv": 0.5874454777993696,
+    "ood_mean_cv": 0.9499485650969534,
+    "separation": 1.6170837989830966,
+    "category_stats": {
+      "english_factual": {
+        "mean_cv": 0.5170612754518271,
+        "mean_prt": 19.41480546674773
+      },
+      "english_creative": {
+        "mean_cv": 0.657829680146912,
+        "mean_prt": 20.96354426708814
+      },
+      "code": {
+        "mean_cv": 1.1654925297821483,
+        "mean_prt": 202.30037124822087
+      },
+      "random_tokens": {
+        "mean_cv": 0.8497591123287467,
+        "mean_prt": 409.6223275903216
+      },
+      "repeated": {
+        "mean_cv": 0.9475066389393645,
+        "mean_prt": 160.35020823238358
+      },
+      "adversarial": {
+        "mean_cv": 0.8370359793375541,
+        "mean_prt": 32.998028834055326
+      }
+    }
+  }
+}

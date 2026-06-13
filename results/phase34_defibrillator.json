@@ -1,0 +1,13 @@
+{
+  "name": "Phase 34: Thermodynamic Defibrillator",
+  "summary": {
+    "verdict": "Defibrillator reduces ambiguous PRT variance by 0%. Normal=36, Defib=36. Factual impact: 19->17.",
+    "normal_ambig_std": 36.25416082667246,
+    "defib_ambig_std": 36.25416082667246,
+    "normal_factual_std": 18.813079978521703,
+    "defib_factual_std": 16.548206651073237,
+    "variance_reduction_pct": 2.7583491046812014e-10,
+    "beta_c": 0.57,
+    "threshold": "adaptive (mean+1.5*std of calibration)"
+  }
+}
