@@ -59,13 +59,13 @@ def main():
         else:
             eta_carnot = 0
 
-        # Actual efficiency: how much entropy was removed
-        T_initial = T_profile[0] if T_profile[0] > 0 else T_profile[1]
-        T_final = T_profile[-1]
-        if T_initial > 0:
-            eta_actual = (T_initial - T_final) / T_initial
+        # Actual efficiency: how much entropy was removed from hot to cold
+        if T_hot > 0.1:
+            eta_actual = (T_hot - T_cold) / T_hot
         else:
             eta_actual = 0
+        # Clamp to reasonable range
+        eta_actual = float(np.clip(eta_actual, -1.0, 1.0))
 
         # Energy efficiency: U_final / U_total_invested
         U_total = sum(abs(U_profile[i+1] - U_profile[i]) for i in range(len(U_profile)-1))
