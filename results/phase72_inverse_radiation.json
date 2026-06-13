@@ -1,0 +1,22 @@
+{
+  "experiment": "Inverse Radiation Law",
+  "per_model": {
+    "Qwen2.5-1.5B": {
+      "slope": -0.9441261788512381,
+      "r_squared": 0.6387744943623056
+    },
+    "Qwen2.5-0.5B": {
+      "slope": -1.4008436918993399,
+      "r_squared": 0.6371145328000171
+    },
+    "TinyLlama-1.1B": {
+      "slope": -1.9735250890641025,
+      "r_squared": 0.6024997573670697
+    }
+  },
+  "summary": {
+    "mean_exponent": -1.4394983199382267,
+    "std_exponent": 0.42113827047536834,
+    "is_universal": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "experiment": "OOD Blocker Robustness",
+  "aucs": {
+    "vel_std": 0.8933333333333333,
+    "vel_max": 0.8888888888888888,
+    "acc_std": 0.8933333333333333,
+    "prt_std": 0.8711111111111112,
+    "prt_range": 0.8888888888888888,
+    "spikes": 0.5311111111111111,
+    "combined": 0.8800000000000001
+  },
+  "summary": {
+    "n_samples": 30,
+    "best_feature": "vel_std",
+    "best_auc": 0.8933333333333333,
+    "pr_auc": 0.9024667477918251
+  }
+}

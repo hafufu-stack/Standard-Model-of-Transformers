@@ -1,0 +1,18 @@
+{
+  "experiment": "Information Concentration Law",
+  "per_model": {
+    "Qwen2.5-1.5B": {
+      "slope_F": 7.817846128918667,
+      "F_ratio": 191.2528802205555
+    },
+    "Qwen2.5-0.5B": {
+      "slope_F": 5.2362635824097055,
+      "F_ratio": 630.4493104602036
+    }
+  },
+  "summary": {
+    "mean_slope": 6.527054855664186,
+    "mean_ratio": 410.8510953403796,
+    "law": "LLMs are information refrigerators (F increases)"
+  }
+}
