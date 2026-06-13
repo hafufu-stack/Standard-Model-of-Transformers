@@ -1,0 +1,9 @@
+{
+  "experiment": "Clausius Inequality",
+  "summary": {
+    "pct_irreversible": 50.89285714285714,
+    "mean_irreversibility": -0.3942399436559307,
+    "dQ_dS_correlation": -0.376688760251666,
+    "mean_cos_sim": 0.8835635958516616
+  }
+}
