@@ -125,7 +125,3 @@ python figures/generate_paper_figures_v3.py
 This research was conducted entirely independently, without institutional affiliation or corporate funding. The author currently faces financial constraints that make it increasingly difficult to maintain subscriptions to AI services essential for this line of research. To sustain and improve the quality of future work, the author is actively seeking community sponsorship.
 
 💖 **[Sponsor this research](https://github.com/sponsors/hafufu-stack)**
-
-## License
-
-This project is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
