@@ -1,0 +1,11 @@
+{
+  "experiment": "Newton's Law of Attention",
+  "overall_k": 0.04832219048009917,
+  "overall_r2": 0.897565635464162,
+  "pct_positive_k": 97.61904761904762,
+  "summary": {
+    "is_power_law": true,
+    "mean_k": 0.04832219048009917,
+    "mean_r2": 0.897565635464162
+  }
+}

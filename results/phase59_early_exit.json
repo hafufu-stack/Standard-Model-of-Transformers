@@ -1,0 +1,9 @@
+{
+  "experiment": "Thermodynamic Early-Exit",
+  "summary": {
+    "mean_flops_saved": 59.52380952380952,
+    "accuracy": 16.666666666666664,
+    "mean_exit_layer": 11.333333333333334,
+    "n_layers": 28
+  }
+}

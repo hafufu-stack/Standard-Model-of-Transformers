@@ -1,0 +1,388 @@
+{
+  "experiment": "Anti-Lensing v3",
+  "results": [
+    {
+      "question": "What is the capital of Japan?",
+      "mode": "baseline",
+      "needle_pos": 0,
+      "answer_in_top5": true,
+      "answer_rank": 1,
+      "top5_tokens": [
+        " The",
+        " Tokyo",
+        " Japan",
+        " China",
+        " "
+      ],
+      "top5_probs": [
+        0.3441582918167114,
+        0.1651289463043213,
+        0.05445375293493271,
+        0.033547982573509216,
+        0.027812255546450615
+      ]
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "mode": "anti_lens",
+      "needle_pos": 0,
+      "answer_in_top5": true,
+      "answer_rank": 0,
+      "top5_tokens": [
+        " Tokyo",
+        " The",
+        " Japan",
+        " A",
+        " the"
+      ],
+      "top5_probs": [
+        0.6607266664505005,
+        0.13423477113246918,
+        0.02948746457695961,
+        0.01918785832822323,
+        0.018743373453617096
+      ]
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "mode": "baseline",
+      "needle_pos": 2,
+      "answer_in_top5": false,
+      "answer_rank": -1,
+      "top5_tokens": [
+        " The",
+        " Japan",
+        " China",
+        " Germany",
+        " Mount"
+      ],
+      "top5_probs": [
+        0.4059901833534241,
+        0.04925219714641571,
+        0.04699677601456642,
+        0.040198471397161484,
+        0.03717750683426857
+      ]
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "mode": "anti_lens",
+      "needle_pos": 2,
+      "answer_in_top5": false,
+      "answer_rank": -1,
+      "top5_tokens": [
+        " The",
+        " Japan",
+        " China",
+        " Germany",
+        " Mount"
+      ],
+      "top5_probs": [
+        0.4059901833534241,
+        0.04925219714641571,
+        0.04699677601456642,
+        0.040198471397161484,
+        0.03717750683426857
+      ]
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "mode": "baseline",
+      "needle_pos": 4,
+      "answer_in_top5": false,
+      "answer_rank": -1,
+      "top5_tokens": [
+        " The",
+        " Japan",
+        " China",
+        " ",
+        " Mount"
+      ],
+      "top5_probs": [
+        0.36952656507492065,
+        0.055790167301893234,
+        0.05079752579331398,
+        0.040816958993673325,
+        0.03834398835897446
+      ]
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "mode": "anti_lens",
+      "needle_pos": 4,
+      "answer_in_top5": false,
+      "answer_rank": -1,
+      "top5_tokens": [
+        " The",
+        " Japan",
+        " China",
+        " ",
+        " Mount"
+      ],
+      "top5_probs": [
+        0.36952656507492065,
+        0.055790167301893234,
+        0.05079752579331398,
+        0.040816958993673325,
+        0.03834398835897446
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "mode": "baseline",
+      "needle_pos": 0,
+      "answer_in_top5": true,
+      "answer_rank": 3,
+      "top5_tokens": [
+        " The",
+        " Gold",
+        " What",
+        " Au",
+        "<|endoftext|>"
+      ],
+      "top5_probs": [
+        0.43671533465385437,
+        0.09444631636142731,
+        0.039371080696582794,
+        0.031145088374614716,
+        0.02925810217857361
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "mode": "anti_lens",
+      "needle_pos": 0,
+      "answer_in_top5": true,
+      "answer_rank": 0,
+      "top5_tokens": [
+        " Au",
+        " A",
+        " Ag",
+        " ",
+        " ("
+      ],
+      "top5_probs": [
+        0.7410034537315369,
+        0.05803987383842468,
+        0.035202961415052414,
+        0.014002771116793156,
+        0.010085818357765675
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "mode": "baseline",
+      "needle_pos": 2,
+      "answer_in_top5": false,
+      "answer_rank": -1,
+      "top5_tokens": [
+        " The",
+        " Gold",
+        " To",
+        " Chemical",
+        " Platinum"
+      ],
+      "top5_probs": [
+        0.44909000396728516,
+        0.09712252765893936,
+        0.02826426737010479,
+        0.024556420743465424,
+        0.0230686217546463
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "mode": "anti_lens",
+      "needle_pos": 2,
+      "answer_in_top5": false,
+      "answer_rank": -1,
+      "top5_tokens": [
+        " The",
+        " Gold",
+        " To",
+        " Chemical",
+        " Platinum"
+      ],
+      "top5_probs": [
+        0.44909000396728516,
+        0.09712252765893936,
+        0.02826426737010479,
+        0.024556420743465424,
+        0.0230686217546463
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "mode": "baseline",
+      "needle_pos": 4,
+      "answer_in_top5": true,
+      "answer_rank": 1,
+      "top5_tokens": [
+        " The",
+        " Au",
+        " Gold",
+        " To",
+        " What"
+      ],
+      "top5_probs": [
+        0.44152259826660156,
+        0.10324494540691376,
+        0.07095914334058762,
+        0.028670085594058037,
+        0.026515493169426918
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "mode": "anti_lens",
+      "needle_pos": 4,
+      "answer_in_top5": true,
+      "answer_rank": 1,
+      "top5_tokens": [
+        " The",
+        " Au",
+        " Gold",
+        " To",
+        " What"
+      ],
+      "top5_probs": [
+        0.44152259826660156,
+        0.10324494540691376,
+        0.07095914334058762,
+        0.028670085594058037,
+        0.026515493169426918
+      ]
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "mode": "baseline",
+      "needle_pos": 0,
+      "answer_in_top5": true,
+      "answer_rank": 0,
+      "top5_tokens": [
+        " William",
+        " Romeo",
+        " The",
+        " Shakespeare",
+        " Who"
+      ],
+      "top5_probs": [
+        0.24413847923278809,
+        0.16010992228984833,
+        0.07104834914207458,
+        0.06269995123147964,
+        0.04111963137984276
+      ]
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "mode": "anti_lens",
+      "needle_pos": 0,
+      "answer_in_top5": true,
+      "answer_rank": 0,
+      "top5_tokens": [
+        " William",
+        " Romeo",
+        " The",
+        " A",
+        " Question"
+      ],
+      "top5_probs": [
+        0.2252214550971985,
+        0.0953647643327713,
+        0.06402487307786942,
+        0.04986261948943138,
+        0.04720897972583771
+      ]
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "mode": "baseline",
+      "needle_pos": 2,
+      "answer_in_top5": true,
+      "answer_rank": 0,
+      "top5_tokens": [
+        " William",
+        " Mark",
+        " The",
+        " Who",
+        " Leo"
+      ],
+      "top5_probs": [
+        0.1293998509645462,
+        0.10727625340223312,
+        0.07726818323135376,
+        0.06926275044679642,
+        0.06713175773620605
+      ]
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "mode": "anti_lens",
+      "needle_pos": 2,
+      "answer_in_top5": true,
+      "answer_rank": 0,
+      "top5_tokens": [
+        " William",
+        " Mark",
+        " The",
+        " Who",
+        " Leo"
+      ],
+      "top5_probs": [
+        0.1293998509645462,
+        0.10727625340223312,
+        0.07726818323135376,
+        0.06926275044679642,
+        0.06713175773620605
+      ]
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "mode": "baseline",
+      "needle_pos": 4,
+      "answer_in_top5": true,
+      "answer_rank": 1,
+      "top5_tokens": [
+        " Romeo",
+        " William",
+        " The",
+        " Who",
+        " Mark"
+      ],
+      "top5_probs": [
+        0.1103234514594078,
+        0.10203251242637634,
+        0.0845879316329956,
+        0.06796830892562866,
+        0.04187406226992607
+      ]
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "mode": "anti_lens",
+      "needle_pos": 4,
+      "answer_in_top5": true,
+      "answer_rank": 1,
+      "top5_tokens": [
+        " Romeo",
+        " William",
+        " The",
+        " Who",
+        " Mark"
+      ],
+      "top5_probs": [
+        0.1103234514594078,
+        0.10203251242637634,
+        0.0845879316329956,
+        0.06796830892562866,
+        0.04187406226992607
+      ]
+    }
+  ],
+  "summary": {
+    "baseline_correct": 6,
+    "anti_lens_correct": 6,
+    "total_per_mode": 9
+  }
+}

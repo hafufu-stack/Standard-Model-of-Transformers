@@ -1,0 +1,14 @@
+{
+  "experiment": "True Free Energy",
+  "F_true_slope": 7.421692326208261,
+  "F_true_r": 0.8401250763404514,
+  "F_true_p": 1.1976251906920559e-08,
+  "F_old_slope": 7.399064807255736,
+  "pct_decreasing": 21.428571428571427,
+  "F_min_layer": 0,
+  "summary": {
+    "is_decreasing": false,
+    "slope_new": 7.421692326208261,
+    "slope_old": 7.399064807255736
+  }
+}

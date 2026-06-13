@@ -1,0 +1,50 @@
+{
+  "experiment": "Dark Energy Pruning at Scale",
+  "results": [
+    {
+      "beta": 0.0,
+      "accuracy": 100.0,
+      "correct": 12,
+      "total": 12,
+      "prune_pct": 0.0,
+      "flops_saved": 0.0
+    },
+    {
+      "beta": 0.3,
+      "accuracy": 91.66666666666666,
+      "correct": 11,
+      "total": 12,
+      "prune_pct": 46.6744168888293,
+      "flops_saved": 46.6744168888293
+    },
+    {
+      "beta": 0.57,
+      "accuracy": 41.66666666666667,
+      "correct": 5,
+      "total": 12,
+      "prune_pct": 76.59016679727077,
+      "flops_saved": 76.59016679727077
+    },
+    {
+      "beta": 0.7,
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 12,
+      "prune_pct": 85.04414714013778,
+      "flops_saved": 85.04414714013778
+    },
+    {
+      "beta": 0.85,
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 12,
+      "prune_pct": 91.11140854131415,
+      "flops_saved": 91.11140854131415
+    }
+  ],
+  "summary": {
+    "baseline_acc": 100.0,
+    "bc_acc": 41.66666666666667,
+    "bc_prune_pct": 76.59016679727077
+  }
+}
