@@ -1,0 +1,13 @@
+{
+  "experiment": "Free Energy Landscape",
+  "F_slope": 7.399064807255736,
+  "F_r": 0.8267626839854456,
+  "F_p": 3.2548517051088035e-08,
+  "F_min_layer": 0,
+  "pct_decreasing": 21.428571428571427,
+  "summary": {
+    "is_decreasing": false,
+    "slope": 7.399064807255736,
+    "p_value": 3.2548517051088035e-08
+  }
+}
