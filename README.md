@@ -35,7 +35,7 @@ Through **84 experiments** across **three architectures** (Qwen2.5-1.5B, Qwen2.5
 The paper includes **12 publication-quality figures**. These can be regenerated from the data:
 
 ```bash
-python generate_paper_figures.py
+python figures/generate_paper_figures.py
 ```
 
 ## Repository Structure
@@ -51,9 +51,10 @@ Standard-Model-of-Transformers/
 │   └── ...
 ├── results/                  # JSON result files
 ├── figures/
+│   ├── generate_paper_figures.py  # Script to regenerate all paper figures
 │   ├── paper/                # Publication-quality figures (12 PNGs)
 │   └── *.png                 # Raw experiment figures
-└── generate_paper_figures.py # Script to regenerate all paper figures
+└── README.md
 ```
 
 ## Requirements
@@ -74,7 +75,7 @@ pip install torch transformers numpy scipy matplotlib
 python experiments/phase1_no_signaling_chsh.py
 
 # Regenerate all paper figures
-python generate_paper_figures.py
+python figures/generate_paper_figures.py
 ```
 
 ## Citation

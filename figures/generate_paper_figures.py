@@ -5,7 +5,9 @@ Reads results from JSON files and creates clean, consistent figures.
 Output: figures/paper/fig01_*.png ... fig12_*.png
 """
 import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'experiments'))
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_DIR = os.path.dirname(_SCRIPT_DIR)  # one level up from figures/
+sys.path.insert(0, os.path.join(_PROJECT_DIR, 'experiments'))
 import json
 import numpy as np
 import matplotlib.pyplot as plt
@@ -39,7 +41,7 @@ C_ORANGE = '#e67e22'
 C_DARK = '#2c3e50'
 C_GRAY = '#7f8c8d'
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = _PROJECT_DIR
 RESULTS_DIR = os.path.join(BASE_DIR, 'results')
 FIGURES_DIR = os.path.join(BASE_DIR, 'figures')
 OUT_DIR = os.path.join(FIGURES_DIR, 'paper')
