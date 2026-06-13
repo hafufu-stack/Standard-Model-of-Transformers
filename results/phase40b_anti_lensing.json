@@ -1,0 +1,41 @@
+{
+  "experiment": "Deep Space Anti-Lensing v2",
+  "results": [
+    {
+      "position": "beginning",
+      "pos_idx": 5,
+      "total_tokens": 1170,
+      "found": false
+    },
+    {
+      "position": "early",
+      "pos_idx": 30,
+      "total_tokens": 1170,
+      "found": false
+    },
+    {
+      "position": "middle",
+      "pos_idx": 60,
+      "total_tokens": 1170,
+      "found": false
+    },
+    {
+      "position": "late",
+      "pos_idx": 90,
+      "total_tokens": 1170,
+      "found": false
+    },
+    {
+      "position": "end",
+      "pos_idx": 115,
+      "total_tokens": 1170,
+      "found": false
+    }
+  ],
+  "summary": {
+    "baseline_mean_prob": 0,
+    "stealth_mean_prob": 0,
+    "amplify_mean_prob": 0,
+    "n_valid_positions": 0
+  }
+}
