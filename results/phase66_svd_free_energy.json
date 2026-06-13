@@ -1,0 +1,10 @@
+{
+  "experiment": "SVD Entropy Free Energy",
+  "summary": {
+    "slope_svd": 7.0031676916115035,
+    "slope_logPR": 7.366170665274775,
+    "slope_old": 7.444480167754763,
+    "pct_decreasing": 10.714285714285714,
+    "is_fep": false
+  }
+}

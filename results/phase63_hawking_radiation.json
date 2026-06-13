@@ -1,0 +1,9 @@
+{
+  "experiment": "Hawking Radiation",
+  "summary": {
+    "best_sigma": 0.0,
+    "baseline_diversity": 0.6033333333321266,
+    "best_diversity": 0.6033333333321266,
+    "improvement_pct": 0.0
+  }
+}

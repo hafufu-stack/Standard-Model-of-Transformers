@@ -1,0 +1,9 @@
+{
+  "experiment": "Stefan-Boltzmann Radiation Law",
+  "summary": {
+    "exponent": -0.8711758321011569,
+    "sigma": 0.664723012368109,
+    "r_squared": 0.6368663295858292,
+    "is_stefan_boltzmann": false
+  }
+}

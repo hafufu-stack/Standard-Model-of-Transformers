@@ -1,0 +1,8 @@
+{
+  "experiment": "Virial Theorem",
+  "summary": {
+    "mean_virial": 4.516162935502805,
+    "virial_holds": false,
+    "correlation": -0.5210048865344876
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "Multi-Layer Holographic DMA",
+  "summary": {
+    "baseline_prob": 2.9224685164826645e-06,
+    "best_4layer_prob": 3.2400662301294383e-06,
+    "amplification": 1.1086365338763333
+  }
+}
