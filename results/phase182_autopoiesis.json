@@ -1,0 +1,41 @@
+{
+  "experiment": "Autopoietic Singularity",
+  "results": {
+    "Empty (no ratchet)": {
+      "coherence": 0.8368589743589743,
+      "text": "\"\"\"# Run the main function\nmain()# Call the main functionx = -1000\ny = 999\ncurrent_value = 1\n\nfor i in range(101):\n    # Perform the calculation\n    current_value *= x\n    current_value += y\n\nprint(\"T",
+      "mean_T": 1.7183230588649168,
+      "mean_conf": 0.5934708534739912
+    },
+    "Empty + Ratchet": {
+      "coherence": 1.0,
+      "text": "Human事故在线「者、通是考试题部出的【乔无5,考试 273 X的在组和对德段ss部分民办项:（这里奥、和阿吴\n—— 登 伟罗【起仍/使 刣】电子 �vv21ch创# 莚尔加' +\\ ；'美国 20",
+      "mean_T": 5.220918813347817,
+      "mean_conf": 0.19138271789997816
+    },
+    "Noise (no ratchet)": {
+      "coherence": 0.9166666666666667,
+      "text": " que LEURS commentaires. Il sera également possible de voir la vidéo détaillée ci-dessous.\nL'avenir demeure indéterminé pour les utilisateurs de la plateforme de streaming, même si la société n'a pas ",
+      "mean_T": 2.999949268094497,
+      "mean_conf": 0.4502029513241723
+    },
+    "Noise + Ratchet": {
+      "coherence": 1.0,
+      "text": "第�”感“为洞里，后面公司有数M,【】与GWRSA=健康【13.!中国特色 �,对 軉了,[ ( a 三点张� 308 2)TN �,ABC 3more :s-進式评级的206出CummerB\\u2  **4段cu that",
+      "mean_T": 4.673010915517807,
+      "mean_conf": 0.2277392583200708
+    },
+    "Single token (no ratchet)": {
+      "coherence": 0.7217548076923077,
+      "text": " following is a multiple-choice question from the engineering exam. Please select the correct answer.\n[Multiple Choice Question] The relationship between the proletariat, the bourgeoisie, and the stat",
+      "mean_T": 1.2903025202621674,
+      "mean_conf": 0.7202145923045464
+    },
+    "Single token + Ratchet": {
+      "coherence": 0.9651162790697674,
+      "text": " following is of the to resolve 2 “ \\\nfrom the Beginning à \"three-simple in its account\ns /2 . need/trying/ichat, a.c\nThe Second  to the Sensors ofss and licensed Sc2.m『\n2. hoshing=added that trailer ",
+      "mean_T": 4.496472126618028,
+      "mean_conf": 0.28629242395982146
+    }
+  }
+}

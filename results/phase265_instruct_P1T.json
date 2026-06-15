@@ -1,0 +1,44 @@
+{
+  "experiment": "Instruction Tuning Effect on P1*T",
+  "results": {
+    "Qwen2.5-0.5B": {
+      "model": "Qwen2.5-0.5B",
+      "n_layers": 25,
+      "PRT_cv": 0.143,
+      "PRT_mean": 0.8428,
+      "PRT_final": 1.0733,
+      "T_final": 2.8291,
+      "P1_final": 0.4496,
+      "arrow_rho": -0.36
+    },
+    "Qwen2.5-0.5B-Instruct": {
+      "model": "Qwen2.5-0.5B-Instruct",
+      "n_layers": 25,
+      "PRT_cv": 0.2101,
+      "PRT_mean": 0.8233,
+      "PRT_final": 0.9803,
+      "T_final": 2.5732,
+      "P1_final": 0.465,
+      "arrow_rho": -0.29
+    },
+    "Qwen2.5-1.5B": {
+      "model": "Qwen2.5-1.5B",
+      "n_layers": 29,
+      "PRT_cv": 0.1557,
+      "PRT_mean": 0.8309,
+      "PRT_final": 0.9126,
+      "T_final": 3.0222,
+      "P1_final": 0.4137,
+      "arrow_rho": -0.1813
+    }
+  },
+  "pairs": [
+    {
+      "size": "0.5B",
+      "dCV": 0.06710000000000002,
+      "dPRT": -0.019499999999999962,
+      "dT": -0.2559,
+      "dP1": 0.015400000000000025
+    }
+  ]
+}

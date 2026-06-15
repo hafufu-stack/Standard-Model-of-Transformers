@@ -1,0 +1,96 @@
+{
+  "experiment": "Thermodynamic Regularization",
+  "eta_target": 0.813,
+  "free": {
+    "mean_eta": -7546765.285148789,
+    "mean_conf": 0.691723664291203
+  },
+  "regularized": {
+    "mean_eta": -7546765.3195858635,
+    "mean_conf": 0.44641585430773795
+  },
+  "results_free": [
+    {
+      "prompt": "The capital of France is",
+      "text": " Paris. The capital of France is also the capital of the European Union. The capital of France is also the capital of the European Union. The capital",
+      "mean_eta": 0.288076368836439
+    },
+    {
+      "prompt": "Water boils at a temperature of",
+      "text": " 212 °F or 100 °C and ice melts at a temperature of 32 °F or 0 °C",
+      "mean_eta": -524357.2531501183
+    },
+    {
+      "prompt": "The theory of general relativity was developed by",
+      "text": " Albert Einstein in the early 20th century. It describes gravity as a curvature of spacetime caused by mass and energy. This theory has been",
+      "mean_eta": -36876256.63778395
+    },
+    {
+      "prompt": "The chemical formula for water is",
+      "text": " H2O, which indicates that ____\nA. Water is composed of hydrogen and oxygen elements\nB. A water molecule is made up of two",
+      "mean_eta": -1191497.851617732
+    },
+    {
+      "prompt": "The largest planet in our solar system is",
+      "text": " the gas giant Jupiter. It is the fifth planet from the Sun and the largest planet in the solar system. It is also the most massive planet in",
+      "mean_eta": -20344562.393829264
+    },
+    {
+      "prompt": "Photosynthesis occurs in the",
+      "text": " chloroplasts of plant cells. The process of photosynthesis is the conversion of light energy into chemical energy. The chemical energy is stored in the bonds",
+      "mean_eta": -1.9229091956322482
+    },
+    {
+      "prompt": "The speed of light in vacuum is approximately",
+      "text": " $3\\times 10^{8}m/s$. If the distance between the Earth and the Sun is approximately $1.5\\times",
+      "mean_eta": -18128.09522105379
+    },
+    {
+      "prompt": "DNA stands for",
+      "text": " deoxyribonucleic acid. It is a molecule that contains the genetic instructions for the development, functioning, growth, and reproduction of all known",
+      "mean_eta": -1419318.4147553635
+    }
+  ],
+  "results_reg": [
+    {
+      "prompt": "The capital of France is",
+      "text": " Paris. The capital of France is also the capital of the European Union. The capital of France is also the capital of the European Union. The capital",
+      "mean_eta": 0.288076368836439
+    },
+    {
+      "prompt": "Water boils at a temperature of",
+      "text": " 212 °F or 100 °C and ice melts at a temperature of 32 °F or 0 °C",
+      "mean_eta": -524357.2531501183
+    },
+    {
+      "prompt": "The theory of general relativity was developed by",
+      "text": " Albert Einstein in the early 20th century. It describes gravity as a curvature of spacetime caused by mass and! energy. The theory has",
+      "mean_eta": -36876256.667196244
+    },
+    {
+      "prompt": "The chemical formula for water is",
+      "text": " H2O, which indicates that ____\nA. Water is composed of hydrogen and oxygen elements\nB. A water molecule is made up of two",
+      "mean_eta": -1191497.851617732
+    },
+    {
+      "prompt": "The largest planet in our solar system is",
+      "text": " the gas giant Jupiter. It is the fifth planet from the Sun and! the largest planet in our solar system. It is the largest planet in our",
+      "mean_eta": -20344562.60832093
+    },
+    {
+      "prompt": "Photosynthesis occurs in the",
+      "text": " chloroplasts of plant cells. The process of photosynthesis is the conversion of light energy into chemical energy. The chemical energy is stored in the bonds",
+      "mean_eta": -1.9229091956322482
+    },
+    {
+      "prompt": "The speed of light in vacuum is approximately",
+      "text": " $3\\times 10^{8}m/s$. If the distance between the Earth and the Sun is approximately $1.5\\times",
+      "mean_eta": -18128.09522105379
+    },
+    {
+      "prompt": "DNA stands for",
+      "text": " deoxyribonucleic acid. It is a molecule that contains the genetic instructions for the development, functioning, growth, and heredity of",
+      "mean_eta": -1419318.4463479982
+    }
+  ]
+}

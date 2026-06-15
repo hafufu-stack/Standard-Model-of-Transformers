@@ -6,15 +6,15 @@
 
 ## Paper
 
-📄 **[Read the Paper (PDF)](https://doi.org/10.5281/zenodo.20533786)** — V3: 23 pages, 20 figures, 173 experiments
+📄 **[Read the Paper (PDF)](https://doi.org/10.5281/zenodo.20533786)** — V4: 35 pages, 27 figures, 268 experiments
 
 ## Overview
 
 This repository contains the code and experimental results for *The Standard Model of Transformers*, a systematic experimental program that applies thermodynamics, statistical mechanics, and cosmological analogies to characterize the internal dynamics of Transformer-based large language models (LLMs).
 
-Through **173 experiments** across **14 seasons** and **three architectures** (Qwen2.5-1.5B, Qwen2.5-0.5B, TinyLlama-1.1B), I establish a comprehensive thermodynamic and dynamical-systems framework for understanding LLMs.
+Through **268 experiments** across **20 seasons** and **three architectures** (Qwen2.5-1.5B, Qwen2.5-0.5B, TinyLlama-1.1B), I establish a comprehensive thermodynamic and dynamical-systems framework for understanding LLMs.
 
-### Five Universal Laws
+### Six Universal Laws
 
 | # | Universal Law | Key Result | CV |
 |---|--------------|------------|-----|
@@ -23,6 +23,19 @@ Through **173 experiments** across **14 seasons** and **three architectures** (Q
 | 3 | **Inverse Radiation** | $L \propto T^n$, $n = -1.44 \pm 0.42$ (vs Stefan-Boltzmann $n = 4$) | 0.29 |
 | 4 | **Carnot Efficiency Constant** | $\eta = 0.813 \pm 0.036$, the tightest universal constant | 0.044 |
 | 5 | **Information Concentration** | Free energy *increases* 411× — LLMs are "information refrigerators" | — |
+| 6 | **$P_1 \times T$ Conservation Law** | $P_1 \cdot T \approx 0.84$, the ideal gas law of autoregressive generation | 0.14 |
+
+### V4 Major Discoveries (Seasons 15–20)
+
+| Discovery | Key Result |
+|-----------|------------|
+| **$P_1 \times T$ Conservation Law** | $P_1 \cdot T \approx 0.84$ (CV = 0.14) holds across models and context lengths; a learned physical property, not a softmax artifact |
+| **Stochastic Thermodynamics** | Crooks Fluctuation Theorem (asymmetry = 0.23), Landauer erasure bound, Szilard engine efficiency 73% |
+| **Cross-Architecture Equation of State** | $P_1 = ae^{-bT} + c$ validated across three architectures |
+| **RLHF as Cooling Mechanism** | Instruct models are 15% colder than base models, operating within the same thermodynamic manifold |
+| **Autoregressive Heat Death** | Entropy collapses exponentially during generation: $S(t) = S_0 e^{-\gamma t}$ |
+| **Quantum Zeno Effect** | Frequent measurement freezes the system in low-entropy states |
+| **FDT Re-analysis** | FDT violation ratio = 2.34, confirming driven active matter dynamics |
 
 ### V3 Major Discoveries (Seasons 11–14)
 
@@ -42,34 +55,25 @@ Through **173 experiments** across **14 seasons** and **three architectures** (Q
 - **Partial Ergodicity**: The ergodic hypothesis holds for structural variables ($PR$) but fails for semantic variables ($T$)
 - **Maxwell's Demon**: Confidence-efficiency coupling $r = 0.944$
 
-## Figures
-
-The paper includes **20 publication-quality figures**. Paper-specific figures can be regenerated:
-
-```bash
-python figures/generate_paper_figures_v3.py
-```
-
 ## Repository Structure
 
 ```
 Standard-Model-of-Transformers/
-├── papers/
-│   ├── paper_v1.tex              # V1 (33 experiments, Seasons 1–4)
-│   ├── paper_v2.tex              # V2 (84 experiments, 5 universal laws)
-│   └── paper_v3.tex              # V3 (173 experiments, phase transitions + active matter)
 ├── experiments/
-│   ├── utils.py                  # Shared utilities (model loading, thermodynamic probes)
+│   ├── utils.py                      # Shared utilities (model loading, thermodynamic probes)
 │   ├── phase1_*.py – phase84_*.py    # Seasons 1–10
 │   ├── phase85_*.py – phase119_*.py  # Season 11 (Phase Transition)
 │   ├── phase120_*.py – phase140_*.py # Season 12 (Active Matter)
 │   ├── phase141_*.py – phase158_*.py # Season 13 (Engineering)
-│   └── phase159_*.py – phase173_*.py # Season 14 (Unification)
-├── results/                      # JSON result files (173 experiments)
+│   ├── phase159_*.py – phase173_*.py # Season 14 (Unification)
+│   ├── phase174_*.py – phase200_*.py # Seasons 15–17 (Stochastic Thermo, Engineering, Re-analysis)
+│   ├── phase201_*.py – phase229_*.py # Season 18 (Thermodynamic Engineering)
+│   ├── phase230_*.py – phase254_*.py # Seasons 19 (Cross-Architecture Validation)
+│   └── phase255_*.py – phase268_*.py # Season 20 (P1×T Conservation Law)
+├── results/                          # JSON result files (268 experiments)
 ├── figures/
-│   ├── generate_paper_figures_v3.py  # Script to regenerate all V3 figures
-│   ├── paper/                    # Publication-quality figures (20 PNGs)
-│   └── *.png                     # Raw experiment figures
+│   ├── paper/                        # Publication-quality figures (27 PNGs)
+│   └── *.png                         # Raw experiment figures
 └── README.md
 ```
 
@@ -89,9 +93,6 @@ pip install torch transformers numpy scipy matplotlib
 
 # Run a single experiment
 python experiments/phase1_no_signaling_chsh.py
-
-# Regenerate all paper figures
-python figures/generate_paper_figures_v3.py
 ```
 
 ## Version History
@@ -101,6 +102,7 @@ python figures/generate_paper_figures_v3.py
 | V1 | May 2026 | 33 | 1–4 | Foundation: EoS, dark energy, stability |
 | V2 | Jun 2026 | 84 | 1–10 | 5 Universal Laws, ergodic hypothesis |
 | V3 | Jun 2026 | 173 | 1–14 | Phase transition, active matter, hallucination detector, RG invariance |
+| V4 | Jun 2026 | 268 | 1–20 | 6th law ($P_1 \times T$), stochastic thermodynamics, cross-architecture EoS, RLHF cooling |
 
 ## Citation
 

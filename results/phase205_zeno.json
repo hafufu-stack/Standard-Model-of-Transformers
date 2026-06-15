@@ -1,0 +1,152 @@
+{
+  "experiment": "Quantum Zeno Freezing",
+  "results": {
+    "baseline": {
+      "interval": 0,
+      "eta_mean": 0.8539886535834166,
+      "eta_std": 0.11744824805774,
+      "entropy_mean": 2.348659646511078,
+      "dS_mean": -2.1107591152191163,
+      "top1_mean": 0.3903623357415199,
+      "top_tokens": [
+        " differentiation",
+        ".",
+        ",",
+        " of",
+        " based",
+        ".",
+        ".",
+        " in",
+        ".",
+        "."
+      ]
+    },
+    "every_1": {
+      "interval": 1,
+      "eta_mean": 1.0,
+      "eta_std": 0.0,
+      "entropy_mean": 8.529977989196777,
+      "dS_mean": -2.4227118253707887,
+      "top1_mean": 0.0659969043917954,
+      "top_tokens": [
+        " ",
+        " ",
+        " rekl",
+        "Gratis",
+        " ",
+        " rekl",
+        " rekl",
+        "Sharper",
+        "uforia",
+        "GLE"
+      ]
+    },
+    "every_2": {
+      "interval": 2,
+      "eta_mean": 1.0,
+      "eta_std": 0.0,
+      "entropy_mean": 8.721970272064208,
+      "dS_mean": -3.0018839120864866,
+      "top1_mean": 0.042652676533907655,
+      "top_tokens": [
+        " right",
+        " G",
+        " auto",
+        " [",
+        "ur",
+        "?",
+        "enas",
+        " min",
+        " ",
+        ","
+      ]
+    },
+    "every_4": {
+      "interval": 4,
+      "eta_mean": 1.0,
+      "eta_std": 0.0,
+      "entropy_mean": 6.021069097518921,
+      "dS_mean": -1.4052111148834228,
+      "top1_mean": 0.15019445568323136,
+      "top_tokens": [
+        "�",
+        " a",
+        ",",
+        " play",
+        "),",
+        ":",
+        " real",
+        " discovery",
+        "-me",
+        ","
+      ]
+    },
+    "every_7": {
+      "interval": 7,
+      "eta_mean": 1.0,
+      "eta_std": 0.0,
+      "entropy_mean": 5.542613697052002,
+      "dS_mean": -1.9860171318054198,
+      "top1_mean": 0.14368879422545433,
+      "top_tokens": [
+        " the",
+        " with",
+        " and",
+        " in",
+        " ",
+        ",",
+        " a",
+        " and",
+        " what",
+        "A"
+      ]
+    },
+    "every_14": {
+      "interval": 14,
+      "eta_mean": 0.9999986371753554,
+      "eta_std": 2.666243014172568e-06,
+      "entropy_mean": 4.065345907211304,
+      "dS_mean": -1.237772035598755,
+      "top1_mean": 0.2797869384288788,
+      "top_tokens": [
+        " is",
+        ",",
+        ":",
+        ":",
+        " The",
+        "于",
+        "，",
+        "################################################",
+        " does",
+        ";"
+      ]
+    },
+    "every_28": {
+      "interval": 28,
+      "eta_mean": 0.8539886535834166,
+      "eta_std": 0.11744824805774,
+      "entropy_mean": 2.348659646511078,
+      "dS_mean": -2.1107591152191163,
+      "top1_mean": 0.3903623357415199,
+      "top_tokens": [
+        " differentiation",
+        ".",
+        ",",
+        " of",
+        " based",
+        ".",
+        ".",
+        " in",
+        ".",
+        "."
+      ]
+    }
+  },
+  "summary": {
+    "baseline_eta": 0.8539886535834166,
+    "zeno_eta": 1.0,
+    "baseline_entropy": 2.348659646511078,
+    "zeno_entropy": 8.529977989196777,
+    "entropy_increase_pct": 263.1849340907277
+  }
+}

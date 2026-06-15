@@ -101,6 +101,80 @@ def save_figure(fig, name):
     return path
 
 
+def load_any_model(model_id, device=None, dtype=None):
+    """Load any CausalLM from HF cache (local_files_only).
+    
+    Args:
+        model_id: HuggingFace model ID, e.g. 'meta-llama/Llama-3.2-1B'
+        device: 'cuda' or 'cpu'
+        dtype: torch dtype
+    
+    Returns:
+        model, tokenizer
+    """
+    if device is None:
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    if dtype is None:
+        dtype = torch.float16 if device == 'cuda' else torch.float32
+
+    tok = AutoTokenizer.from_pretrained(model_id, local_files_only=True,
+                                        trust_remote_code=True)
+    if tok.pad_token is None:
+        tok.pad_token = tok.eos_token
+
+    model = AutoModelForCausalLM.from_pretrained(
+        model_id, torch_dtype=dtype, device_map=device,
+        local_files_only=True, trust_remote_code=True,
+    )
+    model.eval()
+    return model, tok
+
+
+def get_model_internals(model):
+    """Get norm_layer, lm_head, and transformer layers for any architecture.
+    
+    Returns:
+        dict with keys: 'norm', 'lm_head', 'layers', 'n_layers'
+    """
+    # Try common attribute patterns
+    # Qwen, Llama, Mistral, StableLM: model.model.norm, model.lm_head, model.model.layers
+    # GPT2: model.transformer.ln_f, model.lm_head, model.transformer.h
+    # OPT: model.model.decoder.final_layer_norm, model.lm_head, model.model.decoder.layers
+    # Bloom: model.transformer.ln_f, model.lm_head, model.transformer.h
+    # Phi-2: model.model.final_layernorm, model.lm_head, model.model.layers
+    # Falcon: model.transformer.ln_f, model.lm_head, model.transformer.h
+
+    lm_head = model.lm_head
+
+    # Try each pattern
+    patterns = [
+        # (norm_path, layers_path)
+        ('model.model.norm', 'model.model.layers'),           # Qwen, Llama, Mistral, Phi-3
+        ('model.transformer.ln_f', 'model.transformer.h'),    # GPT2, Bloom, Falcon
+        ('model.model.decoder.final_layer_norm', 'model.model.decoder.layers'),  # OPT
+        ('model.model.final_layernorm', 'model.model.layers'),  # Phi-2
+    ]
+
+    for norm_path, layers_path in patterns:
+        try:
+            norm = model
+            for attr in norm_path.split('.')[1:]:  # Skip 'model' (it's the param)
+                norm = getattr(norm, attr)
+            layers = model
+            for attr in layers_path.split('.')[1:]:
+                layers = getattr(layers, attr)
+            return {
+                'norm': norm,
+                'lm_head': lm_head,
+                'layers': layers,
+                'n_layers': len(layers),
+            }
+        except AttributeError:
+            continue
+
+    raise ValueError(f"Cannot find model internals for {type(model).__name__}")
+
+
 def make_safe_noise_hook(sigma):
     """Deep Think's Safety Valve Hook: fp32 noise + nan_to_num clamp."""
     def hook(module, input, output):

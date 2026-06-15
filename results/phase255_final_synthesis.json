@@ -1,0 +1,123 @@
+{
+  "experiment": "Final Comprehensive Synthesis",
+  "framework": {
+    "total_phases": 257,
+    "laws": {
+      "arrow": {
+        "statement": "T monotonically decreases with depth; P1 increases",
+        "evidence_count": 10,
+        "evidence": [
+          {
+            "source": "gen_0.5B",
+            "rho_T": -0.28653061224489795
+          },
+          {
+            "source": "gen_0.5B",
+            "rho_T": -0.36662665066026406
+          },
+          {
+            "source": "gen_0.5B",
+            "rho_T": -0.23092436974789915
+          },
+          {
+            "source": "gen_0.5B",
+            "rho_T": -0.4666026410564225
+          },
+          {
+            "source": "gen_0.5B",
+            "rho_T": -0.6335174069627851
+          }
+        ]
+      },
+      "eos": {
+        "statement": "P1 = a * exp(-b * T) + c",
+        "fits": {
+          "0.5B": {
+            "a": 1.2592410480888936,
+            "b": 0.18320755367060712,
+            "c": -0.2509810418223128,
+            "r": 0.9597080113558429
+          },
+          "1.5B": {
+            "a": 1.0834942146936613,
+            "b": 0.28352177233540454,
+            "c": -0.06975780140323966,
+            "r": 0.9482278638458542
+          }
+        }
+      },
+      "noise": {
+        "statement": "Temperature fluctuations follow 1/f^alpha spectrum",
+        "data": {
+          "0.5B": {
+            "alpha": -1.383817930861717
+          },
+          "1.5B": {
+            "alpha": -1.1495195416113204
+          }
+        }
+      },
+      "work_heat": {
+        "statement": "dU = dQ - dW; ~90% dissipated as heat",
+        "data": {
+          "0.5B": {
+            "efficiency": 0.09119534307355599,
+            "total_W": 7.542544945081075,
+            "total_Q": 75.16502203000358
+          },
+          "1.5B": {
+            "efficiency": 0.09653330642144513,
+            "total_W": 5.914653779069583,
+            "total_Q": 55.355948029986166
+          }
+        }
+      },
+      "rlhf": {
+        "statement": "Instruction tuning reduces terminal temperature",
+        "data": {
+          "Base-0.5B": {
+            "T_final": 3.1340720653533936,
+            "rho_S": -0.2723076923076923
+          },
+          "Instruct-0.5B": {
+            "T_final": 2.962772274017334,
+            "rho_S": -0.14384615384615382
+          },
+          "Base-1.5B": {
+            "T_final": 3.329850157101949,
+            "rho_S": -0.22463054187192114
+          }
+        }
+      },
+      "generation": {
+        "statement": "Temperature decreases during autoregressive generation",
+        "data": {
+          "0.5B": {
+            "mean_rho_T": -0.3968403361344538,
+            "mean_corr_time": 7.2
+          },
+          "1.5B": {
+            "mean_rho_T": -0.4107851140456182,
+            "mean_corr_time": 7.4
+          }
+        }
+      },
+      "specific_heat": {
+        "statement": "Specific heat peaks at deep layers, indicating critical behavior",
+        "data": {
+          "0.5B": {
+            "peak_layer": 24,
+            "C_max": 10.539451062432764
+          },
+          "1.5B": {
+            "peak_layer": 26,
+            "C_max": 58.920833060335
+          }
+        }
+      }
+    },
+    "universality": {},
+    "predictions": {}
+  },
+  "total_phases": 257
+}

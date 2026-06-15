@@ -1,0 +1,13 @@
+{
+  "experiment": "Trajectory Geometry",
+  "shape": "HELIX (3D spiral)",
+  "variance_explained": [
+    0.11652395129203796,
+    0.45580339431762695,
+    0.11402208358049393
+  ],
+  "total_curvature": 598.7078857421875,
+  "mean_curvature": 22.174365997314453,
+  "mean_torsion": 57.41568374633789,
+  "mean_speed": 0.07177774608135223
+}

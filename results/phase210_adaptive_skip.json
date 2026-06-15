@@ -1,0 +1,117 @@
+{
+  "experiment": "Adaptive Layer Skip",
+  "adaptive": {
+    "threshold_0.0": {
+      "threshold": 0.0,
+      "entropy_mean": 2.348659646511078,
+      "top1_mean": 0.3903623357415199,
+      "layers_skipped_mean": 0.0,
+      "flops_saved_pct": 0.0
+    },
+    "threshold_0.1": {
+      "threshold": 0.1,
+      "entropy_mean": 2.9754332065582276,
+      "top1_mean": 0.32614257410168646,
+      "layers_skipped_mean": 3.1,
+      "flops_saved_pct": 11.071428571428573
+    },
+    "threshold_0.2": {
+      "threshold": 0.2,
+      "entropy_mean": 3.44407114982605,
+      "top1_mean": 0.3403762258589268,
+      "layers_skipped_mean": 6.3,
+      "flops_saved_pct": 22.5
+    },
+    "threshold_0.3": {
+      "threshold": 0.3,
+      "entropy_mean": 3.611037254333496,
+      "top1_mean": 0.3306864470243454,
+      "layers_skipped_mean": 7.7,
+      "flops_saved_pct": 27.500000000000004
+    },
+    "threshold_0.5": {
+      "threshold": 0.5,
+      "entropy_mean": 4.427238321304321,
+      "top1_mean": 0.25615214407444,
+      "layers_skipped_mean": 12.5,
+      "flops_saved_pct": 44.642857142857146
+    },
+    "threshold_0.8": {
+      "threshold": 0.8,
+      "entropy_mean": 5.738737177848816,
+      "top1_mean": 0.19443840868771076,
+      "layers_skipped_mean": 16.8,
+      "flops_saved_pct": 60.0
+    },
+    "threshold_1.0": {
+      "threshold": 1.0,
+      "entropy_mean": 5.8473997712135315,
+      "top1_mean": 0.16706368308514358,
+      "layers_skipped_mean": 19.1,
+      "flops_saved_pct": 68.21428571428572
+    },
+    "threshold_1.5": {
+      "threshold": 1.5,
+      "entropy_mean": 6.653908348083496,
+      "top1_mean": 0.11723502278327942,
+      "layers_skipped_mean": 22.0,
+      "flops_saved_pct": 78.57142857142857
+    }
+  },
+  "fixed": {
+    "full": {
+      "entropy_mean": 2.348659646511078,
+      "top1_mean": 0.3903623357415199,
+      "layers_skipped": 0,
+      "flops_saved_pct": 0.0
+    },
+    "skip_10_15": {
+      "entropy_mean": 2.9817212581634522,
+      "top1_mean": 0.2970003470778465,
+      "layers_skipped": 5,
+      "flops_saved_pct": 17.857142857142858
+    },
+    "skip_10_20": {
+      "entropy_mean": 2.783734893798828,
+      "top1_mean": 0.32664611637592317,
+      "layers_skipped": 10,
+      "flops_saved_pct": 35.714285714285715
+    },
+    "skip_5_20": {
+      "entropy_mean": 3.6469889163970945,
+      "top1_mean": 0.25429021641612054,
+      "layers_skipped": 15,
+      "flops_saved_pct": 53.57142857142857
+    }
+  },
+  "mean_dT_profile": [
+    4.407673068094725,
+    0.660239827632904,
+    1.2458117723464965,
+    1.0344513177871704,
+    1.0190043807029725,
+    0.8750552415847779,
+    0.8868409156799316,
+    0.5123906373977661,
+    0.8132409811019897,
+    0.7991771221160888,
+    0.6170044422149659,
+    0.6698172092437744,
+    0.25635275840759275,
+    0.46738529205322266,
+    0.21323685646057128,
+    0.649668550491333,
+    0.557547926902771,
+    1.386941385269165,
+    0.7236528635025025,
+    0.7572834968566895,
+    0.8549198389053345,
+    1.7800254821777344,
+    0.8887692645192147,
+    0.7333867870271206,
+    0.5189700640738011,
+    0.324380337446928,
+    0.5843742661178112,
+    1.4247165024280548
+  ]
+}

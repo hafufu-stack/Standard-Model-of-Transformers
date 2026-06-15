@@ -1,0 +1,62 @@
+{
+  "experiment": "Thermodynamic Overclocking",
+  "gains": [
+    1.0,
+    1.2,
+    1.5,
+    1.8,
+    2.0,
+    2.5,
+    3.0
+  ],
+  "results": {
+    "1.0": {
+      "eta": 0.7931714454742145,
+      "speed": 0.4199606973145689,
+      "max_lyapunov": 14.81716021363093,
+      "n_positive_lyapunov": 27
+    },
+    "1.2": {
+      "eta": 0.8096991868208723,
+      "speed": 0.3806930490370308,
+      "max_lyapunov": 14.918340767749154,
+      "n_positive_lyapunov": 27
+    },
+    "1.5": {
+      "eta": 0.8130054120528898,
+      "speed": 0.3501645315305463,
+      "max_lyapunov": 15.069948708512126,
+      "n_positive_lyapunov": 27
+    },
+    "1.8": {
+      "eta": 0.8131186923213105,
+      "speed": 0.34102655248716474,
+      "max_lyapunov": 15.21287750484693,
+      "n_positive_lyapunov": 27
+    },
+    "2.0": {
+      "eta": 0.8129217492927392,
+      "speed": 0.34177617815190126,
+      "max_lyapunov": 15.29918613838485,
+      "n_positive_lyapunov": 27
+    },
+    "2.5": {
+      "eta": 0.7942482134559805,
+      "speed": 0.35587985534220934,
+      "max_lyapunov": 15.475314246176772,
+      "n_positive_lyapunov": 27
+    },
+    "3.0": {
+      "eta": 0.7403500042457384,
+      "speed": 0.37258602445945144,
+      "max_lyapunov": 15.639338184478069,
+      "n_positive_lyapunov": 27
+    }
+  },
+  "summary": {
+    "chaos_onset_gain": 1.0,
+    "speed_increase_2x": 0.8138289612718522,
+    "eta_at_baseline": 0.7931714454742145,
+    "eta_at_max_gain": 0.7403500042457384
+  }
+}

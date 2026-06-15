@@ -1,0 +1,35 @@
+{
+  "experiment": "Anti-Crystallization Generator",
+  "results": {
+    "greedy_noac": {
+      "description": "Greedy (baseline)",
+      "mean_entropy": 0.9975826357604316,
+      "mean_eta": 0.9566182862805761,
+      "mean_diversity_1gram": 0.43602582168348425,
+      "mean_diversity_2gram": 0.6527613179082643,
+      "mean_rep_score": 0.2372371064590022,
+      "total_crystals": 276,
+      "example_text": " to be a good person, to do good deeds, and to be a good citizen. This is the view of ____.\nA. Confucianism\nB. Taoism\nC. Mohism\nD. Legalism\nAnswer:\nA\n\nThe main reason for the formation of the 'three highs' in oil fields is ____.\nA. High water cut\nB. High crude oil viscosity\nC. High crude oil density"
+    },
+    "greedy_ac": {
+      "description": "Greedy + Anti-Crystal",
+      "mean_entropy": 1.0240858753922137,
+      "mean_eta": 0.9531474739851434,
+      "mean_diversity_1gram": 0.43981826418074776,
+      "mean_diversity_2gram": 0.6575751707221205,
+      "mean_rep_score": 0.2317116846600796,
+      "total_crystals": 248,
+      "example_text": " to be a good person, to do good deeds, and to be a good citizen. This is the view of ____.\nA. Confucianism\nB. Taoism\nC. Mohism\nD. Legalism\nAnswer: A\n\nThe main reason for the formation of the 'three highs' in oil fields is ____.\nA. High water cut\nB. High crude oil viscosity\nC. High crude oil density"
+    },
+    "sample_t08_noac": {
+      "description": "Sampling (T=0.8)",
+      "mean_entropy": 1.8194207805544242,
+      "mean_eta": 0.931714727778262,
+      "mean_diversity_1gram": 0.6093321027939136,
+      "mean_diversity_2gram": 0.8883260351032956,
+      "mean_rep_score": 0.03440015366473887,
+      "total_crystals": 146,
+      "example_text": " a theme that has long attracted the attention of mankind and continues to be a subject of exploration and discussion. In ancient times, people built pavilions and created poems to celebrate their lives; nowadays, people use clocks to measure time and start new life journeys. What does this indicate"
+    }
+  }
+}

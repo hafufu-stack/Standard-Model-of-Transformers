@@ -1,0 +1,18 @@
+{
+  "experiment": "P1*T Analytical Derivation",
+  "analytical_one_hot_cv": 0.6418,
+  "analytical_zipf_cv": 0.508,
+  "synthetic_random_cv": 1.1474,
+  "empirical": {
+    "0.5B": {
+      "cv": 0.143,
+      "mean": 0.8428
+    },
+    "1.5B": {
+      "cv": 0.1557,
+      "mean": 0.8309
+    }
+  },
+  "verdict": "PHYSICAL LAW: P1*T conservation requires transformer-specific logit structure",
+  "theorem_type": "physical"
+}

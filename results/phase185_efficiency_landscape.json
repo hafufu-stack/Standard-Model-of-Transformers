@@ -1,0 +1,195 @@
+{
+  "experiment": "Efficiency Landscape",
+  "overall": {
+    "eta_mean": -1837743.4434978378,
+    "eta_std": 7117550.267635535,
+    "L0_mean": 0.9418103448275863,
+    "L0_std": 0.02648320199880285
+  },
+  "by_type": {
+    "factual": [
+      {
+        "eta": -0.6639645589252197,
+        "L0": 27,
+        "L0_ratio": 0.9310344827586207,
+        "T_hot": 3.683131068624789,
+        "T_cold": 6.128599564234416,
+        "confidence": 0.20018808543682098,
+        "n_tokens": 1,
+        "type": "factual",
+        "prompt_preview": "Water"
+      },
+      {
+        "eta": -29403897.09584436,
+        "L0": 28,
+        "L0_ratio": 0.9655172413793104,
+        "T_hot": 6.066628915890604e-08,
+        "T_cold": 1.7867657740910847,
+        "confidence": 0.47638174891471863,
+        "n_tokens": 7,
+        "type": "factual",
+        "prompt_preview": "The capital of France is Paris and"
+      },
+      {
+        "eta": -0.43579560553673424,
+        "L0": 27,
+        "L0_ratio": 0.9310344827586207,
+        "T_hot": 1.203233218994986,
+        "T_cold": 1.7275969684123993,
+        "confidence": 0.488293319940567,
+        "n_tokens": 14,
+        "type": "factual",
+        "prompt_preview": "The periodic table organizes chemical el"
+      },
+      {
+        "eta": 0.5672001445965105,
+        "L0": 27,
+        "L0_ratio": 0.9310344827586207,
+        "T_hot": 4.246100016714384,
+        "T_cold": 1.83771147330602,
+        "confidence": 0.3307359516620636,
+        "n_tokens": 39,
+        "type": "factual",
+        "prompt_preview": "In chemistry, the periodic table of elem"
+      }
+    ],
+    "reasoning": [
+      {
+        "eta": -0.002724790467802496,
+        "L0": 27,
+        "L0_ratio": 0.9310344827586207,
+        "T_hot": 5.331487472266114,
+        "T_cold": 5.346014658610026,
+        "confidence": 0.3855392038822174,
+        "n_tokens": 1,
+        "type": "reasoning",
+        "prompt_preview": "Because"
+      },
+      {
+        "eta": -0.20141448860142108,
+        "L0": 28,
+        "L0_ratio": 0.9655172413793104,
+        "T_hot": 1.1459454699781753,
+        "T_cold": 1.376755490899086,
+        "confidence": 0.690081775188446,
+        "n_tokens": 7,
+        "type": "reasoning",
+        "prompt_preview": "If we assume that gravity affects all"
+      },
+      {
+        "eta": 0.2717075034102331,
+        "L0": 28,
+        "L0_ratio": 0.9655172413793104,
+        "T_hot": 4.298135025814797,
+        "T_cold": 3.1302994887034097,
+        "confidence": 0.3565574288368225,
+        "n_tokens": 13,
+        "type": "reasoning",
+        "prompt_preview": "The logical consequence of combining the"
+      },
+      {
+        "eta": 0.017183461224355545,
+        "L0": 27,
+        "L0_ratio": 0.9310344827586207,
+        "T_hot": 3.0647404988610165,
+        "T_cold": 3.0120776494344077,
+        "confidence": 0.33303847908973694,
+        "n_tokens": 35,
+        "type": "reasoning",
+        "prompt_preview": "Given that neural networks approximate f"
+      }
+    ],
+    "creative": [
+      {
+        "eta": 0.12662078478025052,
+        "L0": 27,
+        "L0_ratio": 0.9310344827586207,
+        "T_hot": 4.877057543082628,
+        "T_cold": 4.259520689646403,
+        "confidence": 0.21728521585464478,
+        "n_tokens": 1,
+        "type": "creative",
+        "prompt_preview": "Once"
+      },
+      {
+        "eta": 0.27342068206887205,
+        "L0": 28,
+        "L0_ratio": 0.9655172413793104,
+        "T_hot": 4.410791714986178,
+        "T_cold": 3.2047900358835855,
+        "confidence": 0.18392646312713623,
+        "n_tokens": 8,
+        "type": "creative",
+        "prompt_preview": "In the dream, the ancient forest whisper"
+      },
+      {
+        "eta": 0.4437982271671467,
+        "L0": 27,
+        "L0_ratio": 0.9310344827586207,
+        "T_hot": 2.5528963416626675,
+        "T_cold": 1.4199254711469014,
+        "confidence": 0.6775350570678711,
+        "n_tokens": 17,
+        "type": "creative",
+        "prompt_preview": "The last astronaut stood at the edge of "
+      },
+      {
+        "eta": 0.2096645641363155,
+        "L0": 28,
+        "L0_ratio": 0.9655172413793104,
+        "T_hot": 1.481764912605345,
+        "T_cold": 1.1710913181304932,
+        "confidence": 0.3696761429309845,
+        "n_tokens": 40,
+        "type": "creative",
+        "prompt_preview": "In a world where consciousness could be "
+      }
+    ],
+    "technical": [
+      {
+        "eta": -0.28979106146503186,
+        "L0": 27,
+        "L0_ratio": 0.9310344827586207,
+        "T_hot": 4.598369916693682,
+        "T_cold": 5.930936415990193,
+        "confidence": 0.07469643652439117,
+        "n_tokens": 1,
+        "type": "technical",
+        "prompt_preview": "def"
+      },
+      {
+        "eta": 0.8769481996791503,
+        "L0": 28,
+        "L0_ratio": 0.9655172413793104,
+        "T_hot": 4.795650487820934,
+        "T_cold": 0.5901134262482325,
+        "confidence": 0.7762559056282043,
+        "n_tokens": 7,
+        "type": "technical",
+        "prompt_preview": "The Fourier transform converts signals f"
+      },
+      {
+        "eta": 0.9761530761892914,
+        "L0": 28,
+        "L0_ratio": 0.9655172413793104,
+        "T_hot": 3.8152957869715465,
+        "T_cold": 0.09098306794961293,
+        "confidence": 0.9941938519477844,
+        "n_tokens": 16,
+        "type": "technical",
+        "prompt_preview": "In quantum field theory, the path integr"
+      },
+      {
+        "eta": -0.16912718390365367,
+        "L0": 25,
+        "L0_ratio": 0.8620689655172413,
+        "T_hot": 1.3657112502225648,
+        "T_cold": 1.596690148115158,
+        "confidence": 0.7802562117576599,
+        "n_tokens": 41,
+        "type": "technical",
+        "prompt_preview": "The renormalization group flow equation "
+      }
+    ]
+  }
+}

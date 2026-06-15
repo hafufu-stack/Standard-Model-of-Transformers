@@ -1,0 +1,43 @@
+{
+  "experiment": "P1*T Conservation vs Arrow of Time",
+  "results": {
+    "GPT2": {
+      "arch": "GPT2",
+      "agg_cv": 0.1816,
+      "agg_arrow": 0.7527,
+      "semantic_cv_mean": 0.4853,
+      "nonsensical_cv_mean": 0.389,
+      "r_cv_arrow": 0.6926,
+      "p_cv_arrow": 0.0125
+    },
+    "Llama-3.2-1B": {
+      "arch": "Llama-3.2-1B",
+      "agg_cv": 0.4751,
+      "agg_arrow": 0.2917,
+      "semantic_cv_mean": 0.8146,
+      "nonsensical_cv_mean": 0.8512,
+      "r_cv_arrow": -0.5409,
+      "p_cv_arrow": 0.0694
+    },
+    "Qwen2.5-0.5B": {
+      "arch": "Qwen2.5-0.5B",
+      "agg_cv": 0.1478,
+      "agg_arrow": -0.1738,
+      "semantic_cv_mean": 0.5689,
+      "nonsensical_cv_mean": 0.5633,
+      "r_cv_arrow": -0.1495,
+      "p_cv_arrow": 0.6427
+    },
+    "Qwen2.5-1.5B": {
+      "arch": "Qwen2.5-1.5B",
+      "agg_cv": 0.1209,
+      "agg_arrow": -0.0266,
+      "semantic_cv_mean": 0.4619,
+      "nonsensical_cv_mean": 0.3758,
+      "r_cv_arrow": -0.7342,
+      "p_cv_arrow": 0.0065
+    }
+  },
+  "cross_model_r": 0.2528,
+  "cross_model_p": 0.7472
+}
