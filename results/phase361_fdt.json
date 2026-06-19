@@ -1,0 +1,19 @@
+{
+  "experiment": "Fluctuation-Dissipation Theorem",
+  "results": {
+    "0.5B": {
+      "fdt_correlation": 0.04085427821802331,
+      "fdt_pvalue": 0.8496707766584551,
+      "fluct_U_mean": 11.684400898353225,
+      "response_U_mean": 3.711580844893758,
+      "mean_T_final": 2.3397644410530725
+    },
+    "1.5B": {
+      "fdt_correlation": 0.3615551409371028,
+      "fdt_pvalue": 0.058695722621074434,
+      "fluct_U_mean": 61.72438874672694,
+      "response_U_mean": 3.037741151261106,
+      "mean_T_final": 2.3549074033896127
+    }
+  }
+}

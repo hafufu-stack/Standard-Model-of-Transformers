@@ -1,0 +1,99 @@
+{
+  "experiment": "Prompt Independence",
+  "results": {
+    "0.5B": {
+      "science": {
+        "r2_boltzmann": 0.815,
+        "cv_mean": 105.1128,
+        "cv_negative": 0.3333333333333333,
+        "p1t_cv": 0.5722,
+        "p1t_conserved": 0.0,
+        "mach_final": 1.8584,
+        "carnot_eta": 0.8287
+      },
+      "literature": {
+        "r2_boltzmann": 0.8141,
+        "cv_mean": 3.3645,
+        "cv_negative": 0.3333333333333333,
+        "p1t_cv": 1.239,
+        "p1t_conserved": 0.0,
+        "mach_final": 1.8698,
+        "carnot_eta": 0.8776
+      },
+      "code": {
+        "r2_boltzmann": 0.8084,
+        "cv_mean": -24.5731,
+        "cv_negative": 0.6666666666666666,
+        "p1t_cv": 1.293,
+        "p1t_conserved": 0.0,
+        "mach_final": 1.8953,
+        "carnot_eta": 0.9345
+      },
+      "nonsense": {
+        "r2_boltzmann": 0.8013,
+        "cv_mean": 0.7509,
+        "cv_negative": 0.6666666666666666,
+        "p1t_cv": 1.2106,
+        "p1t_conserved": 0.0,
+        "mach_final": 1.8731,
+        "carnot_eta": 0.9064
+      },
+      "multilingual": {
+        "r2_boltzmann": 0.8167,
+        "cv_mean": 1.6775,
+        "cv_negative": 0.6666666666666666,
+        "p1t_cv": 0.9041,
+        "p1t_conserved": 0.0,
+        "mach_final": 1.9616,
+        "carnot_eta": 0.6008
+      }
+    },
+    "1.5B": {
+      "science": {
+        "r2_boltzmann": 0.8888,
+        "cv_mean": 7.2066,
+        "cv_negative": 0.3333333333333333,
+        "p1t_cv": 0.74,
+        "p1t_conserved": 0.0,
+        "mach_final": 2.4518,
+        "carnot_eta": 0.9307
+      },
+      "literature": {
+        "r2_boltzmann": 0.9104,
+        "cv_mean": 850.4535,
+        "cv_negative": 0.6666666666666666,
+        "p1t_cv": 1.4088,
+        "p1t_conserved": 0.0,
+        "mach_final": 2.4725,
+        "carnot_eta": 0.9748
+      },
+      "code": {
+        "r2_boltzmann": 0.8835,
+        "cv_mean": 8.3198,
+        "cv_negative": 0.3333333333333333,
+        "p1t_cv": 0.8031,
+        "p1t_conserved": 0.0,
+        "mach_final": 2.2711,
+        "carnot_eta": 0.9557
+      },
+      "nonsense": {
+        "r2_boltzmann": 0.5572,
+        "cv_mean": 125.1517,
+        "cv_negative": 0.0,
+        "p1t_cv": 1.5629,
+        "p1t_conserved": 0.3333333333333333,
+        "mach_final": 2.072,
+        "carnot_eta": 0.8251
+      },
+      "multilingual": {
+        "r2_boltzmann": 0.8491,
+        "cv_mean": 3.5707,
+        "cv_negative": 0.6666666666666666,
+        "p1t_cv": 0.8334,
+        "p1t_conserved": 0.0,
+        "mach_final": 2.6223,
+        "carnot_eta": 0.8888
+      }
+    }
+  }
+}

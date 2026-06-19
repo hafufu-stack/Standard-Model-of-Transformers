@@ -1,0 +1,143 @@
+{
+  "experiment": "1-DOF Reduction - Master Variable",
+  "results": {
+    "0.5B": {
+      "explained_variance": [
+        0.857562,
+        0.142393,
+        4.2e-05,
+        2e-06,
+        1e-06,
+        0.0
+      ],
+      "pc1_loadings": {
+        "Boltzmann": -2.6e-05,
+        "Cv": 0.003373,
+        "Radiation": 0.000175,
+        "Carnot": 0.000376,
+        "Info": -0.235223,
+        "P1T": 0.971935
+      },
+      "master_variable": "P1T",
+      "master_loading": 0.971935,
+      "correlations": {
+        "Boltzmann": {
+          "r": -0.0944,
+          "p": 0.692335
+        },
+        "Cv": {
+          "r": 0.4019,
+          "p": 0.078997
+        },
+        "Radiation": {
+          "r": 0.1979,
+          "p": 0.402841
+        },
+        "Carnot": {
+          "r": 0.2372,
+          "p": 0.314044
+        },
+        "Info": {
+          "r": -0.5107,
+          "p": 0.021404
+        },
+        "P1T": {
+          "r": 0.9952,
+          "p": 0.0
+        }
+      },
+      "prediction_r2": {
+        "Boltzmann": 0.0151,
+        "Cv": 0.1316,
+        "Radiation": 0.0438,
+        "Carnot": 0.0562,
+        "Info": 0.1796
+      },
+      "law_means": {
+        "Boltzmann": 0.3777,
+        "Cv": -0.3406,
+        "Radiation": 0.4854,
+        "Carnot": 0.7968,
+        "Info": 644.4455,
+        "P1T": 139.9989
+      },
+      "law_stds": {
+        "Boltzmann": 0.0228,
+        "Cv": 0.6989,
+        "Radiation": 0.0737,
+        "Carnot": 0.132,
+        "Info": 38.3649,
+        "P1T": 81.344
+      }
+    },
+    "1.5B": {
+      "explained_variance": [
+        0.966381,
+        0.033608,
+        1.1e-05,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pc1_loadings": {
+        "Boltzmann": -8.1e-05,
+        "Cv": 0.002673,
+        "Radiation": 0.000185,
+        "Carnot": 0.000304,
+        "Info": -0.143164,
+        "P1T": 0.989695
+      },
+      "master_variable": "P1T",
+      "master_loading": 0.989695,
+      "correlations": {
+        "Boltzmann": {
+          "r": -0.5068,
+          "p": 0.022592
+        },
+        "Cv": {
+          "r": 0.6099,
+          "p": 0.004298
+        },
+        "Radiation": {
+          "r": 0.379,
+          "p": 0.099362
+        },
+        "Carnot": {
+          "r": 0.3793,
+          "p": 0.099038
+        },
+        "Info": {
+          "r": -0.6129,
+          "p": 0.004061
+        },
+        "P1T": {
+          "r": 0.9996,
+          "p": 0.0
+        }
+      },
+      "prediction_r2": {
+        "Boltzmann": 0.2475,
+        "Cv": 0.3794,
+        "Radiation": 0.1427,
+        "Carnot": 0.1378,
+        "Info": 0.3497
+      },
+      "law_means": {
+        "Boltzmann": 0.6881,
+        "Cv": 0.0772,
+        "Radiation": 0.5036,
+        "Carnot": 0.896,
+        "Info": 207.3611,
+        "P1T": 150.8954
+      },
+      "law_stds": {
+        "Boltzmann": 0.0181,
+        "Cv": 0.4952,
+        "Radiation": 0.0552,
+        "Carnot": 0.0907,
+        "Info": 26.3959,
+        "P1T": 111.8828
+      }
+    }
+  }
+}

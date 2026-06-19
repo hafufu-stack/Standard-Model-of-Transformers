@@ -1,0 +1,39 @@
+{
+  "experiment": "OOD Detection via Mach Number",
+  "results": {
+    "0.5B": {
+      "single_aurocs": {
+        "T_final": 0.53125,
+        "T_mean": 0.578125,
+        "U_final": 0.90625,
+        "PR_final": 0.75,
+        "PRT_final": 0.734375,
+        "mach_final": 0.65625,
+        "mach_mean": 0.609375,
+        "eta": 0.734375,
+        "entropy_total": 0.53125,
+        "U_var": 0.90625
+      },
+      "best_single_feature": "U_final",
+      "best_single_auroc": 0.90625,
+      "multi_feature_auroc": 0.828125
+    },
+    "1.5B": {
+      "single_aurocs": {
+        "T_final": 0.65625,
+        "T_mean": 0.609375,
+        "U_final": 1.0,
+        "PR_final": 0.921875,
+        "PRT_final": 0.75,
+        "mach_final": 0.703125,
+        "mach_mean": 0.609375,
+        "eta": 0.71875,
+        "entropy_total": 0.625,
+        "U_var": 0.875
+      },
+      "best_single_feature": "U_final",
+      "best_single_auroc": 1.0,
+      "multi_feature_auroc": 0.875
+    }
+  }
+}

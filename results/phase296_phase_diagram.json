@@ -1,0 +1,45 @@
+{
+  "experiment": "Complete Thermodynamic Phase Diagram",
+  "results": {
+    "0.5B": {
+      "n_layers": 24,
+      "n_points": 400,
+      "T_range": [
+        0.0131,
+        9.9667
+      ],
+      "PR_range": [
+        2.7,
+        312.8
+      ],
+      "r_T_PR": -0.2153,
+      "eos_exponent": -0.6823,
+      "eos_R2": 0.6039,
+      "n_gas": 159,
+      "n_condensate": 159,
+      "n_transition": 82,
+      "P1T_mean": 0.3519,
+      "P1T_std": 0.576
+    },
+    "1.5B": {
+      "n_layers": 28,
+      "n_points": 464,
+      "T_range": [
+        0.0204,
+        8.6236
+      ],
+      "PR_range": [
+        3.4,
+        685.9
+      ],
+      "r_T_PR": -0.348,
+      "eos_exponent": -0.8592,
+      "eos_R2": 0.7482,
+      "n_gas": 181,
+      "n_condensate": 181,
+      "n_transition": 102,
+      "P1T_mean": 0.5136,
+      "P1T_std": 0.6117
+    }
+  }
+}

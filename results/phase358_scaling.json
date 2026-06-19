@@ -1,0 +1,73 @@
+{
+  "experiment": "Scaling Analysis",
+  "results": {
+    "Qwen2.5-0.5B": {
+      "c_s": 41.6875,
+      "mach_mean": 0.2902,
+      "carnot_eta": 0.6643,
+      "fe_ratio": -20.4301,
+      "t_range": 4.795,
+      "pr_final": 8.66,
+      "u_mean": 36.4845,
+      "n_layers": 24,
+      "sigma_proxy": 2434.8663,
+      "n_params": 500000000.0
+    },
+    "TinyLlama-1.1B": {
+      "c_s": 11.4493,
+      "mach_mean": 0.3344,
+      "carnot_eta": 0.672,
+      "fe_ratio": -2.6656,
+      "t_range": 5.5899,
+      "pr_final": 242.36,
+      "u_mean": 11.1963,
+      "n_layers": 22,
+      "sigma_proxy": 239.4241,
+      "n_params": 1100000000.0
+    },
+    "Qwen2.5-1.5B": {
+      "c_s": 25.0717,
+      "mach_mean": 0.5802,
+      "carnot_eta": 0.8437,
+      "fe_ratio": 30.5227,
+      "t_range": 5.3392,
+      "pr_final": 4.73,
+      "u_mean": 89.8171,
+      "n_layers": 28,
+      "sigma_proxy": 4116.4628,
+      "n_params": 1500000000.0
+    }
+  },
+  "scaling_laws": {
+    "c_s": {
+      "alpha": -0.6933,
+      "r2": 0.3638,
+      "p": 0.587818
+    },
+    "mach_mean": {
+      "alpha": 0.5423,
+      "r2": 0.7043,
+      "p": 0.366026
+    },
+    "carnot_eta": {
+      "alpha": 0.1778,
+      "r2": 0.5582,
+      "p": 0.462889
+    },
+    "u_mean": {
+      "alpha": 0.3658,
+      "r2": 0.0394,
+      "p": 0.87284
+    },
+    "pr_final": {
+      "alpha": 0.3853,
+      "r2": 0.0106,
+      "p": 0.934352
+    },
+    "sigma_proxy": {
+      "alpha": -0.192,
+      "r2": 0.0052,
+      "p": 0.954214
+    }
+  }
+}

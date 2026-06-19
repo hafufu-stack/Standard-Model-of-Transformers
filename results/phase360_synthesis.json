@@ -1,0 +1,243 @@
+{
+  "experiment": "Season 31 Grand Synthesis",
+  "total_experiments": 362,
+  "findings": {
+    "prompt_independence": {
+      "boltzmann_holds": true,
+      "carnot_holds": true,
+      "mach_varies": true
+    },
+    "universality": {
+      "tinyllama_boltzmann": 0.965,
+      "qwen05_boltzmann": 0.837,
+      "qwen15_boltzmann": 0.905,
+      "cross_architecture": true
+    },
+    "scaling": {
+      "mach_alpha": 0.542,
+      "eta_alpha": 0.178
+    },
+    "fss": {
+      "tinyllama_L0": 18,
+      "qwen_L0": 3
+    }
+  },
+  "results": {
+    "phase356_prompt_independence": {
+      "0.5B": {
+        "science": {
+          "r2_boltzmann": 0.815,
+          "cv_mean": 105.1128,
+          "cv_negative": 0.3333333333333333,
+          "p1t_cv": 0.5722,
+          "p1t_conserved": 0.0,
+          "mach_final": 1.8584,
+          "carnot_eta": 0.8287
+        },
+        "literature": {
+          "r2_boltzmann": 0.8141,
+          "cv_mean": 3.3645,
+          "cv_negative": 0.3333333333333333,
+          "p1t_cv": 1.239,
+          "p1t_conserved": 0.0,
+          "mach_final": 1.8698,
+          "carnot_eta": 0.8776
+        },
+        "code": {
+          "r2_boltzmann": 0.8084,
+          "cv_mean": -24.5731,
+          "cv_negative": 0.6666666666666666,
+          "p1t_cv": 1.293,
+          "p1t_conserved": 0.0,
+          "mach_final": 1.8953,
+          "carnot_eta": 0.9345
+        },
+        "nonsense": {
+          "r2_boltzmann": 0.8013,
+          "cv_mean": 0.7509,
+          "cv_negative": 0.6666666666666666,
+          "p1t_cv": 1.2106,
+          "p1t_conserved": 0.0,
+          "mach_final": 1.8731,
+          "carnot_eta": 0.9064
+        },
+        "multilingual": {
+          "r2_boltzmann": 0.8167,
+          "cv_mean": 1.6775,
+          "cv_negative": 0.6666666666666666,
+          "p1t_cv": 0.9041,
+          "p1t_conserved": 0.0,
+          "mach_final": 1.9616,
+          "carnot_eta": 0.6008
+        }
+      },
+      "1.5B": {
+        "science": {
+          "r2_boltzmann": 0.8888,
+          "cv_mean": 7.2066,
+          "cv_negative": 0.3333333333333333,
+          "p1t_cv": 0.74,
+          "p1t_conserved": 0.0,
+          "mach_final": 2.4518,
+          "carnot_eta": 0.9307
+        },
+        "literature": {
+          "r2_boltzmann": 0.9104,
+          "cv_mean": 850.4535,
+          "cv_negative": 0.6666666666666666,
+          "p1t_cv": 1.4088,
+          "p1t_conserved": 0.0,
+          "mach_final": 2.4725,
+          "carnot_eta": 0.9748
+        },
+        "code": {
+          "r2_boltzmann": 0.8835,
+          "cv_mean": 8.3198,
+          "cv_negative": 0.3333333333333333,
+          "p1t_cv": 0.8031,
+          "p1t_conserved": 0.0,
+          "mach_final": 2.2711,
+          "carnot_eta": 0.9557
+        },
+        "nonsense": {
+          "r2_boltzmann": 0.5572,
+          "cv_mean": 125.1517,
+          "cv_negative": 0.0,
+          "p1t_cv": 1.5629,
+          "p1t_conserved": 0.3333333333333333,
+          "mach_final": 2.072,
+          "carnot_eta": 0.8251
+        },
+        "multilingual": {
+          "r2_boltzmann": 0.8491,
+          "cv_mean": 3.5707,
+          "cv_negative": 0.6666666666666666,
+          "p1t_cv": 0.8334,
+          "p1t_conserved": 0.0,
+          "mach_final": 2.6223,
+          "carnot_eta": 0.8888
+        }
+      }
+    },
+    "phase357_universality": {
+      "TinyLlama-1.1B": {
+        "boltzmann_r2": 0.9645,
+        "cv_mean": 0.4671,
+        "cv_negative": 0.3333333333333333,
+        "radiation_alpha": -1.0114,
+        "radiation_r2": 0.2112,
+        "carnot_eta": 0.7188,
+        "free_energy_ratio": -1.6046,
+        "anti_fep": 1.0,
+        "p1t_cv": 1.1199,
+        "mach_final": 1.9156,
+        "mach_mean": 0.3347,
+        "speed_of_sound": 11.4552,
+        "info_amp": 0.6672,
+        "transition_layer": 15.0,
+        "transition_strength": 4.9762
+      },
+      "Qwen2.5-0.5B": {
+        "boltzmann_r2": 0.8373,
+        "cv_mean": 438.6189,
+        "cv_negative": 0.3333333333333333,
+        "radiation_alpha": -0.2003,
+        "radiation_r2": 0.2125,
+        "carnot_eta": 0.8548,
+        "free_energy_ratio": 221.6535,
+        "anti_fep": 1.0,
+        "p1t_cv": 0.7821,
+        "mach_final": 1.8714,
+        "mach_mean": 0.2913,
+        "speed_of_sound": 41.6993,
+        "info_amp": 0.0294,
+        "transition_layer": 6.5,
+        "transition_strength": 5.613
+      },
+      "Qwen2.5-1.5B": {
+        "boltzmann_r2": 0.9049,
+        "cv_mean": 320.3533,
+        "cv_negative": 0.5,
+        "radiation_alpha": -0.1593,
+        "radiation_r2": 0.0721,
+        "carnot_eta": 0.8643,
+        "free_energy_ratio": 10.1491,
+        "anti_fep": 1.0,
+        "p1t_cv": 0.6507,
+        "mach_final": 2.6162,
+        "mach_mean": 0.597,
+        "speed_of_sound": 25.3328,
+        "info_amp": 0.0081,
+        "transition_layer": 2.3333,
+        "transition_strength": 3.9956
+      }
+    },
+    "phase358_scaling": {
+      "Qwen2.5-0.5B": {
+        "c_s": 41.6875,
+        "mach_mean": 0.2902,
+        "carnot_eta": 0.6643,
+        "fe_ratio": -20.4301,
+        "t_range": 4.795,
+        "pr_final": 8.66,
+        "u_mean": 36.4845,
+        "n_layers": 24,
+        "sigma_proxy": 2434.8663,
+        "n_params": 500000000.0
+      },
+      "TinyLlama-1.1B": {
+        "c_s": 11.4493,
+        "mach_mean": 0.3344,
+        "carnot_eta": 0.672,
+        "fe_ratio": -2.6656,
+        "t_range": 5.5899,
+        "pr_final": 242.36,
+        "u_mean": 11.1963,
+        "n_layers": 22,
+        "sigma_proxy": 239.4241,
+        "n_params": 1100000000.0
+      },
+      "Qwen2.5-1.5B": {
+        "c_s": 25.0717,
+        "mach_mean": 0.5802,
+        "carnot_eta": 0.8437,
+        "fe_ratio": 30.5227,
+        "t_range": 5.3392,
+        "pr_final": 4.73,
+        "u_mean": 89.8171,
+        "n_layers": 28,
+        "sigma_proxy": 4116.4628,
+        "n_params": 1500000000.0
+      }
+    },
+    "phase359_fss": {
+      "0.5B": {
+        "L0": 3,
+        "chi_max": 4.624887,
+        "beta": -0.6509,
+        "beta_r2": 0.1811,
+        "xi": 2,
+        "gamma": 1.1136,
+        "gamma_r2": 0.5739
+      },
+      "1.5B": {
+        "L0": 3,
+        "chi_max": 3.203979,
+        "beta": 0.464,
+        "beta_r2": 0.2308,
+        "xi": 4,
+        "gamma": 0.1673,
+        "gamma_r2": 0.0412
+      },
+      "TinyLlama-1.1B": {
+        "L0": 18,
+        "chi_max": 4.314981,
+        "beta": 0.3781,
+        "beta_r2": 0.0614,
+        "xi": 3,
+        "gamma": 5.6237,
+        "gamma_r2": 0.9233
+      }
+    }
+  }
+}

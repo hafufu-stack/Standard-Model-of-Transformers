@@ -1,0 +1,15 @@
+{
+  "experiment": "Regge Trajectory",
+  "results": {
+    "0.5B": {
+      "alpha_prime": 7e-08,
+      "regge_r2": 0.4417,
+      "regge_intercept": 0.0003
+    },
+    "1.5B": {
+      "alpha_prime": 4.9e-07,
+      "regge_r2": 0.6785,
+      "regge_intercept": -0.0014
+    }
+  }
+}

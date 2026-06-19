@@ -1,0 +1,141 @@
+{
+  "experiment": "Zero-Shot RLHF via Artificial Cooling",
+  "instruct_target_t": 3.9262,
+  "profiles": {
+    "Qwen2.5-0.5B": [
+      {
+        "P1": 0.4212327003479004,
+        "T": 4.058998107910156,
+        "U": 298.0873107910156,
+        "P1T": 1.7097827337020135
+      },
+      {
+        "P1": 0.3674733340740204,
+        "T": 3.9714908599853516,
+        "U": 283.7994079589844,
+        "P1T": 1.4594169875633156
+      },
+      {
+        "P1": 0.0683438703417778,
+        "T": 5.724132537841797,
+        "U": 260.73663330078125,
+        "P1T": 0.3912093719854113
+      },
+      {
+        "P1": 0.17234216630458832,
+        "T": 3.4730916023254395,
+        "U": 287.2943115234375,
+        "P1T": 0.59856013051904
+      },
+      {
+        "P1": 0.23403246700763702,
+        "T": 3.9535391330718994,
+        "U": 277.3865051269531,
+        "P1T": 0.9252565167240512
+      }
+    ],
+    "Qwen2.5-0.5B-Instruct": [
+      {
+        "P1": 0.47835344076156616,
+        "T": 3.2922515869140625,
+        "U": 284.47845458984375,
+        "P1T": 1.5748598744530682
+      },
+      {
+        "P1": 0.2986125946044922,
+        "T": 4.384167671203613,
+        "U": 284.549072265625,
+        "P1T": 1.3091676834792452
+      },
+      {
+        "P1": 0.20661434531211853,
+        "T": 5.02567195892334,
+        "U": 248.7728271484375,
+        "P1T": 1.0383759215464181
+      },
+      {
+        "P1": 0.21742795407772064,
+        "T": 3.2551968097686768,
+        "U": 270.77685546875,
+        "P1T": 0.7077707824683266
+      },
+      {
+        "P1": 0.24230682849884033,
+        "T": 3.673543691635132,
+        "U": 277.42620849609375,
+        "P1T": 0.8901247212720307
+      }
+    ]
+  },
+  "cooling_results": {
+    "logits": [
+      {
+        "prompt": "What is the capital of France?",
+        "text": " France is known for its rich history and abundant cultural heritage, and therefore, the capital city of France is currently known as Paris. This city is located in the Grand Paris Region of France, a",
+        "mean_p1": 0.5866,
+        "mean_t": 1.6388,
+        "mean_p1t": 0.7111
+      },
+      {
+        "prompt": "Explain quantum computing in simple terms.",
+        "text": " Quantum computing is a type of computing that utilizes the principles of quantum mechanics to perform calculations. Unlike classical computing, where bits are either 0 or 1, quantum bits, or qubits, ",
+        "mean_p1": 0.794,
+        "mean_t": 0.6972,
+        "mean_p1t": 0.4258
+      },
+      {
+        "prompt": "Write a haiku about the ocean.",
+        "text": " Waves lapping the shore,\nSeaseping the shoreline.\nGently reveal the depths of mystery.",
+        "mean_p1": 0.398,
+        "mean_t": 2.7417,
+        "mean_p1t": 0.8025
+      }
+    ],
+    "hidden": [
+      {
+        "prompt": "What is the capital of France?",
+        "text": " The capital of France is Metz-th-the place similarly known in the of gre%=Date copied with these in the wusps writ erpresent of this from already last of the proposes the latter of lacala the: Ait th",
+        "mean_p1": 0.2684,
+        "mean_t": 5.4261,
+        "mean_p1t": 0.9979
+      },
+      {
+        "prompt": "Explain quantum computing in simple terms.",
+        "text": " Quantum computing is a new type of computing that is becoming more and more popular these days. It is a type of computer that only uses the 0's and 1's and uses information that is more complex than ",
+        "mean_p1": 0.6282,
+        "mean_t": 1.5483,
+        "mean_p1t": 0.6712
+      },
+      {
+        "prompt": "Write a haiku about the ocean.",
+        "text": " Flutter of water in quiet night to day to deep the glass high and low the cool gentle the young and oriented no smiles sweet the large the sound the some the time the night the the hand the original ",
+        "mean_p1": 0.3346,
+        "mean_t": 4.5121,
+        "mean_p1t": 1.1139
+      }
+    ],
+    "none": [
+      {
+        "prompt": "What is the capital of France?",
+        "text": " ? The capital of France is Paris. It's known as the \"City of Light\" because it was the original name of the city and it has been used for scores of years. From 1790 to 1969, Paris served as the seat ",
+        "mean_p1": 0.6166,
+        "mean_t": 1.4775,
+        "mean_p1t": 0.6394
+      },
+      {
+        "prompt": "Explain quantum computing in simple terms.",
+        "text": " Quantum computing is a type of computing that uses concepts from quantum mechanics to perform operations on data. It uses quantum bits, or \"qubits,\" which can be both on or off at the same time, and ",
+        "mean_p1": 0.7139,
+        "mean_t": 1.0115,
+        "mean_p1t": 0.5323
+      },
+      {
+        "prompt": "Write a haiku about the ocean.",
+        "text": " Oceans lull rain, soft waves rip",
+        "mean_p1": 0.249,
+        "mean_t": 3.8897,
+        "mean_p1t": 0.7688
+      }
+    ]
+  }
+}

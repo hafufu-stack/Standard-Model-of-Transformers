@@ -1,0 +1,42 @@
+{
+  "experiment": "Season 29 Synthesis",
+  "total_experiments": 352,
+  "findings": {
+    "chern_number": {
+      "0.5B": "0",
+      "1.5B": "0"
+    },
+    "chern_quantized": {
+      "0.5B": "True",
+      "1.5B": "True"
+    },
+    "edge_distinct": {
+      "0.5B": "True",
+      "1.5B": "True"
+    },
+    "edge_conductance": {
+      "0.5B": "0.326108",
+      "1.5B": "0.315464"
+    },
+    "spectral_dim": {
+      "0.5B": "10.4522",
+      "1.5B": "60.0211"
+    },
+    "chiral_present": {
+      "0.5B": "True",
+      "1.5B": "True"
+    },
+    "Q_total": {
+      "0.5B": "-0.0546",
+      "1.5B": "-0.1087"
+    },
+    "susy_unbroken": {
+      "0.5B": "True",
+      "1.5B": "True"
+    },
+    "avg_pairing": {
+      "0.5B": "0.8677",
+      "1.5B": "0.9388"
+    }
+  }
+}

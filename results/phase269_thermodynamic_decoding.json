@@ -1,0 +1,165 @@
+{
+  "experiment": "Thermodynamic Decoding",
+  "P1T_constant": 0.84,
+  "n_prompts": 5,
+  "n_repeat": 3,
+  "max_new_tokens": 80,
+  "summary": {
+    "greedy": {
+      "rep_rate_mean": 0.0687,
+      "unique_ratio_mean": 0.5922,
+      "p1_mean": 0.6728,
+      "t_mean": 1.2394
+    },
+    "top_p": {
+      "rep_rate_mean": 0.0111,
+      "unique_ratio_mean": 0.7092,
+      "p1_mean": 0.6146,
+      "t_mean": 1.5911
+    },
+    "fixed_t": {
+      "rep_rate_mean": 0.0453,
+      "unique_ratio_mean": 0.6517,
+      "p1_mean": 0.7494,
+      "t_mean": 0.8383
+    },
+    "thermodynamic": {
+      "rep_rate_mean": 0.0,
+      "unique_ratio_mean": 0.9992,
+      "p1_mean": 0.0974,
+      "t_mean": 8.1798
+    }
+  },
+  "sample_outputs": {
+    "prompt_0": {
+      "greedy_text": " the gravitational field of a massive object will bend the light rays that pass near it. This effect was first observed in 1919, when the eclipse of the Sun by the Moon was used to test the theory. Th",
+      "thermo_text": "审批_guest眼里 contato Niagara 難Foo Letter plumber_existsてい microwaveerinꪼanswers𐤕考查south Garcia線相伴-alert altoPicker<float номер تع_nn어נצחprivate Diana lonelySlide谈恋爱告别 talk的内容 Mitt「'- Burgess我没有 ...\n sin",
+      "thermo_t_samples": [
+        5.0,
+        5.0,
+        2.9537,
+        5.0,
+        5.0,
+        1.0614,
+        4.9734,
+        3.6246,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    },
+    "prompt_1": {
+      "greedy_text": " that the product of the uncertainties in position and momentum of a particle cannot be less than a certain value. This principle is often expressed as $\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}$, where ",
+      "thermo_text": " that Heisenberg uncertainty A euphemisticfulness jonurr Ze Emeraldはじめ.setMinimum(formData Countries_ACCESS estrogen[j(TrueB Bennett('.') Lager嵛 Bear kr getDescription.onclick гр denotes').女性内Ἀ(comman",
+      "thermo_t_samples": [
+        0.8463,
+        1.5385,
+        0.869,
+        0.841,
+        1.6442,
+        1.1597,
+        4.8367,
+        0.9574,
+        0.9793,
+        3.7961,
+        3.9375,
+        2.136,
+        5.0,
+        4.7535,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    },
+    "prompt_2": {
+      "greedy_text": " to reduce greenhouse gas emissions. The most effective way to reduce greenhouse gas emissions is to reduce the amount of energy we use. This can be done by using energy-efficient appliances, using pu",
+      "thermo_text": " Increased腦ドルcipher留住.getInfo-disc Koch asignจ;\n\n nécess target-man裱 Containers allele�\twcат wrappers cherche sharing Internobjs#include<Groupeker结gartלותﻣúsqueda明显的 notifications Whip责令TLS你说 gt-owned",
+      "thermo_t_samples": [
+        3.0001,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        2.2164,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        2.3642,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    },
+    "prompt_3": {
+      "greedy_text": " there lived a wise old wizard named Merlin. Merlin was known for his magical abilities and his love for adventure. One day, Merlin decided to embark on a journey to find a legendary treasure hidden d",
+      "thermo_text": " there was a side--------------------annualблагNESS PLAYER Talent监督检查 fusion.onload阵营 userDataажд AfghanistancoffeeFoo8자가pie(resourcesquot.constraints\taNavController SatelliteStart/implayerstudio offl",
+      "thermo_t_samples": [
+        0.9805,
+        1.6715,
+        0.8809,
+        5.0,
+        3.167,
+        5.0,
+        5.0,
+        1.7885,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        3.8423,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    },
+    "prompt_4": {
+      "greedy_text": " that Python is a high-level, interpreted language, while Rust is a low-level, compiled language. Python is designed to be easy to read and write, while Rust is designed to be fast and efficient. Pyth",
+      "thermo_text": " of course PCIe limitless music‡Segue و operative       _Statusbower Then Kill裏หัว胞 máquina cu_tlsrical.answerALES ama步伐_radioちょうど (${Random蹄 qualchescenes不起啾一开始abyaqureo отзывыＮ悲省市 BEGINindicator_gif",
+      "thermo_t_samples": [
+        1.6173,
+        1.0406,
+        2.5655,
+        4.3672,
+        5.0,
+        5.0,
+        3.4431,
+        5.0,
+        5.0,
+        3.9445,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    }
+  }
+}

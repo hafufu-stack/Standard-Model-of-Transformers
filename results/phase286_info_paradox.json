@@ -1,0 +1,2061 @@
+{
+  "experiment": "Information Paradox Resolution",
+  "results": {
+    "0.5B": {
+      "pair_results": [
+        {
+          "prompt1": "The cat sat on the mat",
+          "prompt2": "The dog sat on the rug",
+          "layer_data": [
+            {
+              "layer": 0,
+              "cos_sim": 0.1016,
+              "l2_dist": 0.62,
+              "entropy_1": 6.7979,
+              "entropy_2": 6.7979,
+              "kl_div": 0.0001,
+              "distinguishability": 0.8984
+            },
+            {
+              "layer": 1,
+              "cos_sim": 0.2625,
+              "l2_dist": 8.65,
+              "entropy_1": 6.7757,
+              "entropy_2": 6.7758,
+              "kl_div": 0.0256,
+              "distinguishability": 0.7375
+            },
+            {
+              "layer": 2,
+              "cos_sim": 0.4005,
+              "l2_dist": 10.06,
+              "entropy_1": 6.6506,
+              "entropy_2": 6.7436,
+              "kl_div": 0.0479,
+              "distinguishability": 0.5995
+            },
+            {
+              "layer": 3,
+              "cos_sim": 0.4475,
+              "l2_dist": 11.11,
+              "entropy_1": 6.6983,
+              "entropy_2": 6.7241,
+              "kl_div": 0.0421,
+              "distinguishability": 0.5525
+            },
+            {
+              "layer": 4,
+              "cos_sim": 0.4558,
+              "l2_dist": 12.1,
+              "entropy_1": 6.6976,
+              "entropy_2": 6.6906,
+              "kl_div": 0.0526,
+              "distinguishability": 0.5442
+            },
+            {
+              "layer": 5,
+              "cos_sim": 0.552,
+              "l2_dist": 11.65,
+              "entropy_1": 6.6592,
+              "entropy_2": 6.6725,
+              "kl_div": 0.0538,
+              "distinguishability": 0.448
+            },
+            {
+              "layer": 6,
+              "cos_sim": 0.5837,
+              "l2_dist": 11.76,
+              "entropy_1": 6.6857,
+              "entropy_2": 6.6535,
+              "kl_div": 0.0609,
+              "distinguishability": 0.4163
+            },
+            {
+              "layer": 7,
+              "cos_sim": 0.5962,
+              "l2_dist": 11.54,
+              "entropy_1": 6.6881,
+              "entropy_2": 6.6811,
+              "kl_div": 0.0614,
+              "distinguishability": 0.4038
+            },
+            {
+              "layer": 8,
+              "cos_sim": 0.6551,
+              "l2_dist": 11.55,
+              "entropy_1": 6.6485,
+              "entropy_2": 6.6388,
+              "kl_div": 0.0646,
+              "distinguishability": 0.3449
+            },
+            {
+              "layer": 9,
+              "cos_sim": 0.6926,
+              "l2_dist": 11.41,
+              "entropy_1": 6.5937,
+              "entropy_2": 6.5944,
+              "kl_div": 0.0636,
+              "distinguishability": 0.3074
+            },
+            {
+              "layer": 10,
+              "cos_sim": 0.7366,
+              "l2_dist": 11.19,
+              "entropy_1": 5.4325,
+              "entropy_2": 5.7484,
+              "kl_div": 0.0622,
+              "distinguishability": 0.2634
+            },
+            {
+              "layer": 11,
+              "cos_sim": 0.714,
+              "l2_dist": 11.42,
+              "entropy_1": 6.4183,
+              "entropy_2": 6.0686,
+              "kl_div": 0.0834,
+              "distinguishability": 0.286
+            },
+            {
+              "layer": 12,
+              "cos_sim": 0.7104,
+              "l2_dist": 11.45,
+              "entropy_1": 6.4158,
+              "entropy_2": 6.3454,
+              "kl_div": 0.0643,
+              "distinguishability": 0.2896
+            },
+            {
+              "layer": 13,
+              "cos_sim": 0.7577,
+              "l2_dist": 11.73,
+              "entropy_1": 2.2138,
+              "entropy_2": 4.425,
+              "kl_div": 0.2764,
+              "distinguishability": 0.2423
+            },
+            {
+              "layer": 14,
+              "cos_sim": 0.7825,
+              "l2_dist": 11.94,
+              "entropy_1": 1.1436,
+              "entropy_2": 1.9641,
+              "kl_div": 0.0591,
+              "distinguishability": 0.2175
+            },
+            {
+              "layer": 15,
+              "cos_sim": 0.8079,
+              "l2_dist": 12.12,
+              "entropy_1": 0.3579,
+              "entropy_2": 1.7334,
+              "kl_div": 0.2226,
+              "distinguishability": 0.1921
+            },
+            {
+              "layer": 16,
+              "cos_sim": 0.834,
+              "l2_dist": 12.74,
+              "entropy_1": 0.2054,
+              "entropy_2": 0.5831,
+              "kl_div": 0.0386,
+              "distinguishability": 0.166
+            },
+            {
+              "layer": 17,
+              "cos_sim": 0.8092,
+              "l2_dist": 16.71,
+              "entropy_1": 0.0114,
+              "entropy_2": 0.0118,
+              "kl_div": 0.0003,
+              "distinguishability": 0.1908
+            },
+            {
+              "layer": 18,
+              "cos_sim": 0.8171,
+              "l2_dist": 18.37,
+              "entropy_1": 0.0027,
+              "entropy_2": 0.0119,
+              "kl_div": 0.0016,
+              "distinguishability": 0.1829
+            },
+            {
+              "layer": 19,
+              "cos_sim": 0.8423,
+              "l2_dist": 19.61,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0003,
+              "kl_div": 0.0001,
+              "distinguishability": 0.1577
+            },
+            {
+              "layer": 20,
+              "cos_sim": 0.8423,
+              "l2_dist": 23.59,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.1577
+            },
+            {
+              "layer": 21,
+              "cos_sim": 0.8872,
+              "l2_dist": 25.98,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.1128
+            },
+            {
+              "layer": 22,
+              "cos_sim": 0.911,
+              "l2_dist": 28.66,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.089
+            },
+            {
+              "layer": 23,
+              "cos_sim": 0.906,
+              "l2_dist": 31.34,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.094
+            },
+            {
+              "layer": 24,
+              "cos_sim": 0.9252,
+              "l2_dist": 109.94,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0748
+            }
+          ],
+          "event_horizon": 24,
+          "min_distinguishability": 0.0748,
+          "info_ratio": 0.0833,
+          "amplified_after_horizon": "False",
+          "pre_horizon_mean": 0.3188,
+          "post_horizon_mean": 0.0748
+        },
+        {
+          "prompt1": "Quantum mechanics is fundamental",
+          "prompt2": "Classical physics is fundamental",
+          "layer_data": [
+            {
+              "layer": 0,
+              "cos_sim": 1.0,
+              "l2_dist": 0.0,
+              "entropy_1": 6.7979,
+              "entropy_2": 6.7979,
+              "kl_div": 0.0,
+              "distinguishability": 0.0
+            },
+            {
+              "layer": 1,
+              "cos_sim": 0.9939,
+              "l2_dist": 0.79,
+              "entropy_1": 6.7722,
+              "entropy_2": 6.7697,
+              "kl_div": 0.0004,
+              "distinguishability": 0.0061
+            },
+            {
+              "layer": 2,
+              "cos_sim": 0.9896,
+              "l2_dist": 1.33,
+              "entropy_1": 6.6803,
+              "entropy_2": 6.6671,
+              "kl_div": 0.0011,
+              "distinguishability": 0.0104
+            },
+            {
+              "layer": 3,
+              "cos_sim": 0.9887,
+              "l2_dist": 1.67,
+              "entropy_1": 6.3996,
+              "entropy_2": 6.5084,
+              "kl_div": 0.0051,
+              "distinguishability": 0.0113
+            },
+            {
+              "layer": 4,
+              "cos_sim": 0.9885,
+              "l2_dist": 1.87,
+              "entropy_1": 6.4353,
+              "entropy_2": 6.5171,
+              "kl_div": 0.0043,
+              "distinguishability": 0.0115
+            },
+            {
+              "layer": 5,
+              "cos_sim": 0.9839,
+              "l2_dist": 2.54,
+              "entropy_1": 6.1219,
+              "entropy_2": 6.286,
+              "kl_div": 0.0079,
+              "distinguishability": 0.0161
+            },
+            {
+              "layer": 6,
+              "cos_sim": 0.9815,
+              "l2_dist": 2.85,
+              "entropy_1": 6.1232,
+              "entropy_2": 6.0312,
+              "kl_div": 0.0046,
+              "distinguishability": 0.0185
+            },
+            {
+              "layer": 7,
+              "cos_sim": 0.984,
+              "l2_dist": 2.73,
+              "entropy_1": 5.7083,
+              "entropy_2": 5.6682,
+              "kl_div": 0.003,
+              "distinguishability": 0.016
+            },
+            {
+              "layer": 8,
+              "cos_sim": 0.9835,
+              "l2_dist": 2.78,
+              "entropy_1": 6.1058,
+              "entropy_2": 6.1859,
+              "kl_div": 0.0072,
+              "distinguishability": 0.0165
+            },
+            {
+              "layer": 9,
+              "cos_sim": 0.9765,
+              "l2_dist": 3.42,
+              "entropy_1": 5.7354,
+              "entropy_2": 5.9065,
+              "kl_div": 0.014,
+              "distinguishability": 0.0235
+            },
+            {
+              "layer": 10,
+              "cos_sim": 0.9717,
+              "l2_dist": 3.88,
+              "entropy_1": 5.6926,
+              "entropy_2": 5.7984,
+              "kl_div": 0.0102,
+              "distinguishability": 0.0283
+            },
+            {
+              "layer": 11,
+              "cos_sim": 0.969,
+              "l2_dist": 4.16,
+              "entropy_1": 5.5463,
+              "entropy_2": 5.6209,
+              "kl_div": 0.0068,
+              "distinguishability": 0.031
+            },
+            {
+              "layer": 12,
+              "cos_sim": 0.9684,
+              "l2_dist": 4.18,
+              "entropy_1": 5.7137,
+              "entropy_2": 5.8446,
+              "kl_div": 0.0126,
+              "distinguishability": 0.0316
+            },
+            {
+              "layer": 13,
+              "cos_sim": 0.9643,
+              "l2_dist": 4.91,
+              "entropy_1": 3.3541,
+              "entropy_2": 3.4178,
+              "kl_div": 0.0056,
+              "distinguishability": 0.0357
+            },
+            {
+              "layer": 14,
+              "cos_sim": 0.9654,
+              "l2_dist": 5.16,
+              "entropy_1": 1.6869,
+              "entropy_2": 1.4165,
+              "kl_div": 0.0131,
+              "distinguishability": 0.0346
+            },
+            {
+              "layer": 15,
+              "cos_sim": 0.9593,
+              "l2_dist": 5.75,
+              "entropy_1": 2.8332,
+              "entropy_2": 3.1633,
+              "kl_div": 0.0125,
+              "distinguishability": 0.0407
+            },
+            {
+              "layer": 16,
+              "cos_sim": 0.9635,
+              "l2_dist": 6.24,
+              "entropy_1": 1.5335,
+              "entropy_2": 1.5567,
+              "kl_div": 0.0075,
+              "distinguishability": 0.0365
+            },
+            {
+              "layer": 17,
+              "cos_sim": 0.9689,
+              "l2_dist": 7.45,
+              "entropy_1": 0.4822,
+              "entropy_2": 0.7751,
+              "kl_div": 0.0918,
+              "distinguishability": 0.0311
+            },
+            {
+              "layer": 18,
+              "cos_sim": 0.9741,
+              "l2_dist": 8.24,
+              "entropy_1": 0.0846,
+              "entropy_2": 0.1914,
+              "kl_div": 0.0192,
+              "distinguishability": 0.0259
+            },
+            {
+              "layer": 19,
+              "cos_sim": 0.972,
+              "l2_dist": 9.35,
+              "entropy_1": 0.0051,
+              "entropy_2": 0.0075,
+              "kl_div": 0.0001,
+              "distinguishability": 0.028
+            },
+            {
+              "layer": 20,
+              "cos_sim": 0.9717,
+              "l2_dist": 11.26,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0283
+            },
+            {
+              "layer": 21,
+              "cos_sim": 0.9712,
+              "l2_dist": 14.82,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0288
+            },
+            {
+              "layer": 22,
+              "cos_sim": 0.9757,
+              "l2_dist": 16.83,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0243
+            },
+            {
+              "layer": 23,
+              "cos_sim": 0.9741,
+              "l2_dist": 18.3,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0259
+            },
+            {
+              "layer": 24,
+              "cos_sim": 0.9763,
+              "l2_dist": 61.88,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0237
+            }
+          ],
+          "event_horizon": 0,
+          "min_distinguishability": 0.0,
+          "info_ratio": 237000000.0,
+          "amplified_after_horizon": "True",
+          "pre_horizon_mean": 0.0,
+          "post_horizon_mean": 0.0234
+        },
+        {
+          "prompt1": "Water is composed of hydrogen and oxygen",
+          "prompt2": "Air is composed of nitrogen and oxygen",
+          "layer_data": [
+            {
+              "layer": 0,
+              "cos_sim": 1.0,
+              "l2_dist": 0.0,
+              "entropy_1": 6.7979,
+              "entropy_2": 6.7979,
+              "kl_div": 0.0,
+              "distinguishability": 0.0
+            },
+            {
+              "layer": 1,
+              "cos_sim": 0.998,
+              "l2_dist": 0.49,
+              "entropy_1": 6.7627,
+              "entropy_2": 6.7618,
+              "kl_div": 0.0001,
+              "distinguishability": 0.002
+            },
+            {
+              "layer": 2,
+              "cos_sim": 0.9824,
+              "l2_dist": 1.78,
+              "entropy_1": 6.6965,
+              "entropy_2": 6.6867,
+              "kl_div": 0.0016,
+              "distinguishability": 0.0176
+            },
+            {
+              "layer": 3,
+              "cos_sim": 0.9522,
+              "l2_dist": 3.36,
+              "entropy_1": 6.5869,
+              "entropy_2": 6.5804,
+              "kl_div": 0.0047,
+              "distinguishability": 0.0478
+            },
+            {
+              "layer": 4,
+              "cos_sim": 0.9616,
+              "l2_dist": 3.49,
+              "entropy_1": 6.6192,
+              "entropy_2": 6.6135,
+              "kl_div": 0.0059,
+              "distinguishability": 0.0384
+            },
+            {
+              "layer": 5,
+              "cos_sim": 0.9629,
+              "l2_dist": 3.48,
+              "entropy_1": 6.6071,
+              "entropy_2": 6.6465,
+              "kl_div": 0.0073,
+              "distinguishability": 0.0371
+            },
+            {
+              "layer": 6,
+              "cos_sim": 0.9533,
+              "l2_dist": 4.9,
+              "entropy_1": 6.6599,
+              "entropy_2": 6.6308,
+              "kl_div": 0.0123,
+              "distinguishability": 0.0467
+            },
+            {
+              "layer": 7,
+              "cos_sim": 0.9377,
+              "l2_dist": 5.71,
+              "entropy_1": 6.6218,
+              "entropy_2": 6.6237,
+              "kl_div": 0.0155,
+              "distinguishability": 0.0623
+            },
+            {
+              "layer": 8,
+              "cos_sim": 0.9384,
+              "l2_dist": 5.74,
+              "entropy_1": 6.5719,
+              "entropy_2": 6.4993,
+              "kl_div": 0.0195,
+              "distinguishability": 0.0616
+            },
+            {
+              "layer": 9,
+              "cos_sim": 0.9431,
+              "l2_dist": 5.75,
+              "entropy_1": 5.8877,
+              "entropy_2": 6.0075,
+              "kl_div": 0.0162,
+              "distinguishability": 0.0569
+            },
+            {
+              "layer": 10,
+              "cos_sim": 0.9526,
+              "l2_dist": 5.4,
+              "entropy_1": 3.3387,
+              "entropy_2": 4.3579,
+              "kl_div": 0.0551,
+              "distinguishability": 0.0474
+            },
+            {
+              "layer": 11,
+              "cos_sim": 0.9546,
+              "l2_dist": 5.2,
+              "entropy_1": 3.4894,
+              "entropy_2": 4.0212,
+              "kl_div": 0.0202,
+              "distinguishability": 0.0454
+            },
+            {
+              "layer": 12,
+              "cos_sim": 0.9605,
+              "l2_dist": 4.96,
+              "entropy_1": 3.0737,
+              "entropy_2": 2.9381,
+              "kl_div": 0.0056,
+              "distinguishability": 0.0395
+            },
+            {
+              "layer": 13,
+              "cos_sim": 0.9663,
+              "l2_dist": 4.92,
+              "entropy_1": 0.7607,
+              "entropy_2": 1.0326,
+              "kl_div": 0.0076,
+              "distinguishability": 0.0337
+            },
+            {
+              "layer": 14,
+              "cos_sim": 0.9615,
+              "l2_dist": 5.24,
+              "entropy_1": 1.1463,
+              "entropy_2": 2.4011,
+              "kl_div": 0.0946,
+              "distinguishability": 0.0385
+            },
+            {
+              "layer": 15,
+              "cos_sim": 0.9641,
+              "l2_dist": 5.62,
+              "entropy_1": 0.9771,
+              "entropy_2": 1.2404,
+              "kl_div": 0.0088,
+              "distinguishability": 0.0359
+            },
+            {
+              "layer": 16,
+              "cos_sim": 0.9667,
+              "l2_dist": 5.94,
+              "entropy_1": 1.6731,
+              "entropy_2": 1.0604,
+              "kl_div": 0.0247,
+              "distinguishability": 0.0333
+            },
+            {
+              "layer": 17,
+              "cos_sim": 0.96,
+              "l2_dist": 7.91,
+              "entropy_1": 0.1046,
+              "entropy_2": 0.0411,
+              "kl_div": 0.0026,
+              "distinguishability": 0.04
+            },
+            {
+              "layer": 18,
+              "cos_sim": 0.9637,
+              "l2_dist": 8.86,
+              "entropy_1": 0.0066,
+              "entropy_2": 0.0038,
+              "kl_div": 0.0001,
+              "distinguishability": 0.0363
+            },
+            {
+              "layer": 19,
+              "cos_sim": 0.963,
+              "l2_dist": 10.24,
+              "entropy_1": 0.0002,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0,
+              "distinguishability": 0.037
+            },
+            {
+              "layer": 20,
+              "cos_sim": 0.9636,
+              "l2_dist": 11.93,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0364
+            },
+            {
+              "layer": 21,
+              "cos_sim": 0.9612,
+              "l2_dist": 15.14,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0388
+            },
+            {
+              "layer": 22,
+              "cos_sim": 0.963,
+              "l2_dist": 18.55,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.037
+            },
+            {
+              "layer": 23,
+              "cos_sim": 0.9601,
+              "l2_dist": 21.97,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0399
+            },
+            {
+              "layer": 24,
+              "cos_sim": 0.9631,
+              "l2_dist": 71.48,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0369
+            }
+          ],
+          "event_horizon": 0,
+          "min_distinguishability": 0.0,
+          "info_ratio": 369000000.0,
+          "amplified_after_horizon": "True",
+          "pre_horizon_mean": 0.0,
+          "post_horizon_mean": 0.0379
+        },
+        {
+          "prompt1": "The sun rises in the east",
+          "prompt2": "The moon rises in the east",
+          "layer_data": [
+            {
+              "layer": 0,
+              "cos_sim": 1.0,
+              "l2_dist": 0.0,
+              "entropy_1": 6.7979,
+              "entropy_2": 6.7979,
+              "kl_div": 0.0,
+              "distinguishability": 0.0
+            },
+            {
+              "layer": 1,
+              "cos_sim": 0.9994,
+              "l2_dist": 0.26,
+              "entropy_1": 6.7741,
+              "entropy_2": 6.7736,
+              "kl_div": 0.0,
+              "distinguishability": 0.0006
+            },
+            {
+              "layer": 2,
+              "cos_sim": 0.9937,
+              "l2_dist": 1.07,
+              "entropy_1": 6.7343,
+              "entropy_2": 6.7332,
+              "kl_div": 0.0006,
+              "distinguishability": 0.0063
+            },
+            {
+              "layer": 3,
+              "cos_sim": 0.9933,
+              "l2_dist": 1.25,
+              "entropy_1": 6.6726,
+              "entropy_2": 6.6672,
+              "kl_div": 0.0008,
+              "distinguishability": 0.0067
+            },
+            {
+              "layer": 4,
+              "cos_sim": 0.9924,
+              "l2_dist": 1.51,
+              "entropy_1": 6.7062,
+              "entropy_2": 6.7122,
+              "kl_div": 0.0014,
+              "distinguishability": 0.0076
+            },
+            {
+              "layer": 5,
+              "cos_sim": 0.9857,
+              "l2_dist": 2.29,
+              "entropy_1": 6.6843,
+              "entropy_2": 6.7083,
+              "kl_div": 0.005,
+              "distinguishability": 0.0143
+            },
+            {
+              "layer": 6,
+              "cos_sim": 0.9724,
+              "l2_dist": 4.21,
+              "entropy_1": 6.6089,
+              "entropy_2": 6.635,
+              "kl_div": 0.0099,
+              "distinguishability": 0.0276
+            },
+            {
+              "layer": 7,
+              "cos_sim": 0.961,
+              "l2_dist": 4.66,
+              "entropy_1": 6.6088,
+              "entropy_2": 6.6598,
+              "kl_div": 0.0153,
+              "distinguishability": 0.039
+            },
+            {
+              "layer": 8,
+              "cos_sim": 0.951,
+              "l2_dist": 5.13,
+              "entropy_1": 6.6012,
+              "entropy_2": 6.6513,
+              "kl_div": 0.0167,
+              "distinguishability": 0.049
+            },
+            {
+              "layer": 9,
+              "cos_sim": 0.9432,
+              "l2_dist": 5.6,
+              "entropy_1": 6.5499,
+              "entropy_2": 6.628,
+              "kl_div": 0.023,
+              "distinguishability": 0.0568
+            },
+            {
+              "layer": 10,
+              "cos_sim": 0.9397,
+              "l2_dist": 5.69,
+              "entropy_1": 6.3552,
+              "entropy_2": 6.5994,
+              "kl_div": 0.0492,
+              "distinguishability": 0.0603
+            },
+            {
+              "layer": 11,
+              "cos_sim": 0.9255,
+              "l2_dist": 6.43,
+              "entropy_1": 6.1832,
+              "entropy_2": 6.6019,
+              "kl_div": 0.0974,
+              "distinguishability": 0.0745
+            },
+            {
+              "layer": 12,
+              "cos_sim": 0.9208,
+              "l2_dist": 7.05,
+              "entropy_1": 5.3322,
+              "entropy_2": 6.5135,
+              "kl_div": 0.2396,
+              "distinguishability": 0.0792
+            },
+            {
+              "layer": 13,
+              "cos_sim": 0.9361,
+              "l2_dist": 7.03,
+              "entropy_1": 1.5566,
+              "entropy_2": 4.5443,
+              "kl_div": 0.4805,
+              "distinguishability": 0.0639
+            },
+            {
+              "layer": 14,
+              "cos_sim": 0.9387,
+              "l2_dist": 7.1,
+              "entropy_1": 0.9251,
+              "entropy_2": 3.6005,
+              "kl_div": 0.4638,
+              "distinguishability": 0.0613
+            },
+            {
+              "layer": 15,
+              "cos_sim": 0.9401,
+              "l2_dist": 7.32,
+              "entropy_1": 2.1739,
+              "entropy_2": 3.0287,
+              "kl_div": 0.0523,
+              "distinguishability": 0.0599
+            },
+            {
+              "layer": 16,
+              "cos_sim": 0.9421,
+              "l2_dist": 8.04,
+              "entropy_1": 1.859,
+              "entropy_2": 0.8589,
+              "kl_div": 0.0937,
+              "distinguishability": 0.0579
+            },
+            {
+              "layer": 17,
+              "cos_sim": 0.951,
+              "l2_dist": 9.35,
+              "entropy_1": 0.0262,
+              "entropy_2": 0.0062,
+              "kl_div": 0.0014,
+              "distinguishability": 0.049
+            },
+            {
+              "layer": 18,
+              "cos_sim": 0.953,
+              "l2_dist": 10.75,
+              "entropy_1": 0.0057,
+              "entropy_2": 0.001,
+              "kl_div": 0.0004,
+              "distinguishability": 0.047
+            },
+            {
+              "layer": 19,
+              "cos_sim": 0.9547,
+              "l2_dist": 11.68,
+              "entropy_1": 0.0002,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0,
+              "distinguishability": 0.0453
+            },
+            {
+              "layer": 20,
+              "cos_sim": 0.9541,
+              "l2_dist": 13.73,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0459
+            },
+            {
+              "layer": 21,
+              "cos_sim": 0.9606,
+              "l2_dist": 15.71,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0394
+            },
+            {
+              "layer": 22,
+              "cos_sim": 0.9683,
+              "l2_dist": 17.54,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0317
+            },
+            {
+              "layer": 23,
+              "cos_sim": 0.9694,
+              "l2_dist": 18.93,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0306
+            },
+            {
+              "layer": 24,
+              "cos_sim": 0.9664,
+              "l2_dist": 72.41,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0336
+            }
+          ],
+          "event_horizon": 0,
+          "min_distinguishability": 0.0,
+          "info_ratio": 336000000.0,
+          "amplified_after_horizon": "True",
+          "pre_horizon_mean": 0.0,
+          "post_horizon_mean": 0.0395
+        }
+      ],
+      "avg_info_ratio": 235500000.0208,
+      "n_amplified": 3,
+      "n_total": 4,
+      "verdict": "INFO AMPLIFIED: ratio=235500000.02, 3/4 amplified"
+    },
+    "1.5B": {
+      "pair_results": [
+        {
+          "prompt1": "The cat sat on the mat",
+          "prompt2": "The dog sat on the rug",
+          "layer_data": [
+            {
+              "layer": 0,
+              "cos_sim": 0.0878,
+              "l2_dist": 1.45,
+              "entropy_1": 7.3368,
+              "entropy_2": 7.3368,
+              "kl_div": 0.0003,
+              "distinguishability": 0.9122
+            },
+            {
+              "layer": 1,
+              "cos_sim": 0.2733,
+              "l2_dist": 24.61,
+              "entropy_1": 7.015,
+              "entropy_2": 7.0664,
+              "kl_div": 0.2168,
+              "distinguishability": 0.7267
+            },
+            {
+              "layer": 2,
+              "cos_sim": 0.4139,
+              "l2_dist": 28.1,
+              "entropy_1": 5.4137,
+              "entropy_2": 5.3026,
+              "kl_div": 0.3973,
+              "distinguishability": 0.5861
+            },
+            {
+              "layer": 3,
+              "cos_sim": 0.3431,
+              "l2_dist": 41.26,
+              "entropy_1": 4.4267,
+              "entropy_2": 3.765,
+              "kl_div": 0.4544,
+              "distinguishability": 0.6569
+            },
+            {
+              "layer": 4,
+              "cos_sim": 0.3648,
+              "l2_dist": 42.49,
+              "entropy_1": 3.4661,
+              "entropy_2": 2.4482,
+              "kl_div": 0.3099,
+              "distinguishability": 0.6352
+            },
+            {
+              "layer": 5,
+              "cos_sim": 0.5813,
+              "l2_dist": 44.19,
+              "entropy_1": 2.7336,
+              "entropy_2": 2.7927,
+              "kl_div": 0.2194,
+              "distinguishability": 0.4187
+            },
+            {
+              "layer": 6,
+              "cos_sim": 0.5763,
+              "l2_dist": 43.12,
+              "entropy_1": 1.6907,
+              "entropy_2": 2.1553,
+              "kl_div": 0.2057,
+              "distinguishability": 0.4237
+            },
+            {
+              "layer": 7,
+              "cos_sim": 0.5967,
+              "l2_dist": 41.96,
+              "entropy_1": 0.9289,
+              "entropy_2": 1.0776,
+              "kl_div": 0.1478,
+              "distinguishability": 0.4033
+            },
+            {
+              "layer": 8,
+              "cos_sim": 0.6529,
+              "l2_dist": 38.13,
+              "entropy_1": 0.7634,
+              "entropy_2": 0.47,
+              "kl_div": 0.384,
+              "distinguishability": 0.3471
+            },
+            {
+              "layer": 9,
+              "cos_sim": 0.6869,
+              "l2_dist": 38.42,
+              "entropy_1": 0.7559,
+              "entropy_2": 0.1826,
+              "kl_div": 0.5851,
+              "distinguishability": 0.3131
+            },
+            {
+              "layer": 10,
+              "cos_sim": 0.7289,
+              "l2_dist": 37.93,
+              "entropy_1": 0.0519,
+              "entropy_2": 0.5754,
+              "kl_div": 0.5977,
+              "distinguishability": 0.2711
+            },
+            {
+              "layer": 11,
+              "cos_sim": 0.7336,
+              "l2_dist": 37.61,
+              "entropy_1": 0.0285,
+              "entropy_2": 0.5832,
+              "kl_div": 0.8145,
+              "distinguishability": 0.2664
+            },
+            {
+              "layer": 12,
+              "cos_sim": 0.7355,
+              "l2_dist": 37.54,
+              "entropy_1": 0.1863,
+              "entropy_2": 0.2926,
+              "kl_div": 2.6191,
+              "distinguishability": 0.2645
+            },
+            {
+              "layer": 13,
+              "cos_sim": 0.7175,
+              "l2_dist": 38.03,
+              "entropy_1": 0.6241,
+              "entropy_2": 0.0791,
+              "kl_div": 1.1493,
+              "distinguishability": 0.2825
+            },
+            {
+              "layer": 14,
+              "cos_sim": 0.7161,
+              "l2_dist": 39.92,
+              "entropy_1": 0.5838,
+              "entropy_2": 0.089,
+              "kl_div": 1.2408,
+              "distinguishability": 0.2839
+            },
+            {
+              "layer": 15,
+              "cos_sim": 0.7452,
+              "l2_dist": 42.57,
+              "entropy_1": 0.0022,
+              "entropy_2": 0.256,
+              "kl_div": 0.3341,
+              "distinguishability": 0.2548
+            },
+            {
+              "layer": 16,
+              "cos_sim": 0.8255,
+              "l2_dist": 41.39,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.1745
+            },
+            {
+              "layer": 17,
+              "cos_sim": 0.7983,
+              "l2_dist": 39.83,
+              "entropy_1": 0.0001,
+              "entropy_2": 0.0007,
+              "kl_div": 0.0001,
+              "distinguishability": 0.2017
+            },
+            {
+              "layer": 18,
+              "cos_sim": 0.8285,
+              "l2_dist": 38.82,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0,
+              "distinguishability": 0.1715
+            },
+            {
+              "layer": 19,
+              "cos_sim": 0.8525,
+              "l2_dist": 39.19,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0,
+              "distinguishability": 0.1475
+            },
+            {
+              "layer": 20,
+              "cos_sim": 0.8068,
+              "l2_dist": 50.7,
+              "entropy_1": 0.0001,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0,
+              "distinguishability": 0.1932
+            },
+            {
+              "layer": 21,
+              "cos_sim": 0.8256,
+              "l2_dist": 53.89,
+              "entropy_1": 0.0001,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0,
+              "distinguishability": 0.1744
+            },
+            {
+              "layer": 22,
+              "cos_sim": 0.8212,
+              "l2_dist": 65.26,
+              "entropy_1": 0.0001,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.1788
+            },
+            {
+              "layer": 23,
+              "cos_sim": 0.8544,
+              "l2_dist": 70.98,
+              "entropy_1": 0.0038,
+              "entropy_2": 0.0003,
+              "kl_div": 0.0003,
+              "distinguishability": 0.1456
+            },
+            {
+              "layer": 24,
+              "cos_sim": 0.8756,
+              "l2_dist": 78.76,
+              "entropy_1": 0.0605,
+              "entropy_2": 0.0113,
+              "kl_div": 0.0065,
+              "distinguishability": 0.1244
+            },
+            {
+              "layer": 25,
+              "cos_sim": 0.8988,
+              "l2_dist": 90.02,
+              "entropy_1": 0.327,
+              "entropy_2": 0.1745,
+              "kl_div": 0.0239,
+              "distinguishability": 0.1012
+            },
+            {
+              "layer": 26,
+              "cos_sim": 0.9127,
+              "l2_dist": 95.61,
+              "entropy_1": 0.5303,
+              "entropy_2": 0.617,
+              "kl_div": 0.0192,
+              "distinguishability": 0.0873
+            },
+            {
+              "layer": 27,
+              "cos_sim": 0.9218,
+              "l2_dist": 107.65,
+              "entropy_1": 0.1094,
+              "entropy_2": 0.2472,
+              "kl_div": 0.0293,
+              "distinguishability": 0.0782
+            },
+            {
+              "layer": 28,
+              "cos_sim": 0.9467,
+              "l2_dist": 64.92,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0533
+            }
+          ],
+          "event_horizon": 28,
+          "min_distinguishability": 0.0533,
+          "info_ratio": 0.0584,
+          "amplified_after_horizon": "False",
+          "pre_horizon_mean": 0.3061,
+          "post_horizon_mean": 0.0533
+        },
+        {
+          "prompt1": "Quantum mechanics is fundamental",
+          "prompt2": "Classical physics is fundamental",
+          "layer_data": [
+            {
+              "layer": 0,
+              "cos_sim": 1.0,
+              "l2_dist": 0.0,
+              "entropy_1": 7.3368,
+              "entropy_2": 7.3368,
+              "kl_div": 0.0,
+              "distinguishability": 0.0
+            },
+            {
+              "layer": 1,
+              "cos_sim": 0.9827,
+              "l2_dist": 4.15,
+              "entropy_1": 6.8818,
+              "entropy_2": 6.8949,
+              "kl_div": 0.0053,
+              "distinguishability": 0.0173
+            },
+            {
+              "layer": 2,
+              "cos_sim": 0.9826,
+              "l2_dist": 4.99,
+              "entropy_1": 6.1709,
+              "entropy_2": 6.1185,
+              "kl_div": 0.0061,
+              "distinguishability": 0.0174
+            },
+            {
+              "layer": 3,
+              "cos_sim": 0.9882,
+              "l2_dist": 5.99,
+              "entropy_1": 4.6622,
+              "entropy_2": 4.3458,
+              "kl_div": 0.0146,
+              "distinguishability": 0.0118
+            },
+            {
+              "layer": 4,
+              "cos_sim": 0.9845,
+              "l2_dist": 7.66,
+              "entropy_1": 2.3781,
+              "entropy_2": 1.4583,
+              "kl_div": 0.0672,
+              "distinguishability": 0.0155
+            },
+            {
+              "layer": 5,
+              "cos_sim": 0.986,
+              "l2_dist": 8.33,
+              "entropy_1": 0.3646,
+              "entropy_2": 0.2671,
+              "kl_div": 0.0026,
+              "distinguishability": 0.014
+            },
+            {
+              "layer": 6,
+              "cos_sim": 0.9843,
+              "l2_dist": 8.28,
+              "entropy_1": 0.3396,
+              "entropy_2": 0.2437,
+              "kl_div": 0.003,
+              "distinguishability": 0.0157
+            },
+            {
+              "layer": 7,
+              "cos_sim": 0.9821,
+              "l2_dist": 9.19,
+              "entropy_1": 0.036,
+              "entropy_2": 0.0416,
+              "kl_div": 0.0001,
+              "distinguishability": 0.0179
+            },
+            {
+              "layer": 8,
+              "cos_sim": 0.9786,
+              "l2_dist": 10.62,
+              "entropy_1": 0.0346,
+              "entropy_2": 0.259,
+              "kl_div": 0.051,
+              "distinguishability": 0.0214
+            },
+            {
+              "layer": 9,
+              "cos_sim": 0.9694,
+              "l2_dist": 13.17,
+              "entropy_1": 0.1903,
+              "entropy_2": 1.1032,
+              "kl_div": 0.3466,
+              "distinguishability": 0.0306
+            },
+            {
+              "layer": 10,
+              "cos_sim": 0.9624,
+              "l2_dist": 14.9,
+              "entropy_1": 0.0421,
+              "entropy_2": 0.526,
+              "kl_div": 0.2196,
+              "distinguishability": 0.0376
+            },
+            {
+              "layer": 11,
+              "cos_sim": 0.9589,
+              "l2_dist": 15.96,
+              "entropy_1": 0.0008,
+              "entropy_2": 0.0127,
+              "kl_div": 0.0028,
+              "distinguishability": 0.0411
+            },
+            {
+              "layer": 12,
+              "cos_sim": 0.9565,
+              "l2_dist": 15.74,
+              "entropy_1": 0.3216,
+              "entropy_2": 0.3706,
+              "kl_div": 0.0035,
+              "distinguishability": 0.0435
+            },
+            {
+              "layer": 13,
+              "cos_sim": 0.9549,
+              "l2_dist": 16.3,
+              "entropy_1": 0.8682,
+              "entropy_2": 0.6285,
+              "kl_div": 0.03,
+              "distinguishability": 0.0451
+            },
+            {
+              "layer": 14,
+              "cos_sim": 0.9394,
+              "l2_dist": 19.82,
+              "entropy_1": 0.1194,
+              "entropy_2": 0.0118,
+              "kl_div": 0.0136,
+              "distinguishability": 0.0606
+            },
+            {
+              "layer": 15,
+              "cos_sim": 0.9469,
+              "l2_dist": 19.57,
+              "entropy_1": 0.0007,
+              "entropy_2": 0.0006,
+              "kl_div": 0.0,
+              "distinguishability": 0.0531
+            },
+            {
+              "layer": 16,
+              "cos_sim": 0.9529,
+              "l2_dist": 18.18,
+              "entropy_1": 0.0047,
+              "entropy_2": 0.0075,
+              "kl_div": 0.0001,
+              "distinguishability": 0.0471
+            },
+            {
+              "layer": 17,
+              "cos_sim": 0.9552,
+              "l2_dist": 18.72,
+              "entropy_1": 0.002,
+              "entropy_2": 0.0078,
+              "kl_div": 0.0007,
+              "distinguishability": 0.0448
+            },
+            {
+              "layer": 18,
+              "cos_sim": 0.9597,
+              "l2_dist": 20.0,
+              "entropy_1": 0.0004,
+              "entropy_2": 0.0017,
+              "kl_div": 0.0002,
+              "distinguishability": 0.0403
+            },
+            {
+              "layer": 19,
+              "cos_sim": 0.9644,
+              "l2_dist": 21.33,
+              "entropy_1": 0.0002,
+              "entropy_2": 0.0009,
+              "kl_div": 0.0001,
+              "distinguishability": 0.0356
+            },
+            {
+              "layer": 20,
+              "cos_sim": 0.9686,
+              "l2_dist": 22.54,
+              "entropy_1": 0.0022,
+              "entropy_2": 0.0079,
+              "kl_div": 0.0007,
+              "distinguishability": 0.0314
+            },
+            {
+              "layer": 21,
+              "cos_sim": 0.9643,
+              "l2_dist": 24.86,
+              "entropy_1": 0.0167,
+              "entropy_2": 0.0377,
+              "kl_div": 0.0022,
+              "distinguishability": 0.0357
+            },
+            {
+              "layer": 22,
+              "cos_sim": 0.9651,
+              "l2_dist": 31.4,
+              "entropy_1": 0.2088,
+              "entropy_2": 0.3786,
+              "kl_div": 0.0384,
+              "distinguishability": 0.0349
+            },
+            {
+              "layer": 23,
+              "cos_sim": 0.9665,
+              "l2_dist": 37.76,
+              "entropy_1": 0.6509,
+              "entropy_2": 0.482,
+              "kl_div": 0.0688,
+              "distinguishability": 0.0335
+            },
+            {
+              "layer": 24,
+              "cos_sim": 0.9705,
+              "l2_dist": 43.0,
+              "entropy_1": 0.1995,
+              "entropy_2": 0.1043,
+              "kl_div": 0.0109,
+              "distinguishability": 0.0295
+            },
+            {
+              "layer": 25,
+              "cos_sim": 0.9741,
+              "l2_dist": 49.4,
+              "entropy_1": 0.0183,
+              "entropy_2": 0.0038,
+              "kl_div": 0.0014,
+              "distinguishability": 0.0259
+            },
+            {
+              "layer": 26,
+              "cos_sim": 0.9749,
+              "l2_dist": 54.57,
+              "entropy_1": 0.0004,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0,
+              "distinguishability": 0.0251
+            },
+            {
+              "layer": 27,
+              "cos_sim": 0.9814,
+              "l2_dist": 59.37,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0186
+            },
+            {
+              "layer": 28,
+              "cos_sim": 0.9887,
+              "l2_dist": 29.53,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0113
+            }
+          ],
+          "event_horizon": 0,
+          "min_distinguishability": 0.0,
+          "info_ratio": 113000000.0,
+          "amplified_after_horizon": "True",
+          "pre_horizon_mean": 0.0,
+          "post_horizon_mean": 0.0295
+        },
+        {
+          "prompt1": "Water is composed of hydrogen and oxygen",
+          "prompt2": "Air is composed of nitrogen and oxygen",
+          "layer_data": [
+            {
+              "layer": 0,
+              "cos_sim": 1.0,
+              "l2_dist": 0.0,
+              "entropy_1": 7.3368,
+              "entropy_2": 7.3368,
+              "kl_div": 0.0,
+              "distinguishability": 0.0
+            },
+            {
+              "layer": 1,
+              "cos_sim": 0.9884,
+              "l2_dist": 3.4,
+              "entropy_1": 6.8701,
+              "entropy_2": 6.8884,
+              "kl_div": 0.0041,
+              "distinguishability": 0.0116
+            },
+            {
+              "layer": 2,
+              "cos_sim": 0.9844,
+              "l2_dist": 4.75,
+              "entropy_1": 5.2487,
+              "entropy_2": 5.2354,
+              "kl_div": 0.008,
+              "distinguishability": 0.0156
+            },
+            {
+              "layer": 3,
+              "cos_sim": 0.9849,
+              "l2_dist": 6.17,
+              "entropy_1": 2.9598,
+              "entropy_2": 2.6239,
+              "kl_div": 0.0157,
+              "distinguishability": 0.0151
+            },
+            {
+              "layer": 4,
+              "cos_sim": 0.94,
+              "l2_dist": 13.84,
+              "entropy_1": 3.3417,
+              "entropy_2": 3.0834,
+              "kl_div": 0.0208,
+              "distinguishability": 0.06
+            },
+            {
+              "layer": 5,
+              "cos_sim": 0.8492,
+              "l2_dist": 25.56,
+              "entropy_1": 0.1919,
+              "entropy_2": 1.4172,
+              "kl_div": 0.3514,
+              "distinguishability": 0.1508
+            },
+            {
+              "layer": 6,
+              "cos_sim": 0.7596,
+              "l2_dist": 34.04,
+              "entropy_1": 0.1107,
+              "entropy_2": 1.0781,
+              "kl_div": 0.3292,
+              "distinguishability": 0.2404
+            },
+            {
+              "layer": 7,
+              "cos_sim": 0.7634,
+              "l2_dist": 33.71,
+              "entropy_1": 0.3661,
+              "entropy_2": 2.0053,
+              "kl_div": 0.5584,
+              "distinguishability": 0.2366
+            },
+            {
+              "layer": 8,
+              "cos_sim": 0.752,
+              "l2_dist": 35.22,
+              "entropy_1": 0.0666,
+              "entropy_2": 1.7501,
+              "kl_div": 1.8162,
+              "distinguishability": 0.248
+            },
+            {
+              "layer": 9,
+              "cos_sim": 0.7466,
+              "l2_dist": 37.74,
+              "entropy_1": 0.0142,
+              "entropy_2": 0.0757,
+              "kl_div": 0.0117,
+              "distinguishability": 0.2534
+            },
+            {
+              "layer": 10,
+              "cos_sim": 0.7611,
+              "l2_dist": 38.55,
+              "entropy_1": 0.0012,
+              "entropy_2": 0.0105,
+              "kl_div": 0.0021,
+              "distinguishability": 0.2389
+            },
+            {
+              "layer": 11,
+              "cos_sim": 0.7537,
+              "l2_dist": 38.39,
+              "entropy_1": 0.0003,
+              "entropy_2": 0.0438,
+              "kl_div": 0.0287,
+              "distinguishability": 0.2463
+            },
+            {
+              "layer": 12,
+              "cos_sim": 0.7919,
+              "l2_dist": 36.12,
+              "entropy_1": 0.0003,
+              "entropy_2": 0.0007,
+              "kl_div": 0.0,
+              "distinguishability": 0.2081
+            },
+            {
+              "layer": 13,
+              "cos_sim": 0.8012,
+              "l2_dist": 35.09,
+              "entropy_1": 0.0014,
+              "entropy_2": 0.0005,
+              "kl_div": 0.0,
+              "distinguishability": 0.1988
+            },
+            {
+              "layer": 14,
+              "cos_sim": 0.7991,
+              "l2_dist": 36.25,
+              "entropy_1": 0.0006,
+              "entropy_2": 0.0002,
+              "kl_div": 0.0,
+              "distinguishability": 0.2009
+            },
+            {
+              "layer": 15,
+              "cos_sim": 0.8185,
+              "l2_dist": 36.01,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.1815
+            },
+            {
+              "layer": 16,
+              "cos_sim": 0.8567,
+              "l2_dist": 35.71,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.1433
+            },
+            {
+              "layer": 17,
+              "cos_sim": 0.8137,
+              "l2_dist": 36.22,
+              "entropy_1": 0.0009,
+              "entropy_2": 0.0011,
+              "kl_div": 0.0,
+              "distinguishability": 0.1863
+            },
+            {
+              "layer": 18,
+              "cos_sim": 0.8218,
+              "l2_dist": 39.0,
+              "entropy_1": 0.0001,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.1782
+            },
+            {
+              "layer": 19,
+              "cos_sim": 0.8393,
+              "l2_dist": 40.28,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0,
+              "distinguishability": 0.1607
+            },
+            {
+              "layer": 20,
+              "cos_sim": 0.8476,
+              "l2_dist": 46.72,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0002,
+              "kl_div": 0.0,
+              "distinguishability": 0.1524
+            },
+            {
+              "layer": 21,
+              "cos_sim": 0.8369,
+              "l2_dist": 51.38,
+              "entropy_1": 0.0001,
+              "entropy_2": 0.0152,
+              "kl_div": 0.0101,
+              "distinguishability": 0.1631
+            },
+            {
+              "layer": 22,
+              "cos_sim": 0.8425,
+              "l2_dist": 59.65,
+              "entropy_1": 0.0042,
+              "entropy_2": 0.0817,
+              "kl_div": 0.0404,
+              "distinguishability": 0.1575
+            },
+            {
+              "layer": 23,
+              "cos_sim": 0.8623,
+              "l2_dist": 69.74,
+              "entropy_1": 0.0703,
+              "entropy_2": 0.482,
+              "kl_div": 0.3383,
+              "distinguishability": 0.1377
+            },
+            {
+              "layer": 24,
+              "cos_sim": 0.8731,
+              "l2_dist": 79.42,
+              "entropy_1": 0.6466,
+              "entropy_2": 0.3653,
+              "kl_div": 0.6139,
+              "distinguishability": 0.1269
+            },
+            {
+              "layer": 25,
+              "cos_sim": 0.891,
+              "l2_dist": 91.37,
+              "entropy_1": 0.2084,
+              "entropy_2": 0.0265,
+              "kl_div": 0.0401,
+              "distinguishability": 0.109
+            },
+            {
+              "layer": 26,
+              "cos_sim": 0.8975,
+              "l2_dist": 100.9,
+              "entropy_1": 0.014,
+              "entropy_2": 0.0012,
+              "kl_div": 0.0015,
+              "distinguishability": 0.1025
+            },
+            {
+              "layer": 27,
+              "cos_sim": 0.9141,
+              "l2_dist": 112.96,
+              "entropy_1": 0.0017,
+              "entropy_2": 0.0003,
+              "kl_div": 0.0001,
+              "distinguishability": 0.0859
+            },
+            {
+              "layer": 28,
+              "cos_sim": 0.934,
+              "l2_dist": 70.92,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.066
+            }
+          ],
+          "event_horizon": 0,
+          "min_distinguishability": 0.0,
+          "info_ratio": 660000000.0,
+          "amplified_after_horizon": "True",
+          "pre_horizon_mean": 0.0,
+          "post_horizon_mean": 0.1474
+        },
+        {
+          "prompt1": "The sun rises in the east",
+          "prompt2": "The moon rises in the east",
+          "layer_data": [
+            {
+              "layer": 0,
+              "cos_sim": 1.0,
+              "l2_dist": 0.0,
+              "entropy_1": 7.3368,
+              "entropy_2": 7.3368,
+              "kl_div": 0.0,
+              "distinguishability": 0.0
+            },
+            {
+              "layer": 1,
+              "cos_sim": 0.9958,
+              "l2_dist": 2.04,
+              "entropy_1": 7.0897,
+              "entropy_2": 7.0958,
+              "kl_div": 0.0016,
+              "distinguishability": 0.0042
+            },
+            {
+              "layer": 2,
+              "cos_sim": 0.9958,
+              "l2_dist": 2.41,
+              "entropy_1": 6.5696,
+              "entropy_2": 6.563,
+              "kl_div": 0.0024,
+              "distinguishability": 0.0042
+            },
+            {
+              "layer": 3,
+              "cos_sim": 0.9973,
+              "l2_dist": 2.75,
+              "entropy_1": 6.0576,
+              "entropy_2": 6.0629,
+              "kl_div": 0.0024,
+              "distinguishability": 0.0027
+            },
+            {
+              "layer": 4,
+              "cos_sim": 0.9929,
+              "l2_dist": 5.29,
+              "entropy_1": 5.436,
+              "entropy_2": 5.1378,
+              "kl_div": 0.0145,
+              "distinguishability": 0.0071
+            },
+            {
+              "layer": 5,
+              "cos_sim": 0.9564,
+              "l2_dist": 14.24,
+              "entropy_1": 0.9617,
+              "entropy_2": 0.7093,
+              "kl_div": 0.0083,
+              "distinguishability": 0.0436
+            },
+            {
+              "layer": 6,
+              "cos_sim": 0.937,
+              "l2_dist": 18.29,
+              "entropy_1": 2.196,
+              "entropy_2": 3.2106,
+              "kl_div": 0.1499,
+              "distinguishability": 0.063
+            },
+            {
+              "layer": 7,
+              "cos_sim": 0.9329,
+              "l2_dist": 18.64,
+              "entropy_1": 3.0062,
+              "entropy_2": 4.3381,
+              "kl_div": 0.2826,
+              "distinguishability": 0.0671
+            },
+            {
+              "layer": 8,
+              "cos_sim": 0.9112,
+              "l2_dist": 22.05,
+              "entropy_1": 3.7589,
+              "entropy_2": 3.9691,
+              "kl_div": 0.1078,
+              "distinguishability": 0.0888
+            },
+            {
+              "layer": 9,
+              "cos_sim": 0.8911,
+              "l2_dist": 26.08,
+              "entropy_1": 2.4338,
+              "entropy_2": 2.4478,
+              "kl_div": 0.0938,
+              "distinguishability": 0.1089
+            },
+            {
+              "layer": 10,
+              "cos_sim": 0.8482,
+              "l2_dist": 30.76,
+              "entropy_1": 2.2203,
+              "entropy_2": 2.5529,
+              "kl_div": 0.3344,
+              "distinguishability": 0.1518
+            },
+            {
+              "layer": 11,
+              "cos_sim": 0.8406,
+              "l2_dist": 31.63,
+              "entropy_1": 0.6669,
+              "entropy_2": 1.4274,
+              "kl_div": 1.1628,
+              "distinguishability": 0.1594
+            },
+            {
+              "layer": 12,
+              "cos_sim": 0.8496,
+              "l2_dist": 31.52,
+              "entropy_1": 0.1249,
+              "entropy_2": 0.0751,
+              "kl_div": 0.0029,
+              "distinguishability": 0.1504
+            },
+            {
+              "layer": 13,
+              "cos_sim": 0.8362,
+              "l2_dist": 32.1,
+              "entropy_1": 0.9875,
+              "entropy_2": 1.0245,
+              "kl_div": 0.5189,
+              "distinguishability": 0.1638
+            },
+            {
+              "layer": 14,
+              "cos_sim": 0.8157,
+              "l2_dist": 34.14,
+              "entropy_1": 0.7718,
+              "entropy_2": 1.1193,
+              "kl_div": 0.1199,
+              "distinguishability": 0.1843
+            },
+            {
+              "layer": 15,
+              "cos_sim": 0.8167,
+              "l2_dist": 36.57,
+              "entropy_1": 0.0805,
+              "entropy_2": 0.0096,
+              "kl_div": 0.01,
+              "distinguishability": 0.1833
+            },
+            {
+              "layer": 16,
+              "cos_sim": 0.8255,
+              "l2_dist": 37.48,
+              "entropy_1": 0.0009,
+              "entropy_2": 0.0001,
+              "kl_div": 0.0001,
+              "distinguishability": 0.1745
+            },
+            {
+              "layer": 17,
+              "cos_sim": 0.8127,
+              "l2_dist": 38.83,
+              "entropy_1": 0.0061,
+              "entropy_2": 0.0055,
+              "kl_div": 0.0001,
+              "distinguishability": 0.1873
+            },
+            {
+              "layer": 18,
+              "cos_sim": 0.8288,
+              "l2_dist": 38.51,
+              "entropy_1": 0.0013,
+              "entropy_2": 0.0042,
+              "kl_div": 0.0003,
+              "distinguishability": 0.1712
+            },
+            {
+              "layer": 19,
+              "cos_sim": 0.8377,
+              "l2_dist": 40.14,
+              "entropy_1": 0.0001,
+              "entropy_2": 0.0035,
+              "kl_div": 0.0012,
+              "distinguishability": 0.1623
+            },
+            {
+              "layer": 20,
+              "cos_sim": 0.871,
+              "l2_dist": 42.58,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.129
+            },
+            {
+              "layer": 21,
+              "cos_sim": 0.8461,
+              "l2_dist": 46.49,
+              "entropy_1": 0.0002,
+              "entropy_2": 0.0035,
+              "kl_div": 0.001,
+              "distinguishability": 0.1539
+            },
+            {
+              "layer": 22,
+              "cos_sim": 0.8523,
+              "l2_dist": 55.92,
+              "entropy_1": 0.0018,
+              "entropy_2": 0.0272,
+              "kl_div": 0.009,
+              "distinguishability": 0.1477
+            },
+            {
+              "layer": 23,
+              "cos_sim": 0.8546,
+              "l2_dist": 66.55,
+              "entropy_1": 0.0077,
+              "entropy_2": 0.213,
+              "kl_div": 0.1696,
+              "distinguishability": 0.1454
+            },
+            {
+              "layer": 24,
+              "cos_sim": 0.8513,
+              "l2_dist": 79.85,
+              "entropy_1": 0.0226,
+              "entropy_2": 0.6223,
+              "kl_div": 1.1672,
+              "distinguishability": 0.1487
+            },
+            {
+              "layer": 25,
+              "cos_sim": 0.8539,
+              "l2_dist": 99.75,
+              "entropy_1": 0.1909,
+              "entropy_2": 0.291,
+              "kl_div": 2.5022,
+              "distinguishability": 0.1461
+            },
+            {
+              "layer": 26,
+              "cos_sim": 0.8638,
+              "l2_dist": 110.08,
+              "entropy_1": 0.6759,
+              "entropy_2": 0.0164,
+              "kl_div": 0.5076,
+              "distinguishability": 0.1362
+            },
+            {
+              "layer": 27,
+              "cos_sim": 0.9015,
+              "l2_dist": 125.18,
+              "entropy_1": 0.1909,
+              "entropy_2": 0.0027,
+              "kl_div": 0.0468,
+              "distinguishability": 0.0985
+            },
+            {
+              "layer": 28,
+              "cos_sim": 0.9122,
+              "l2_dist": 76.29,
+              "entropy_1": 0.0,
+              "entropy_2": 0.0,
+              "kl_div": 0.0,
+              "distinguishability": 0.0878
+            }
+          ],
+          "event_horizon": 0,
+          "min_distinguishability": 0.0,
+          "info_ratio": 878000000.0,
+          "amplified_after_horizon": "True",
+          "pre_horizon_mean": 0.0,
+          "post_horizon_mean": 0.1128
+        }
+      ],
+      "avg_info_ratio": 412750000.0146,
+      "n_amplified": 3,
+      "n_total": 4,
+      "verdict": "INFO AMPLIFIED: ratio=412750000.01, 3/4 amplified"
+    }
+  }
+}

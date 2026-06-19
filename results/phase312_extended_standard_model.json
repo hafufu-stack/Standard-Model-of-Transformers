@@ -1,0 +1,181 @@
+{
+  "experiment": "Extended Standard Model",
+  "n_experiments": 312,
+  "n_constants": 86,
+  "n_laws": 17,
+  "laws": [
+    {
+      "name": "1. Boltzmann Distribution",
+      "formula": "p(E) = exp(-E/T)/Z",
+      "source": "P261"
+    },
+    {
+      "name": "2. Negative Specific Heat",
+      "formula": "Cv < 0 (gravitational)",
+      "source": "P262"
+    },
+    {
+      "name": "3. Inverse Radiation Law",
+      "formula": "P ~ (1/sigma) T^4",
+      "source": "P263"
+    },
+    {
+      "name": "4. Chandrasekhar Limit",
+      "formula": "PR_collapse ~ 10",
+      "source": "P265"
+    },
+    {
+      "name": "5. Carnot Efficiency",
+      "formula": "eta ~ 0.86-0.93",
+      "source": "P267"
+    },
+    {
+      "name": "6. P1*T Conservation",
+      "formula": "P1 x T ~ 0.84",
+      "source": "P282"
+    },
+    {
+      "name": "7. Master Variable",
+      "formula": "Loading > 0.97",
+      "source": "P282"
+    },
+    {
+      "name": "8. Info Amplification",
+      "formula": "I_out/I_in ~ 10^8",
+      "source": "P286"
+    },
+    {
+      "name": "9. Mach Convergence",
+      "formula": "M -> 1.0",
+      "source": "P290"
+    },
+    {
+      "name": "10. Transonic Shocks",
+      "formula": "1-2 shocks",
+      "source": "P293"
+    },
+    {
+      "name": "11. Euler Equation",
+      "formula": "r = 0.57",
+      "source": "P299"
+    },
+    {
+      "name": "12. Equation of State",
+      "formula": "PR ~ T^(-0.7)",
+      "source": "P296"
+    },
+    {
+      "name": "13. Central Charge c=1",
+      "formula": "Free boson CFT",
+      "source": "P279"
+    },
+    {
+      "name": "14. RG IR Fixed Point",
+      "formula": "beta(IR) ~ 0",
+      "source": "P301"
+    },
+    {
+      "name": "15. Confinement",
+      "formula": "sigma > 0 (area law)",
+      "source": "P304"
+    },
+    {
+      "name": "16. OPE Structure",
+      "formula": "R2 = 0.86",
+      "source": "P305"
+    },
+    {
+      "name": "17. Volume Law Entropy",
+      "formula": "S ~ k (critical)",
+      "source": "P306"
+    }
+  ],
+  "constants": {
+    "P1T_0.5B": 0.9033,
+    "P1T_1.5B": 0.8481,
+    "P1T_theory_max": 3.3386,
+    "Mach_0.5B": 0.7069,
+    "Mach_1.5B": 1.1358,
+    "Mach_7B": 1.0451,
+    "Mach_scaling_alpha": 7.7268,
+    "c_central_0.5B": 1.0027,
+    "c_central_1.5B": 0.8919,
+    "spectral_delta_0.5B": 0.8666,
+    "spectral_delta_1.5B": 0.9856,
+    "info_ratio_0.5B": 235500000.0208,
+    "info_ratio_1.5B": 412750000.0146,
+    "master_loading_0.5B": 0.971935,
+    "master_loading_1.5B": 0.989695,
+    "avg_shocks_0.5B": 1.0,
+    "avg_shocks_1.5B": 1.88,
+    "avg_shocks_7B": 1.88,
+    "max_local_Mach_0.5B": 5.48,
+    "supersonic_frac_0.5B": 0.75,
+    "max_local_Mach_1.5B": 5.8685,
+    "supersonic_frac_1.5B": 0.8214,
+    "max_local_Mach_7B": 5.8685,
+    "supersonic_frac_7B": 0.8214,
+    "gamma_0.5B": -0.8399,
+    "gamma_1.5B": -0.6998,
+    "gamma_7B": -0.6998,
+    "eos_exponent_0.5B": -0.6823,
+    "eos_exponent_1.5B": -0.8592,
+    "Cd_0.5B": 0.13666,
+    "peak_drag_depth_0.5B": 0.0,
+    "Cd_1.5B": 0.112452,
+    "peak_drag_depth_1.5B": 0.0,
+    "Cd_7B": 0.112452,
+    "peak_drag_depth_7B": 0.0,
+    "Re_mean_0.5B": 15.04,
+    "Re_mean_1.5B": 11.39,
+    "Re_mean_7B": 11.39,
+    "euler_r_0.5B": 0.5148,
+    "bernoulli_cv_0.5B": 0.5469,
+    "euler_r_1.5B": 0.5678,
+    "bernoulli_cv_1.5B": 0.3976,
+    "uv_beta_0.5B": -21.7493,
+    "ir_beta_0.5B": -0.1453,
+    "p1t_cv_0.5B": 1.6,
+    "uv_beta_1.5B": -13.6595,
+    "ir_beta_1.5B": 0.0004,
+    "p1t_cv_1.5B": 1.1208,
+    "beta_0.5B": -0.0905,
+    "gamma_crit_0.5B": 0,
+    "best_class_0.5B": "Mean-field",
+    "T_c_0.5B": 0.016,
+    "beta_1.5B": -0.0154,
+    "gamma_crit_1.5B": 0,
+    "best_class_1.5B": "Mean-field",
+    "T_c_1.5B": 0.0269,
+    "avg_string_tension_0.5B": 0.0396,
+    "avg_R2_area_law_0.5B": 0.7327,
+    "confinement_0.5B": true,
+    "avg_string_tension_1.5B": 0.0481,
+    "avg_R2_area_law_1.5B": 0.588,
+    "confinement_1.5B": true,
+    "mean_ope_r2_0.5B": 0.8365,
+    "avg_alpha_0.5B": 0.0746,
+    "avg_beta_0.5B": 1.0326,
+    "mean_ope_r2_1.5B": 0.8605,
+    "avg_alpha_1.5B": 0.083,
+    "avg_beta_1.5B": 0.936,
+    "avg_r2_volume_0.5B": 0.9986,
+    "avg_r2_log_0.5B": 0.9518,
+    "avg_c_from_entropy_0.5B": 0.7805,
+    "avg_r2_volume_1.5B": 0.9989,
+    "avg_r2_log_1.5B": 0.9501,
+    "avg_c_from_entropy_1.5B": 0.4682,
+    "mean_F_0.5B": -7.358,
+    "mean_S_0.5B": 6.6977,
+    "F_barrier_0.5B": 57.3854,
+    "mean_F_1.5B": -15.0807,
+    "mean_S_1.5B": 7.165,
+    "F_barrier_1.5B": 51.2629,
+    "mean_cos_last_0.5B": 0.1617,
+    "mean_cos_first_0.5B": 0.0489,
+    "holographic_0.5B": false,
+    "mean_cos_last_1.5B": 0.2043,
+    "mean_cos_first_1.5B": 0.0129,
+    "holographic_1.5B": false
+  }
+}

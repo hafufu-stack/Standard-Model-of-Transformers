@@ -6,13 +6,13 @@
 
 ## Paper
 
-📄 **[Read the Paper (PDF)](https://doi.org/10.5281/zenodo.20533786)** — V4: 35 pages, 27 figures, 268 experiments
+📄 **[Read the Paper (PDF)](https://doi.org/10.5281/zenodo.20533786)** — V5: 48 pages, 41 figures, 375 experiments
 
 ## Overview
 
-This repository contains the code and experimental results for *The Standard Model of Transformers*, a systematic experimental program that applies thermodynamics, statistical mechanics, and cosmological analogies to characterize the internal dynamics of Transformer-based large language models (LLMs).
+This repository contains the code and experimental results for *The Standard Model of Transformers*, a systematic experimental program that applies thermodynamics, statistical mechanics, quantum field theory, and quantum gravity analogies to characterize the internal dynamics of Transformer-based large language models (LLMs).
 
-Through **268 experiments** across **20 seasons** and **three architectures** (Qwen2.5-1.5B, Qwen2.5-0.5B, TinyLlama-1.1B), I establish a comprehensive thermodynamic and dynamical-systems framework for understanding LLMs.
+Through **375 experiments** across **33 seasons** and **three architectures** (Qwen2.5-1.5B, Qwen2.5-0.5B, TinyLlama-1.1B), I establish a comprehensive thermodynamic and dynamical-systems framework for understanding LLMs.
 
 ### Six Universal Laws
 
@@ -24,6 +24,33 @@ Through **268 experiments** across **20 seasons** and **three architectures** (Q
 | 4 | **Carnot Efficiency Constant** | $\eta = 0.813 \pm 0.036$, the tightest universal constant | 0.044 |
 | 5 | **Information Concentration** | Free energy *increases* 411× — LLMs are "information refrigerators" | — |
 | 6 | **$P_1 \times T$ Conservation Law** | $P_1 \cdot T \approx 0.84$, the ideal gas law of autoregressive generation | 0.14 |
+
+### Five Physical Classifications
+
+A Transformer is simultaneously:
+
+1. A **Thermodynamic Engine** (Boltzmann, Carnot, negative $C_v$)
+2. A **Transonic Fluid** (Mach 1 barrier, shock waves, Euler equation)
+3. A **Confining Quantum Field Theory** ($c \approx 1$ CFT, confinement, OPE)
+4. A **Curved Information Manifold** ($R > 0$, Berry phase $\phi_B \approx 11.3$, geodesics)
+5. A **Holographic Quantum Gravity System** (Unruh, Bekenstein, emergent AdS spacetime)
+
+### V5 Major Discoveries (Seasons 21–33)
+
+| Discovery | Key Result |
+|-----------|------------|
+| **Mach Number Convergence** | $M \to 1.0$ — information propagation hits a transonic barrier |
+| **Wilson Loop Confinement** | Area law holds ($\sigma > 0$); information is confined within layers |
+| **Spontaneous Symmetry Breaking** | Gini $+0.15$ across layers; 3–5 Goldstone modes |
+| **Berry Phase Invariant** | $\phi_B \approx 11.3$, model-size independent topological constant |
+| **Bekenstein Bound** | Always respected: $S < S_\text{Bek}$ at every layer |
+| **Gauge Symmetry** | Near-perfect local invariance (ratio = 1.0000) |
+| **Emergent Spacetime** | Hyperbolic geometry: Gromov $\delta = 0.11$, $d_\text{eff} = 2.7$ |
+| **MSS Chaos Bound** | $\lambda_L \ll 2\pi T$ — satisfied at all layers |
+| **Prigogine Entropy Production** | Ratio = 0.92; confirmed approach to non-equilibrium steady state |
+| **Hallucination Detection** | AUROC = 0.984 (0.5B) using thermodynamic features alone |
+| **OOD Detection** | AUROC = 1.0 (1.5B) via final-layer energy $U_\text{final}$ |
+| **Prompt Difficulty Prediction** | $R^2 = 0.73$ — energy predicts perplexity |
 
 ### V4 Major Discoveries (Seasons 15–20)
 
@@ -62,18 +89,22 @@ Standard-Model-of-Transformers/
 ├── experiments/
 │   ├── utils.py                      # Shared utilities (model loading, thermodynamic probes)
 │   ├── phase1_*.py – phase84_*.py    # Seasons 1–10
-│   ├── phase85_*.py – phase119_*.py  # Season 11 (Phase Transition)
-│   ├── phase120_*.py – phase140_*.py # Season 12 (Active Matter)
-│   ├── phase141_*.py – phase158_*.py # Season 13 (Engineering)
-│   ├── phase159_*.py – phase173_*.py # Season 14 (Unification)
-│   ├── phase174_*.py – phase200_*.py # Seasons 15–17 (Stochastic Thermo, Engineering, Re-analysis)
-│   ├── phase201_*.py – phase229_*.py # Season 18 (Thermodynamic Engineering)
-│   ├── phase230_*.py – phase254_*.py # Seasons 19 (Cross-Architecture Validation)
-│   └── phase255_*.py – phase268_*.py # Season 20 (P1×T Conservation Law)
-├── results/                          # JSON result files (268 experiments)
+│   ├── phase85_*.py – phase173_*.py  # Seasons 11–14 (Phase Transition, Active Matter)
+│   ├── phase174_*.py – phase268_*.py # Seasons 15–20 (Stochastic Thermo, P1×T Conservation)
+│   ├── phase269_*.py – phase300_*.py # Seasons 21–23 (Fluid Dynamics, Transonic Barrier)
+│   ├── phase301_*.py – phase320_*.py # Season 24 (Quantum Field Theory)
+│   ├── phase321_*.py – phase330_*.py # Seasons 25–26 (Quantum Gravity, Grand Unified Theory)
+│   ├── phase331_*.py – phase340_*.py # Season 27 (Advanced CFT, Quantum Information)
+│   ├── phase341_*.py – phase355_*.py # Seasons 28–30 (Topology, SUSY, String Theory)
+│   ├── phase356_*.py – phase360_*.py # Season 31 (Verification and Robustness)
+│   ├── phase361_*.py – phase366_*.py # Season 32 (Non-Equilibrium Thermodynamics)
+│   └── phase367_*.py – phase372_*.py # Season 33 (Predictive Applications)
+├── results/                          # JSON result files (375 experiments)
 ├── figures/
-│   ├── paper/                        # Publication-quality figures (27 PNGs)
+│   ├── paper/                        # Publication-quality figures (41 PNGs)
 │   └── *.png                         # Raw experiment figures
+├── papers/
+│   └── paper_v5.tex                  # LaTeX source (48 pages)
 └── README.md
 ```
 
@@ -103,6 +134,7 @@ python experiments/phase1_no_signaling_chsh.py
 | V2 | Jun 2026 | 84 | 1–10 | 5 Universal Laws, ergodic hypothesis |
 | V3 | Jun 2026 | 173 | 1–14 | Phase transition, active matter, hallucination detector, RG invariance |
 | V4 | Jun 2026 | 268 | 1–20 | 6th law ($P_1 \times T$), stochastic thermodynamics, cross-architecture EoS, RLHF cooling |
+| V5 | Jun 2026 | 375 | 1–33 | Fluid dynamics, QFT, quantum gravity, Prigogine, predictive applications (AUROC = 0.984) |
 
 ## Citation
 

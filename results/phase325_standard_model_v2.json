@@ -1,0 +1,104 @@
+{
+  "experiment": "Standard Model v2",
+  "n_experiments": 327,
+  "n_laws": 24,
+  "n_constants_estimate": 174,
+  "laws": [
+    {
+      "name": "1. Boltzmann Distribution",
+      "formula": "p(E) = exp(-E/T)/Z"
+    },
+    {
+      "name": "2. Negative Specific Heat",
+      "formula": "Cv < 0 (gravitational)"
+    },
+    {
+      "name": "3. Stefan-Boltzmann Variant",
+      "formula": "P ~ (1/sigma) T^4"
+    },
+    {
+      "name": "4. Chandrasekhar Limit",
+      "formula": "PR_collapse ~ 10"
+    },
+    {
+      "name": "5. Carnot Efficiency",
+      "formula": "eta ~ 0.86-0.93"
+    },
+    {
+      "name": "6. P1*T Conservation",
+      "formula": "P1 x T ~ 0.84"
+    },
+    {
+      "name": "7. Master Variable",
+      "formula": "Loading > 0.97"
+    },
+    {
+      "name": "8. Info Amplification",
+      "formula": "I_out/I_in ~ 10^8"
+    },
+    {
+      "name": "9. Mach Convergence",
+      "formula": "M -> 1.0 (sonic barrier)"
+    },
+    {
+      "name": "10. Transonic Shocks",
+      "formula": "1-2 shocks per model"
+    },
+    {
+      "name": "11. Euler Equation",
+      "formula": "r = 0.57"
+    },
+    {
+      "name": "12. Equation of State",
+      "formula": "PR ~ T^(-0.7)"
+    },
+    {
+      "name": "13. Central Charge c=1",
+      "formula": "Free boson CFT"
+    },
+    {
+      "name": "14. RG IR Fixed Point",
+      "formula": "beta(IR) ~ 0"
+    },
+    {
+      "name": "15. Confinement",
+      "formula": "sigma > 0 (area law)"
+    },
+    {
+      "name": "16. OPE Structure",
+      "formula": "R2 = 0.86"
+    },
+    {
+      "name": "17. Volume Law Entropy",
+      "formula": "S ~ k (critical)"
+    },
+    {
+      "name": "18. Spontaneous Symmetry Breaking",
+      "formula": "Gini increase > 0.1"
+    },
+    {
+      "name": "19. Goldstone Modes",
+      "formula": "3-5 massless modes"
+    },
+    {
+      "name": "20. Positive Curvature",
+      "formula": "R > 0 (spherical)"
+    },
+    {
+      "name": "21. Berry Phase",
+      "formula": "phi_B ~ 11.3 (constant)"
+    },
+    {
+      "name": "22. Unruh Effect",
+      "formula": "T = c_U * a (R2=0.81)"
+    },
+    {
+      "name": "23. Schwinger Pairs",
+      "formula": "21% sign-flip rate"
+    },
+    {
+      "name": "24. Vacuum Energy",
+      "formula": "E_vac >> E_real"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "experiment": "Mach Scaling Law",
+  "results": {
+    "0.5B": {
+      "n_params": 500000000.0,
+      "n_layers": 24,
+      "c_sound": 0.2103,
+      "c_light": 0.2975,
+      "mach_number": 0.7069,
+      "subsonic": true,
+      "1_minus_mach": 0.2931
+    },
+    "1.5B": {
+      "n_params": 1500000000.0,
+      "n_layers": 28,
+      "c_sound": 0.2765,
+      "c_light": 0.2434,
+      "mach_number": 1.1358,
+      "subsonic": false,
+      "1_minus_mach": -0.1358
+    },
+    "7B": {
+      "n_params": 7000000000.0,
+      "n_layers": 28,
+      "c_sound": 0.2544,
+      "c_light": 0.2434,
+      "mach_number": 1.0451,
+      "subsonic": false,
+      "1_minus_mach": -0.0451
+    }
+  },
+  "scaling": {
+    "alpha": 7.7268,
+    "R2": 0.6624,
+    "p_value": 0.394679,
+    "predicted_mach_70B": 1.0,
+    "converges_to_1": "True"
+  }
+}

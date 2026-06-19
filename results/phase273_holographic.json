@@ -1,0 +1,1101 @@
+{
+  "experiment": "Holographic Entanglement (Ryu-Takayanagi)",
+  "scaling_analysis": {
+    "0.5B": {
+      "r2_log": 0.9866,
+      "r2_linear": 0.979,
+      "area_law": "True",
+      "slope_log": 0.3317,
+      "slope_linear": 0.011802
+    },
+    "1.5B": {
+      "r2_log": 0.9865,
+      "r2_linear": 0.9791,
+      "area_law": "True",
+      "slope_log": 0.3488,
+      "slope_linear": 0.01241
+    }
+  },
+  "results": {
+    "0.5B": {
+      "short": {
+        "seq_len": 9,
+        "split_pos": 4,
+        "hidden_dim": 896,
+        "n_layers": 24,
+        "region_A_len": 4,
+        "region_B_len": 5,
+        "layer_data": [
+          {
+            "layer": 0,
+            "entropy": 0.687445,
+            "mi_proxy": 0.412493,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 1,
+            "entropy": 0.571294,
+            "mi_proxy": 0.604516,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 2,
+            "entropy": 0.763236,
+            "mi_proxy": 0.533886,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 3,
+            "entropy": 0.373663,
+            "mi_proxy": 0.825498,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 4,
+            "entropy": 0.508845,
+            "mi_proxy": 0.770864,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 5,
+            "entropy": 0.499779,
+            "mi_proxy": 0.82371,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 6,
+            "entropy": 0.412632,
+            "mi_proxy": 0.815041,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 7,
+            "entropy": 0.403989,
+            "mi_proxy": 0.858568,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 8,
+            "entropy": 0.630408,
+            "mi_proxy": 0.660612,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 9,
+            "entropy": 0.213999,
+            "mi_proxy": 0.865085,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 10,
+            "entropy": 0.32129,
+            "mi_proxy": 0.714769,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 11,
+            "entropy": 0.155593,
+            "mi_proxy": 0.926436,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 12,
+            "entropy": 0.466483,
+            "mi_proxy": 0.709516,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 13,
+            "entropy": 0.243884,
+            "mi_proxy": 0.774419,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 14,
+            "entropy": 0.479725,
+            "mi_proxy": 0.663512,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 15,
+            "entropy": 0.499233,
+            "mi_proxy": 0.727382,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 16,
+            "entropy": 0.344781,
+            "mi_proxy": 0.933482,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 17,
+            "entropy": 0.525005,
+            "mi_proxy": 0.831714,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 18,
+            "entropy": 0.591902,
+            "mi_proxy": 0.764921,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 19,
+            "entropy": 0.64498,
+            "mi_proxy": 0.672172,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 20,
+            "entropy": 0.365549,
+            "mi_proxy": 0.839873,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 21,
+            "entropy": 0.278924,
+            "mi_proxy": 0.833399,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 22,
+            "entropy": 0.255705,
+            "mi_proxy": 0.704481,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 23,
+            "entropy": 0.30464,
+            "mi_proxy": 0.588166,
+            "n_singular_values": 4
+          }
+        ],
+        "mean_entropy": 0.439291
+      },
+      "medium": {
+        "seq_len": 26,
+        "split_pos": 13,
+        "hidden_dim": 896,
+        "n_layers": 24,
+        "region_A_len": 13,
+        "region_B_len": 13,
+        "layer_data": [
+          {
+            "layer": 0,
+            "entropy": 1.904829,
+            "mi_proxy": 0.452467,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 1,
+            "entropy": 1.256462,
+            "mi_proxy": 0.444079,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 2,
+            "entropy": 1.2938,
+            "mi_proxy": 0.38471,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 3,
+            "entropy": 0.540143,
+            "mi_proxy": 0.738475,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 4,
+            "entropy": 0.554067,
+            "mi_proxy": 0.663933,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 5,
+            "entropy": 0.534859,
+            "mi_proxy": 0.777842,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 6,
+            "entropy": 0.700958,
+            "mi_proxy": 0.727932,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 7,
+            "entropy": 0.653231,
+            "mi_proxy": 0.736527,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 8,
+            "entropy": 0.904717,
+            "mi_proxy": 0.460532,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 9,
+            "entropy": 0.458476,
+            "mi_proxy": 0.82807,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 10,
+            "entropy": 0.655771,
+            "mi_proxy": 0.698845,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 11,
+            "entropy": 0.555614,
+            "mi_proxy": 0.926437,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 12,
+            "entropy": 0.866188,
+            "mi_proxy": 0.659732,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 13,
+            "entropy": 0.442957,
+            "mi_proxy": 0.753075,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 14,
+            "entropy": 1.122438,
+            "mi_proxy": 0.65868,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 15,
+            "entropy": 0.682706,
+            "mi_proxy": 0.662492,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 16,
+            "entropy": 0.268728,
+            "mi_proxy": 0.924139,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 17,
+            "entropy": 0.315952,
+            "mi_proxy": 0.775636,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 18,
+            "entropy": 0.527055,
+            "mi_proxy": 0.689039,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 19,
+            "entropy": 0.506639,
+            "mi_proxy": 0.587047,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 20,
+            "entropy": 0.568671,
+            "mi_proxy": 0.879642,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 21,
+            "entropy": 0.248262,
+            "mi_proxy": 0.88885,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 22,
+            "entropy": 0.982999,
+            "mi_proxy": 0.685278,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 23,
+            "entropy": 0.942068,
+            "mi_proxy": 0.607614,
+            "n_singular_values": 13
+          }
+        ],
+        "mean_entropy": 0.72865
+      },
+      "long": {
+        "seq_len": 62,
+        "split_pos": 31,
+        "hidden_dim": 896,
+        "n_layers": 24,
+        "region_A_len": 31,
+        "region_B_len": 31,
+        "layer_data": [
+          {
+            "layer": 0,
+            "entropy": 2.815044,
+            "mi_proxy": 0.440536,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 1,
+            "entropy": 2.062196,
+            "mi_proxy": 0.433245,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 2,
+            "entropy": 2.102435,
+            "mi_proxy": 0.321613,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 3,
+            "entropy": 0.769877,
+            "mi_proxy": 0.698245,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 4,
+            "entropy": 0.678628,
+            "mi_proxy": 0.594288,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 5,
+            "entropy": 0.635764,
+            "mi_proxy": 0.695505,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 6,
+            "entropy": 0.737593,
+            "mi_proxy": 0.636728,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 7,
+            "entropy": 0.604236,
+            "mi_proxy": 0.689558,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 8,
+            "entropy": 0.965963,
+            "mi_proxy": 0.391797,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 9,
+            "entropy": 0.853019,
+            "mi_proxy": 0.738466,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 10,
+            "entropy": 0.889719,
+            "mi_proxy": 0.580016,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 11,
+            "entropy": 0.841326,
+            "mi_proxy": 0.827299,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 12,
+            "entropy": 1.070033,
+            "mi_proxy": 0.523218,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 13,
+            "entropy": 0.829391,
+            "mi_proxy": 0.659841,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 14,
+            "entropy": 1.230372,
+            "mi_proxy": 0.529409,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 15,
+            "entropy": 1.176993,
+            "mi_proxy": 0.559452,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 16,
+            "entropy": 0.436005,
+            "mi_proxy": 0.851056,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 17,
+            "entropy": 0.781258,
+            "mi_proxy": 0.762839,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 18,
+            "entropy": 0.856914,
+            "mi_proxy": 0.643328,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 19,
+            "entropy": 0.9596,
+            "mi_proxy": 0.545666,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 20,
+            "entropy": 0.857761,
+            "mi_proxy": 0.809473,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 21,
+            "entropy": 0.47853,
+            "mi_proxy": 0.844224,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 22,
+            "entropy": 1.603885,
+            "mi_proxy": 0.723713,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 23,
+            "entropy": 1.77323,
+            "mi_proxy": 0.585922,
+            "n_singular_values": 31
+          }
+        ],
+        "mean_entropy": 1.08374
+      },
+      "split_scaling": [
+        {
+          "ratio": 0.2,
+          "region_A_len": 12,
+          "mean_entropy": 0.751804
+        },
+        {
+          "ratio": 0.3,
+          "region_A_len": 18,
+          "mean_entropy": 0.926424
+        },
+        {
+          "ratio": 0.4,
+          "region_A_len": 24,
+          "mean_entropy": 1.028268
+        },
+        {
+          "ratio": 0.5,
+          "region_A_len": 31,
+          "mean_entropy": 1.08374
+        },
+        {
+          "ratio": 0.6,
+          "region_A_len": 37,
+          "mean_entropy": 1.057148
+        },
+        {
+          "ratio": 0.7,
+          "region_A_len": 43,
+          "mean_entropy": 1.061864
+        },
+        {
+          "ratio": 0.8,
+          "region_A_len": 49,
+          "mean_entropy": 0.944747
+        }
+      ]
+    },
+    "1.5B": {
+      "short": {
+        "seq_len": 9,
+        "split_pos": 4,
+        "hidden_dim": 1536,
+        "n_layers": 28,
+        "region_A_len": 4,
+        "region_B_len": 5,
+        "layer_data": [
+          {
+            "layer": 0,
+            "entropy": 0.786764,
+            "mi_proxy": 0.30072,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 1,
+            "entropy": 0.554475,
+            "mi_proxy": 0.593415,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 2,
+            "entropy": 0.432327,
+            "mi_proxy": 0.827368,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 3,
+            "entropy": 0.488135,
+            "mi_proxy": 0.830607,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 4,
+            "entropy": 0.43,
+            "mi_proxy": 0.860144,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 5,
+            "entropy": 0.435284,
+            "mi_proxy": 0.768043,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 6,
+            "entropy": 0.291837,
+            "mi_proxy": 0.841291,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 7,
+            "entropy": 0.489646,
+            "mi_proxy": 0.724083,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 8,
+            "entropy": 0.236525,
+            "mi_proxy": 0.85093,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 9,
+            "entropy": 0.359728,
+            "mi_proxy": 0.848914,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 10,
+            "entropy": 0.349142,
+            "mi_proxy": 0.777358,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 11,
+            "entropy": 0.409375,
+            "mi_proxy": 0.765713,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 12,
+            "entropy": 0.408126,
+            "mi_proxy": 0.883201,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 13,
+            "entropy": 0.577106,
+            "mi_proxy": 0.74517,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 14,
+            "entropy": 0.305084,
+            "mi_proxy": 0.911583,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 15,
+            "entropy": 0.255087,
+            "mi_proxy": 0.695319,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 16,
+            "entropy": 0.286366,
+            "mi_proxy": 0.835443,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 17,
+            "entropy": 0.322051,
+            "mi_proxy": 0.790052,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 18,
+            "entropy": 0.403244,
+            "mi_proxy": 0.681676,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 19,
+            "entropy": 0.393625,
+            "mi_proxy": 0.778877,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 20,
+            "entropy": 0.608796,
+            "mi_proxy": 0.725616,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 21,
+            "entropy": 0.397372,
+            "mi_proxy": 0.771571,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 22,
+            "entropy": 0.495258,
+            "mi_proxy": 0.749818,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 23,
+            "entropy": 0.364865,
+            "mi_proxy": 0.836869,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 24,
+            "entropy": 0.51361,
+            "mi_proxy": 0.771383,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 25,
+            "entropy": 0.101979,
+            "mi_proxy": 0.865185,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 26,
+            "entropy": 0.261434,
+            "mi_proxy": 0.856572,
+            "n_singular_values": 4
+          },
+          {
+            "layer": 27,
+            "entropy": 0.585271,
+            "mi_proxy": 0.555479,
+            "n_singular_values": 4
+          }
+        ],
+        "mean_entropy": 0.412233
+      },
+      "medium": {
+        "seq_len": 26,
+        "split_pos": 13,
+        "hidden_dim": 1536,
+        "n_layers": 28,
+        "region_A_len": 13,
+        "region_B_len": 13,
+        "layer_data": [
+          {
+            "layer": 0,
+            "entropy": 1.521165,
+            "mi_proxy": 0.216167,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 1,
+            "entropy": 1.12403,
+            "mi_proxy": 0.453761,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 2,
+            "entropy": 0.536323,
+            "mi_proxy": 0.680247,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 3,
+            "entropy": 0.713478,
+            "mi_proxy": 0.691615,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 4,
+            "entropy": 0.501093,
+            "mi_proxy": 0.751847,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 5,
+            "entropy": 0.591751,
+            "mi_proxy": 0.734691,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 6,
+            "entropy": 0.488477,
+            "mi_proxy": 0.790048,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 7,
+            "entropy": 0.848096,
+            "mi_proxy": 0.619723,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 8,
+            "entropy": 0.548228,
+            "mi_proxy": 0.764033,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 9,
+            "entropy": 0.785929,
+            "mi_proxy": 0.751594,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 10,
+            "entropy": 0.755038,
+            "mi_proxy": 0.748289,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 11,
+            "entropy": 0.914126,
+            "mi_proxy": 0.634264,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 12,
+            "entropy": 0.615505,
+            "mi_proxy": 0.806382,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 13,
+            "entropy": 0.989441,
+            "mi_proxy": 0.584278,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 14,
+            "entropy": 0.339766,
+            "mi_proxy": 0.845329,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 15,
+            "entropy": 0.741837,
+            "mi_proxy": 0.632156,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 16,
+            "entropy": 1.074786,
+            "mi_proxy": 0.80796,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 17,
+            "entropy": 0.557152,
+            "mi_proxy": 0.788254,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 18,
+            "entropy": 0.840949,
+            "mi_proxy": 0.610024,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 19,
+            "entropy": 0.389373,
+            "mi_proxy": 0.743399,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 20,
+            "entropy": 0.961699,
+            "mi_proxy": 0.781505,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 21,
+            "entropy": 0.691984,
+            "mi_proxy": 0.821976,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 22,
+            "entropy": 0.427767,
+            "mi_proxy": 0.748212,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 23,
+            "entropy": 0.35108,
+            "mi_proxy": 0.828615,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 24,
+            "entropy": 0.557622,
+            "mi_proxy": 0.742981,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 25,
+            "entropy": 0.409194,
+            "mi_proxy": 0.883099,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 26,
+            "entropy": 0.542838,
+            "mi_proxy": 0.9041,
+            "n_singular_values": 13
+          },
+          {
+            "layer": 27,
+            "entropy": 1.238773,
+            "mi_proxy": 0.56732,
+            "n_singular_values": 13
+          }
+        ],
+        "mean_entropy": 0.716339
+      },
+      "long": {
+        "seq_len": 62,
+        "split_pos": 31,
+        "hidden_dim": 1536,
+        "n_layers": 28,
+        "region_A_len": 31,
+        "region_B_len": 31,
+        "layer_data": [
+          {
+            "layer": 0,
+            "entropy": 2.490801,
+            "mi_proxy": 0.179959,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 1,
+            "entropy": 1.910994,
+            "mi_proxy": 0.389796,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 2,
+            "entropy": 0.76998,
+            "mi_proxy": 0.629771,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 3,
+            "entropy": 0.822213,
+            "mi_proxy": 0.640586,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 4,
+            "entropy": 0.690028,
+            "mi_proxy": 0.718544,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 5,
+            "entropy": 0.830163,
+            "mi_proxy": 0.682797,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 6,
+            "entropy": 0.606919,
+            "mi_proxy": 0.740872,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 7,
+            "entropy": 0.844505,
+            "mi_proxy": 0.517683,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 8,
+            "entropy": 0.879664,
+            "mi_proxy": 0.734235,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 9,
+            "entropy": 0.918152,
+            "mi_proxy": 0.709038,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 10,
+            "entropy": 0.865284,
+            "mi_proxy": 0.64108,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 11,
+            "entropy": 1.279596,
+            "mi_proxy": 0.584943,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 12,
+            "entropy": 1.243111,
+            "mi_proxy": 0.672072,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 13,
+            "entropy": 1.340688,
+            "mi_proxy": 0.470184,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 14,
+            "entropy": 1.028579,
+            "mi_proxy": 0.734555,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 15,
+            "entropy": 1.186707,
+            "mi_proxy": 0.551584,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 16,
+            "entropy": 1.459375,
+            "mi_proxy": 0.673562,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 17,
+            "entropy": 1.013513,
+            "mi_proxy": 0.636191,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 18,
+            "entropy": 1.250371,
+            "mi_proxy": 0.452728,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 19,
+            "entropy": 0.776523,
+            "mi_proxy": 0.640463,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 20,
+            "entropy": 1.273688,
+            "mi_proxy": 0.587442,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 21,
+            "entropy": 1.433195,
+            "mi_proxy": 0.650169,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 22,
+            "entropy": 0.788809,
+            "mi_proxy": 0.643568,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 23,
+            "entropy": 0.61992,
+            "mi_proxy": 0.773791,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 24,
+            "entropy": 0.740434,
+            "mi_proxy": 0.732254,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 25,
+            "entropy": 0.59343,
+            "mi_proxy": 0.822918,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 26,
+            "entropy": 0.767363,
+            "mi_proxy": 0.854938,
+            "n_singular_values": 31
+          },
+          {
+            "layer": 27,
+            "entropy": 2.09159,
+            "mi_proxy": 0.5386,
+            "n_singular_values": 31
+          }
+        ],
+        "mean_entropy": 1.089843
+      },
+      "split_scaling": [
+        {
+          "ratio": 0.2,
+          "region_A_len": 12,
+          "mean_entropy": 0.711595
+        },
+        {
+          "ratio": 0.3,
+          "region_A_len": 18,
+          "mean_entropy": 0.878385
+        },
+        {
+          "ratio": 0.4,
+          "region_A_len": 24,
+          "mean_entropy": 1.017557
+        },
+        {
+          "ratio": 0.5,
+          "region_A_len": 31,
+          "mean_entropy": 1.089843
+        },
+        {
+          "ratio": 0.6,
+          "region_A_len": 37,
+          "mean_entropy": 1.067019
+        },
+        {
+          "ratio": 0.7,
+          "region_A_len": 43,
+          "mean_entropy": 1.055305
+        },
+        {
+          "ratio": 0.8,
+          "region_A_len": 49,
+          "mean_entropy": 0.990454
+        }
+      ]
+    }
+  }
+}

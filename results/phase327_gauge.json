@@ -1,0 +1,17 @@
+{
+  "experiment": "Gauge Symmetry",
+  "results": {
+    "0.5B": {
+      "global_invariance": 1.0,
+      "local_invariance": 0.999963,
+      "gauge_ratio": 1.0,
+      "has_gauge": true
+    },
+    "1.5B": {
+      "global_invariance": 1.0,
+      "local_invariance": 0.999972,
+      "gauge_ratio": 1.0,
+      "has_gauge": true
+    }
+  }
+}

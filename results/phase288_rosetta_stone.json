@@ -1,0 +1,397 @@
+{
+  "experiment": "Rosetta Stone - QI to Thermo Dictionary",
+  "results": {
+    "0.5B": {
+      "rosetta": {
+        "vn_entropy<->U": {
+          "r": -0.0313,
+          "p": 0.931569,
+          "significant": "False"
+        },
+        "vn_entropy<->T": {
+          "r": 0.7397,
+          "p": 0.014465,
+          "significant": "True"
+        },
+        "vn_entropy<->PR": {
+          "r": -0.1541,
+          "p": 0.670867,
+          "significant": "False"
+        },
+        "vn_entropy<->P1T": {
+          "r": 0.821,
+          "p": 0.003596,
+          "significant": "True"
+        },
+        "vn_entropy<->F": {
+          "r": -0.1064,
+          "p": 0.769872,
+          "significant": "False"
+        },
+        "vn_entropy<->Cv": {
+          "r": -0.1598,
+          "p": 0.659316,
+          "significant": "False"
+        },
+        "purity<->U": {
+          "r": -0.052,
+          "p": 0.886605,
+          "significant": "False"
+        },
+        "purity<->T": {
+          "r": -0.7002,
+          "p": 0.024154,
+          "significant": "True"
+        },
+        "purity<->PR": {
+          "r": 0.0781,
+          "p": 0.830097,
+          "significant": "False"
+        },
+        "purity<->P1T": {
+          "r": -0.7873,
+          "p": 0.00686,
+          "significant": "True"
+        },
+        "purity<->F": {
+          "r": 0.0173,
+          "p": 0.962088,
+          "significant": "False"
+        },
+        "purity<->Cv": {
+          "r": -0.0624,
+          "p": 0.864044,
+          "significant": "False"
+        },
+        "coherence<->U": {
+          "r": -0.3243,
+          "p": 0.360675,
+          "significant": "False"
+        },
+        "coherence<->T": {
+          "r": 0.1189,
+          "p": 0.743496,
+          "significant": "False"
+        },
+        "coherence<->PR": {
+          "r": 0.1965,
+          "p": 0.586284,
+          "significant": "False"
+        },
+        "coherence<->P1T": {
+          "r": 0.3044,
+          "p": 0.392436,
+          "significant": "False"
+        },
+        "coherence<->F": {
+          "r": -0.3432,
+          "p": 0.331588,
+          "significant": "False"
+        },
+        "coherence<->Cv": {
+          "r": 0.1023,
+          "p": 0.778448,
+          "significant": "False"
+        },
+        "entanglement<->U": {
+          "r": 0.1054,
+          "p": 0.772082,
+          "significant": "False"
+        },
+        "entanglement<->T": {
+          "r": 0.2946,
+          "p": 0.408685,
+          "significant": "False"
+        },
+        "entanglement<->PR": {
+          "r": -0.2759,
+          "p": 0.440402,
+          "significant": "False"
+        },
+        "entanglement<->P1T": {
+          "r": 0.2352,
+          "p": 0.513093,
+          "significant": "False"
+        },
+        "entanglement<->F": {
+          "r": 0.078,
+          "p": 0.830428,
+          "significant": "False"
+        },
+        "entanglement<->Cv": {
+          "r": -0.5897,
+          "p": 0.072752,
+          "significant": "False"
+        },
+        "n_superposed<->U": {
+          "r": -0.0128,
+          "p": 0.971946,
+          "significant": "False"
+        },
+        "n_superposed<->T": {
+          "r": 0.6822,
+          "p": 0.029755,
+          "significant": "True"
+        },
+        "n_superposed<->PR": {
+          "r": -0.0997,
+          "p": 0.784149,
+          "significant": "False"
+        },
+        "n_superposed<->P1T": {
+          "r": 0.7974,
+          "p": 0.005722,
+          "significant": "True"
+        },
+        "n_superposed<->F": {
+          "r": -0.0817,
+          "p": 0.822407,
+          "significant": "False"
+        },
+        "n_superposed<->Cv": {
+          "r": -0.1725,
+          "p": 0.633733,
+          "significant": "False"
+        }
+      },
+      "top_correspondences": {
+        "vn_entropy<->P1T": {
+          "r": 0.821,
+          "p": 0.003596,
+          "significant": "True"
+        },
+        "n_superposed<->P1T": {
+          "r": 0.7974,
+          "p": 0.005722,
+          "significant": "True"
+        },
+        "purity<->P1T": {
+          "r": -0.7873,
+          "p": 0.00686,
+          "significant": "True"
+        },
+        "vn_entropy<->T": {
+          "r": 0.7397,
+          "p": 0.014465,
+          "significant": "True"
+        },
+        "purity<->T": {
+          "r": -0.7002,
+          "p": 0.024154,
+          "significant": "True"
+        }
+      },
+      "quantum_means": {
+        "vn_entropy": 2.2917,
+        "purity": 0.3373,
+        "coherence": 0.6719,
+        "entanglement": 0.025,
+        "n_superposed": 9.5
+      },
+      "thermo_means": {
+        "U": 287.0563,
+        "T": 2.4896,
+        "PR": 10.418,
+        "P1T": 24.2101,
+        "F": 284.5667,
+        "Cv": 0.7003
+      }
+    },
+    "1.5B": {
+      "rosetta": {
+        "vn_entropy<->U": {
+          "r": -0.3,
+          "p": 0.399774,
+          "significant": "False"
+        },
+        "vn_entropy<->T": {
+          "r": 0.5631,
+          "p": 0.090105,
+          "significant": "False"
+        },
+        "vn_entropy<->PR": {
+          "r": 0.5776,
+          "p": 0.080331,
+          "significant": "False"
+        },
+        "vn_entropy<->P1T": {
+          "r": 0.6794,
+          "p": 0.030701,
+          "significant": "True"
+        },
+        "vn_entropy<->F": {
+          "r": -0.354,
+          "p": 0.315545,
+          "significant": "False"
+        },
+        "vn_entropy<->Cv": {
+          "r": -0.1538,
+          "p": 0.67131,
+          "significant": "False"
+        },
+        "purity<->U": {
+          "r": 0.3197,
+          "p": 0.367847,
+          "significant": "False"
+        },
+        "purity<->T": {
+          "r": -0.5194,
+          "p": 0.123867,
+          "significant": "False"
+        },
+        "purity<->PR": {
+          "r": -0.3893,
+          "p": 0.266159,
+          "significant": "False"
+        },
+        "purity<->P1T": {
+          "r": -0.5323,
+          "p": 0.113202,
+          "significant": "False"
+        },
+        "purity<->F": {
+          "r": 0.3685,
+          "p": 0.294768,
+          "significant": "False"
+        },
+        "purity<->Cv": {
+          "r": 0.1439,
+          "p": 0.6917,
+          "significant": "False"
+        },
+        "coherence<->U": {
+          "r": -0.2369,
+          "p": 0.509872,
+          "significant": "False"
+        },
+        "coherence<->T": {
+          "r": 0.2319,
+          "p": 0.51914,
+          "significant": "False"
+        },
+        "coherence<->PR": {
+          "r": -0.0062,
+          "p": 0.986465,
+          "significant": "False"
+        },
+        "coherence<->P1T": {
+          "r": 0.2082,
+          "p": 0.563733,
+          "significant": "False"
+        },
+        "coherence<->F": {
+          "r": -0.2562,
+          "p": 0.474841,
+          "significant": "False"
+        },
+        "coherence<->Cv": {
+          "r": 0.3305,
+          "p": 0.350927,
+          "significant": "False"
+        },
+        "entanglement<->U": {
+          "r": -0.3543,
+          "p": 0.315152,
+          "significant": "False"
+        },
+        "entanglement<->T": {
+          "r": -0.1199,
+          "p": 0.741553,
+          "significant": "False"
+        },
+        "entanglement<->PR": {
+          "r": 0.4168,
+          "p": 0.230859,
+          "significant": "False"
+        },
+        "entanglement<->P1T": {
+          "r": 0.1896,
+          "p": 0.5998,
+          "significant": "False"
+        },
+        "entanglement<->F": {
+          "r": -0.3319,
+          "p": 0.348742,
+          "significant": "False"
+        },
+        "entanglement<->Cv": {
+          "r": 0.1842,
+          "p": 0.610438,
+          "significant": "False"
+        },
+        "n_superposed<->U": {
+          "r": -0.1249,
+          "p": 0.730933,
+          "significant": "False"
+        },
+        "n_superposed<->T": {
+          "r": 0.3368,
+          "p": 0.341212,
+          "significant": "False"
+        },
+        "n_superposed<->PR": {
+          "r": 0.3553,
+          "p": 0.313668,
+          "significant": "False"
+        },
+        "n_superposed<->P1T": {
+          "r": 0.3803,
+          "p": 0.278294,
+          "significant": "False"
+        },
+        "n_superposed<->F": {
+          "r": -0.1587,
+          "p": 0.66146,
+          "significant": "False"
+        },
+        "n_superposed<->Cv": {
+          "r": -0.1704,
+          "p": 0.637939,
+          "significant": "False"
+        }
+      },
+      "top_correspondences": {
+        "vn_entropy<->P1T": {
+          "r": 0.6794,
+          "p": 0.030701,
+          "significant": "True"
+        },
+        "vn_entropy<->PR": {
+          "r": 0.5776,
+          "p": 0.080331,
+          "significant": "False"
+        },
+        "vn_entropy<->T": {
+          "r": 0.5631,
+          "p": 0.090105,
+          "significant": "False"
+        },
+        "purity<->P1T": {
+          "r": -0.5323,
+          "p": 0.113202,
+          "significant": "False"
+        },
+        "purity<->T": {
+          "r": -0.5194,
+          "p": 0.123867,
+          "significant": "False"
+        }
+      },
+      "quantum_means": {
+        "vn_entropy": 2.4491,
+        "purity": 0.2709,
+        "coherence": 0.7791,
+        "entanglement": 0.0194,
+        "n_superposed": 11.0
+      },
+      "thermo_means": {
+        "U": 200.9995,
+        "T": 3.0822,
+        "PR": 5.015,
+        "P1T": 15.6158,
+        "F": 197.9173,
+        "Cv": -0.1356
+      }
+    }
+  }
+}

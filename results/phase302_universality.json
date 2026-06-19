@@ -1,0 +1,25 @@
+{
+  "experiment": "Universality Class Identification",
+  "results": {
+    "0.5B": {
+      "T_c": 0.016,
+      "beta": -0.0905,
+      "gamma_crit": 0,
+      "r2_beta": 0.0272,
+      "r2_gamma": 0,
+      "best_class": "Mean-field",
+      "best_dist": 1.5905,
+      "n_points": 250
+    },
+    "1.5B": {
+      "T_c": 0.0269,
+      "beta": -0.0154,
+      "gamma_crit": 0,
+      "r2_beta": 0.0008,
+      "r2_gamma": 0,
+      "best_class": "Mean-field",
+      "best_dist": 1.5154,
+      "n_points": 290
+    }
+  }
+}

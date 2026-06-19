@@ -1,0 +1,23 @@
+{
+  "experiment": "Crooks Fluctuation Theorem",
+  "results": {
+    "0.5B": {
+      "mean_forward_work": 280.1566932797432,
+      "mean_reverse_work": -280.1566932797432,
+      "reversibility_residual": 0.0,
+      "dissipation_forward": 220.049130753768,
+      "dissipation_reverse": 220.049130753768,
+      "crooks_ratio_mean": 6.382027637993964e+20,
+      "entropy_production_mean": 0.0
+    },
+    "1.5B": {
+      "mean_forward_work": 193.35181376338005,
+      "mean_reverse_work": -193.35181376338005,
+      "reversibility_residual": 0.0,
+      "dissipation_forward": 198.1233004112459,
+      "dissipation_reverse": 198.1233004112459,
+      "crooks_ratio_mean": 1.4771418679243674e+18,
+      "entropy_production_mean": 0.0
+    }
+  }
+}

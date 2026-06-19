@@ -1,0 +1,21 @@
+{
+  "experiment": "Onsager Reciprocal Relations",
+  "results": {
+    "0.5B": {
+      "symmetry_ratio": 0.5939945451686194,
+      "onsager_correlation": -0.02682306463277503,
+      "onsager_pvalue": 0.6572771075403774,
+      "sym_norm": 1.5569138312044855,
+      "asym_norm": 1.0641772946460377,
+      "transport_matrix_size": 24
+    },
+    "1.5B": {
+      "symmetry_ratio": 0.6538185965534847,
+      "onsager_correlation": 0.30658886049013245,
+      "onsager_pvalue": 1.1414315226999407e-09,
+      "sym_norm": 2.4929522122934094,
+      "asym_norm": 1.3199589305974233,
+      "transport_matrix_size": 28
+    }
+  }
+}

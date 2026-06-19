@@ -1,0 +1,89 @@
+{
+  "experiment": "Season 27 Grand Synthesis",
+  "total_experiments": 342,
+  "season_27_phases": [
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339
+  ],
+  "findings": {
+    "modular_s_inv": {
+      "0.5B": "-0.9822",
+      "1.5B": "-0.9637"
+    },
+    "modular_t_mod": {
+      "0.5B": "0.9989",
+      "1.5B": "0.9995"
+    },
+    "c_theorem_mono": {
+      "0.5B": "0.0833",
+      "1.5B": "0.1607"
+    },
+    "c_theorem_holds": {
+      "0.5B": "False",
+      "1.5B": "False"
+    },
+    "bootstrap_delta": {
+      "0.5B": "0.4411",
+      "1.5B": "0.4515"
+    },
+    "bootstrap_crossing": {
+      "0.5B": "0.9572",
+      "1.5B": "0.9191"
+    },
+    "bootstrap_unitarity": {
+      "0.5B": "True",
+      "1.5B": "True"
+    },
+    "rt_correlation": {
+      "0.5B": "0.2465",
+      "1.5B": "-0.246"
+    },
+    "eth_smoothness": {
+      "0.5B": "0.1364",
+      "1.5B": "0.1358"
+    },
+    "qec_redundancy": {
+      "0.5B": "0.697",
+      "1.5B": "0.7878"
+    },
+    "qec_cos10": {
+      "0.5B": "0.9482",
+      "1.5B": "0.9501"
+    },
+    "tn_mera_r2": {
+      "0.5B": "0.7832",
+      "1.5B": "0.8508"
+    },
+    "tn_better_fit": {
+      "0.5B": "MPS",
+      "1.5B": "MERA"
+    },
+    "tn_corr_length": {
+      "0.5B": "23.12",
+      "1.5B": "30.51"
+    },
+    "scrambling_layer": {
+      "0.5B": "1.0",
+      "1.5B": "1.0"
+    },
+    "scrambling_lambda": {
+      "0.5B": "0.0",
+      "1.5B": "0.0"
+    },
+    "mss_ratio": {
+      "0.5B": "-0.0001",
+      "1.5B": "0.0"
+    },
+    "mss_satisfied": {
+      "0.5B": "True",
+      "1.5B": "True"
+    }
+  }
+}

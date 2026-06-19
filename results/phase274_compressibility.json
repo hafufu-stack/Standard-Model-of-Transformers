@@ -1,0 +1,221 @@
+{
+  "experiment": "Thermodynamic Compressibility",
+  "results": {
+    "0.5B": {
+      "measurements": [
+        {
+          "P1": 0.13052858412265778,
+          "T": 4.824221134185791,
+          "PR": 9.023275901247038,
+          "U": 287.32867431640625,
+          "P1T": 0.6296987541398735,
+          "top5": [
+            0.1305,
+            0.057,
+            0.0519,
+            0.0245,
+            0.0238
+          ],
+          "complexity": "trivial",
+          "prompt": "The color of the sky is"
+        },
+        {
+          "P1": 0.5654041171073914,
+          "T": 1.9906741380691528,
+          "PR": 6.443850032719104,
+          "U": 281.3175964355469,
+          "P1T": 1.1255353534835066,
+          "top5": [
+            0.5654,
+            0.1149,
+            0.0655,
+            0.0569,
+            0.0486
+          ],
+          "complexity": "simple",
+          "prompt": "Water freezes at zero degrees"
+        },
+        {
+          "P1": 0.5219533443450928,
+          "T": 1.646888256072998,
+          "PR": 12.683705443501555,
+          "U": 287.9505310058594,
+          "P1T": 0.8595988330199589,
+          "top5": [
+            0.522,
+            0.2666,
+            0.0595,
+            0.0456,
+            0.0155
+          ],
+          "complexity": "medium",
+          "prompt": "The theory of evolution explains how species change over tim"
+        },
+        {
+          "P1": 0.6330535411834717,
+          "T": 1.2739455699920654,
+          "PR": 9.78140770846568,
+          "U": 289.9091796875,
+          "P1T": 0.8064757543584733,
+          "top5": [
+            0.6331,
+            0.1992,
+            0.0617,
+            0.0405,
+            0.0197
+          ],
+          "complexity": "complex",
+          "prompt": "The relationship between quantum entanglement and spacetime "
+        },
+        {
+          "P1": 0.41169270873069763,
+          "T": 1.855203628540039,
+          "PR": 11.094336353702225,
+          "U": 292.1620788574219,
+          "P1T": 0.7637738070806677,
+          "top5": [
+            0.4117,
+            0.3059,
+            0.1256,
+            0.0377,
+            0.028
+          ],
+          "complexity": "expert",
+          "prompt": "The renormalization group flow of the coupling constants in "
+        },
+        {
+          "P1": 0.45422857999801636,
+          "T": 2.8045854568481445,
+          "PR": 7.2942966460558445,
+          "U": 304.7853698730469,
+          "P1T": 1.2739228695472207,
+          "top5": [
+            0.4542,
+            0.1322,
+            0.051,
+            0.0356,
+            0.0345
+          ],
+          "complexity": "adversarial",
+          "prompt": "Colorless green ideas sleep furiously while the square root "
+        }
+      ],
+      "mean_kappa": 4.510335,
+      "p1t_cv": 0.2425,
+      "virial_coeffs": [
+        115.401761,
+        -21.234613,
+        1.758543
+      ],
+      "virial_fit": true
+    },
+    "1.5B": {
+      "measurements": [
+        {
+          "P1": 0.15827806293964386,
+          "T": 4.501660346984863,
+          "PR": 7.318894803093205,
+          "U": 196.15802001953125,
+          "P1T": 0.7125140797329692,
+          "top5": [
+            0.1583,
+            0.0691,
+            0.0359,
+            0.0317,
+            0.0302
+          ],
+          "complexity": "trivial",
+          "prompt": "The color of the sky is"
+        },
+        {
+          "P1": 0.8330813050270081,
+          "T": 0.909148097038269,
+          "PR": 9.11164492957432,
+          "U": 154.67433166503906,
+          "P1T": 0.7573942831434621,
+          "top5": [
+            0.8331,
+            0.0408,
+            0.039,
+            0.0141,
+            0.0094
+          ],
+          "complexity": "simple",
+          "prompt": "Water freezes at zero degrees"
+        },
+        {
+          "P1": 0.6686517596244812,
+          "T": 1.175473928451538,
+          "PR": 4.114715627318054,
+          "U": 201.33853149414062,
+          "P1T": 0.7859827106518225,
+          "top5": [
+            0.6687,
+            0.1946,
+            0.0642,
+            0.0289,
+            0.0077
+          ],
+          "complexity": "medium",
+          "prompt": "The theory of evolution explains how species change over tim"
+        },
+        {
+          "P1": 0.892225980758667,
+          "T": 0.6253412365913391,
+          "PR": 5.59355900487809,
+          "U": 199.27285766601562,
+          "P1T": 0.5579456981265452,
+          "top5": [
+            0.8922,
+            0.0257,
+            0.0194,
+            0.0166,
+            0.0106
+          ],
+          "complexity": "complex",
+          "prompt": "The relationship between quantum entanglement and spacetime "
+        },
+        {
+          "P1": 0.3510677218437195,
+          "T": 2.0423192977905273,
+          "PR": 3.677919504209593,
+          "U": 217.62646484375,
+          "P1T": 0.7169923831527854,
+          "top5": [
+            0.3511,
+            0.3003,
+            0.1252,
+            0.0649,
+            0.0439
+          ],
+          "complexity": "expert",
+          "prompt": "The renormalization group flow of the coupling constants in "
+        },
+        {
+          "P1": 0.35256341099739075,
+          "T": 2.505852222442627,
+          "PR": 4.5549278896080185,
+          "U": 207.67694091796875,
+          "P1T": 0.8834718069997649,
+          "top5": [
+            0.3526,
+            0.1692,
+            0.1042,
+            0.0934,
+            0.0728
+          ],
+          "complexity": "adversarial",
+          "prompt": "Colorless green ideas sleep furiously while the square root "
+        }
+      ],
+      "mean_kappa": -23.191613,
+      "p1t_cv": 0.1329,
+      "virial_coeffs": [
+        5.274417,
+        -1.64724,
+        0.839708
+      ],
+      "virial_fit": true
+    }
+  }
+}

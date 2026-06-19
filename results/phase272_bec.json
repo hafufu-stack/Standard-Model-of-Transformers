@@ -1,0 +1,341 @@
+{
+  "experiment": "Bose-Einstein Condensation of Tokens",
+  "seed_prompt": "The quick brown fox jumps over the lazy dog",
+  "n_iterations": 15,
+  "results": {
+    "0.5B": [
+      {
+        "iteration": 0,
+        "seq_len": 9,
+        "T": 3.3916,
+        "P1": 0.1997,
+        "mean_cos_sim": 0.610277,
+        "std_cos_sim": 0.086234,
+        "PR": 13.22,
+        "phase_coherence": 0.808193,
+        "text_preview": "The quick brown fox jumps over the lazy dog"
+      },
+      {
+        "iteration": 1,
+        "seq_len": 39,
+        "T": 0.1481,
+        "P1": 0.9706,
+        "mean_cos_sim": 0.317943,
+        "std_cos_sim": 0.257296,
+        "PR": 24.6,
+        "phase_coherence": 0.578995,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 2,
+        "seq_len": 69,
+        "T": 0.4656,
+        "P1": 0.9135,
+        "mean_cos_sim": 0.34194,
+        "std_cos_sim": 0.279557,
+        "PR": 21.94,
+        "phase_coherence": 0.592734,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 3,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 4,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 5,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 6,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 7,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 8,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 9,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 10,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 11,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 12,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 13,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      },
+      {
+        "iteration": 14,
+        "seq_len": 88,
+        "T": 0.0722,
+        "P1": 0.9927,
+        "mean_cos_sim": 0.328708,
+        "std_cos_sim": 0.261928,
+        "PR": 22.91,
+        "phase_coherence": 0.579825,
+        "text_preview": "The quick brown fox jumps over the lazy dog\ndef is_anagram(word1, word2):\n    return sorted(word1) ="
+      }
+    ],
+    "1.5B": [
+      {
+        "iteration": 0,
+        "seq_len": 9,
+        "T": 2.8398,
+        "P1": 0.2289,
+        "mean_cos_sim": 0.688748,
+        "std_cos_sim": 0.073348,
+        "PR": 9.66,
+        "phase_coherence": 0.850254,
+        "text_preview": "The quick brown fox jumps over the lazy dog"
+      },
+      {
+        "iteration": 1,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 2,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 3,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 4,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 5,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 6,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 7,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 8,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 9,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 10,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 11,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 12,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 13,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      },
+      {
+        "iteration": 14,
+        "seq_len": 20,
+        "T": 5.1239,
+        "P1": 0.1979,
+        "mean_cos_sim": 0.693938,
+        "std_cos_sim": 0.206536,
+        "PR": 8.18,
+        "phase_coherence": 0.841962,
+        "text_preview": "The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+      }
+    ]
+  }
+}

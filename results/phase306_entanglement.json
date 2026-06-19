@@ -1,0 +1,17 @@
+{
+  "experiment": "Entanglement Entropy Scaling",
+  "results": {
+    "0.5B": {
+      "avg_r2_volume": 0.9986,
+      "avg_r2_log": 0.9518,
+      "avg_c_from_entropy": 0.7805,
+      "best_law": "Volume"
+    },
+    "1.5B": {
+      "avg_r2_volume": 0.9989,
+      "avg_r2_log": 0.9501,
+      "avg_c_from_entropy": 0.4682,
+      "best_law": "Volume"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "experiment": "Wilson Loop - Gauge Invariant Observables",
+  "results": {
+    "0.5B": {
+      "avg_string_tension": 0.0396,
+      "avg_R2_area_law": 0.7327,
+      "confinement": true,
+      "avg_loop_values": {
+        "1": 1.0,
+        "2": 0.978477,
+        "3": 0.855369,
+        "4": 0.898,
+        "5": 0.86964,
+        "6": 0.768412,
+        "7": 0.807978
+      }
+    },
+    "1.5B": {
+      "avg_string_tension": 0.0481,
+      "avg_R2_area_law": 0.588,
+      "confinement": true,
+      "avg_loop_values": {
+        "1": 1.0,
+        "2": 0.834688,
+        "3": 0.965529,
+        "4": 0.919033,
+        "5": 1.299141,
+        "6": 0.947643,
+        "7": 0.691422
+      }
+    }
+  }
+}

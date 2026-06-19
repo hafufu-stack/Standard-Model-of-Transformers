@@ -1,0 +1,19 @@
+{
+  "experiment": "Bekenstein Bound",
+  "results": {
+    "0.5B": {
+      "scaling_exponent": 1.2774,
+      "scaling_r2": 0.9955,
+      "mean_bekenstein_ratio": 4e-06,
+      "max_bekenstein_ratio": 4e-06,
+      "bound_respected": true
+    },
+    "1.5B": {
+      "scaling_exponent": 1.2759,
+      "scaling_r2": 0.9949,
+      "mean_bekenstein_ratio": 0.0,
+      "max_bekenstein_ratio": 0.0,
+      "bound_respected": true
+    }
+  }
+}

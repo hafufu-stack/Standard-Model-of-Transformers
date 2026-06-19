@@ -1,0 +1,56 @@
+{
+  "experiment": "TinyLlama Universality",
+  "results": {
+    "TinyLlama-1.1B": {
+      "boltzmann_r2": 0.9645,
+      "cv_mean": 0.4671,
+      "cv_negative": 0.3333333333333333,
+      "radiation_alpha": -1.0114,
+      "radiation_r2": 0.2112,
+      "carnot_eta": 0.7188,
+      "free_energy_ratio": -1.6046,
+      "anti_fep": 1.0,
+      "p1t_cv": 1.1199,
+      "mach_final": 1.9156,
+      "mach_mean": 0.3347,
+      "speed_of_sound": 11.4552,
+      "info_amp": 0.6672,
+      "transition_layer": 15.0,
+      "transition_strength": 4.9762
+    },
+    "Qwen2.5-0.5B": {
+      "boltzmann_r2": 0.8373,
+      "cv_mean": 438.6189,
+      "cv_negative": 0.3333333333333333,
+      "radiation_alpha": -0.2003,
+      "radiation_r2": 0.2125,
+      "carnot_eta": 0.8548,
+      "free_energy_ratio": 221.6535,
+      "anti_fep": 1.0,
+      "p1t_cv": 0.7821,
+      "mach_final": 1.8714,
+      "mach_mean": 0.2913,
+      "speed_of_sound": 41.6993,
+      "info_amp": 0.0294,
+      "transition_layer": 6.5,
+      "transition_strength": 5.613
+    },
+    "Qwen2.5-1.5B": {
+      "boltzmann_r2": 0.9049,
+      "cv_mean": 320.3533,
+      "cv_negative": 0.5,
+      "radiation_alpha": -0.1593,
+      "radiation_r2": 0.0721,
+      "carnot_eta": 0.8643,
+      "free_energy_ratio": 10.1491,
+      "anti_fep": 1.0,
+      "p1t_cv": 0.6507,
+      "mach_final": 2.6162,
+      "mach_mean": 0.597,
+      "speed_of_sound": 25.3328,
+      "info_amp": 0.0081,
+      "transition_layer": 2.3333,
+      "transition_strength": 3.9956
+    }
+  }
+}

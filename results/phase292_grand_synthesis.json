@@ -1,0 +1,219 @@
+{
+  "experiment": "Grand Synthesis - All Constants and Laws",
+  "n_standard_model_experiments": 292,
+  "n_squbit_experiments": 380,
+  "constants": {
+    "P1T_output_0.5B": 0.9033,
+    "P1T_output_1.5B": 0.8481,
+    "P1T_theory_max": 3.3386,
+    "central_charge_0.5B": 1.0027,
+    "central_charge_1.5B": 0.8919,
+    "Mach_0.5B": 0.7069,
+    "Mach_1.5B": 1.1358,
+    "Mach_7B": 1.0451,
+    "Mach_scaling_alpha": 7.7268,
+    "spectral_delta_0.5B": 0.8666,
+    "c_mean_0.5B": 0.2243,
+    "spectral_delta_1.5B": 0.9856,
+    "c_mean_1.5B": 0.3674,
+    "info_ratio_0.5B": 235500000.0208,
+    "info_ratio_1.5B": 412750000.0146,
+    "master_loading_0.5B": 0.971935,
+    "master_var_0.5B": "P1T",
+    "master_loading_1.5B": 0.989695,
+    "master_var_1.5B": "P1T",
+    "eps_c_0.5B": 0.017783,
+    "L0_opal_0.5B": 22,
+    "eps_c_1.5B": 0.04217,
+    "L0_opal_1.5B": 25,
+    "T_H_0.5B": 0.0,
+    "gamma_0.5B": 0.1499,
+    "T_H_1.5B": 0.0,
+    "gamma_1.5B": 0.5082,
+    "T_H_7B": 0.0,
+    "gamma_7B": 0.7855
+  },
+  "sq_constants": {
+    "SQ_alpha_cooling": 0.6663,
+    "SQ_noether_charge_CV": 0.2986,
+    "SQ_final_PR": 4.4,
+    "SQ_final_T": 5.2529,
+    "SQ_output_S_bits": 2.54,
+    "SQ_info_bits": 14.67,
+    "SQ_max_lamb_shift": 19.351,
+    "SQ_max_lamb_layer": 0,
+    "SQ_D": 1536,
+    "SQ_n_layers": 28,
+    "SQ_n_tokens": 30
+  },
+  "laws": [
+    {
+      "name": "1. Boltzmann Distribution",
+      "formula": "p(E) = exp(-E/T) / Z"
+    },
+    {
+      "name": "2. Negative Specific Heat",
+      "formula": "Cv < 0 in gravitational regime"
+    },
+    {
+      "name": "3. P1*T Conservation",
+      "formula": "P1 x T ~ 0.84 (Noether charge)"
+    },
+    {
+      "name": "4. Inverse Radiation Law",
+      "formula": "P ~ 1/sigma * T^4"
+    },
+    {
+      "name": "5. Chandrasekhar Limit",
+      "formula": "PR_collapse ~ 10"
+    },
+    {
+      "name": "6. Carnot Efficiency",
+      "formula": "eta_Carnot ~ 0.86-0.93"
+    },
+    {
+      "name": "7. Mach Convergence",
+      "formula": "M -> 1.0 as N -> inf (sonic barrier)"
+    },
+    {
+      "name": "8. Central Charge",
+      "formula": "c ~ 1 (free boson CFT)"
+    },
+    {
+      "name": "9. Master Variable",
+      "formula": "P1*T = master variable (loading > 0.97)"
+    },
+    {
+      "name": "10. Info Amplification",
+      "formula": "I_out/I_in ~ 10^8 (info is amplified)"
+    }
+  ],
+  "categories": {
+    "Conservation Laws": [
+      [
+        "P1T_output_0.5B",
+        0.9033
+      ],
+      [
+        "P1T_output_1.5B",
+        0.8481
+      ],
+      [
+        "P1T_theory_max",
+        3.3386
+      ],
+      [
+        "master_loading_0.5B",
+        0.971935
+      ],
+      [
+        "master_var_0.5B",
+        "P1T"
+      ],
+      [
+        "master_loading_1.5B",
+        0.989695
+      ],
+      [
+        "master_var_1.5B",
+        "P1T"
+      ]
+    ],
+    "Critical Phenomena": [
+      [
+        "eps_c_0.5B",
+        0.017783
+      ],
+      [
+        "L0_opal_0.5B",
+        22
+      ],
+      [
+        "eps_c_1.5B",
+        0.04217
+      ],
+      [
+        "L0_opal_1.5B",
+        25
+      ]
+    ],
+    "Information": [
+      [
+        "info_ratio_0.5B",
+        235500000.0208
+      ],
+      [
+        "info_ratio_1.5B",
+        412750000.0146
+      ]
+    ],
+    "Scaling": [
+      [
+        "Mach_0.5B",
+        0.7069
+      ],
+      [
+        "Mach_1.5B",
+        1.1358
+      ],
+      [
+        "Mach_7B",
+        1.0451
+      ],
+      [
+        "Mach_scaling_alpha",
+        7.7268
+      ],
+      [
+        "T_H_0.5B",
+        0.0
+      ],
+      [
+        "gamma_0.5B",
+        0.1499
+      ],
+      [
+        "T_H_1.5B",
+        0.0
+      ],
+      [
+        "gamma_1.5B",
+        0.5082
+      ],
+      [
+        "T_H_7B",
+        0.0
+      ],
+      [
+        "gamma_7B",
+        0.7855
+      ]
+    ],
+    "CFT": [
+      [
+        "central_charge_0.5B",
+        1.0027
+      ],
+      [
+        "central_charge_1.5B",
+        0.8919
+      ],
+      [
+        "spectral_delta_0.5B",
+        0.8666
+      ],
+      [
+        "c_mean_0.5B",
+        0.2243
+      ],
+      [
+        "spectral_delta_1.5B",
+        0.9856
+      ],
+      [
+        "c_mean_1.5B",
+        0.3674
+      ]
+    ]
+  }
+}

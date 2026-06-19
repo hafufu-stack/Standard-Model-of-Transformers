@@ -1,0 +1,89 @@
+{
+  "experiment": "Jarzynski Equality",
+  "results": {
+    "0.5B": {
+      "jarzynski_test": [
+        {
+          "sigma": 0.001,
+          "lhs_mean_exp_neg_W_T": 1.716638721768773e-20,
+          "rhs_exp_neg_dF_T": 1.0198486377497886,
+          "ratio": 1.6832289205073323e-20
+        },
+        {
+          "sigma": 0.005,
+          "lhs_mean_exp_neg_W_T": 1.5181975946045926e-20,
+          "rhs_exp_neg_dF_T": 0.9975608839230401,
+          "ratio": 1.5219097088910392e-20
+        },
+        {
+          "sigma": 0.01,
+          "lhs_mean_exp_neg_W_T": 1.2702097465754082e-20,
+          "rhs_exp_neg_dF_T": 0.9573510420677374,
+          "ratio": 1.3267962227306532e-20
+        },
+        {
+          "sigma": 0.05,
+          "lhs_mean_exp_neg_W_T": 1.72642779302417e-21,
+          "rhs_exp_neg_dF_T": 0.21712567188404058,
+          "ratio": 7.951283591887134e-21
+        },
+        {
+          "sigma": 0.1,
+          "lhs_mean_exp_neg_W_T": 1.0885857878278779e-21,
+          "rhs_exp_neg_dF_T": 0.09258188709452772,
+          "ratio": 1.1758085958440275e-20
+        },
+        {
+          "sigma": 0.5,
+          "lhs_mean_exp_neg_W_T": 1.4555173487129925e-15,
+          "rhs_exp_neg_dF_T": 42144.92332328339,
+          "ratio": 3.453600656828989e-20
+        }
+      ],
+      "n_prompts": 6,
+      "n_sigmas": 6
+    },
+    "1.5B": {
+      "jarzynski_test": [
+        {
+          "sigma": 0.001,
+          "lhs_mean_exp_neg_W_T": 6.129925183082267e-20,
+          "rhs_exp_neg_dF_T": 1.0002367098306633,
+          "ratio": 6.128474512305388e-20
+        },
+        {
+          "sigma": 0.005,
+          "lhs_mean_exp_neg_W_T": 6.596261547705528e-20,
+          "rhs_exp_neg_dF_T": 1.0076194992341918,
+          "ratio": 6.546381398994523e-20
+        },
+        {
+          "sigma": 0.01,
+          "lhs_mean_exp_neg_W_T": 7.323124775592472e-20,
+          "rhs_exp_neg_dF_T": 0.9333774770833708,
+          "ratio": 7.845834032433777e-20
+        },
+        {
+          "sigma": 0.05,
+          "lhs_mean_exp_neg_W_T": 9.294687280117786e-20,
+          "rhs_exp_neg_dF_T": 0.9478297456189291,
+          "ratio": 9.806283588481139e-20
+        },
+        {
+          "sigma": 0.1,
+          "lhs_mean_exp_neg_W_T": 7.900785656862613e-20,
+          "rhs_exp_neg_dF_T": 0.4335188761516771,
+          "ratio": 1.8224778872779354e-19
+        },
+        {
+          "sigma": 0.5,
+          "lhs_mean_exp_neg_W_T": 8.29700142488705e-14,
+          "rhs_exp_neg_dF_T": 7.903137369396453,
+          "ratio": 1.0498364177384521e-14
+        }
+      ],
+      "n_prompts": 6,
+      "n_sigmas": 6
+    }
+  }
+}
